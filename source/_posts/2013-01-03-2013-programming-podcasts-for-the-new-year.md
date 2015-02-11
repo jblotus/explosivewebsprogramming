@@ -21,10 +21,11 @@ tags:
   - ruby
   - thoughtbot
 ---
+{% block excerpt %}
 I have a long drive to work, and one of the things I do to pass the time regularly is listen to podcasts in the car. I really enjoy programming podcasts and conference talk recordings, and it's a really great way to educate yourself on the go. I wanted to throw a shout out to some podcasts that I haven't previously mentioned on the blog and hopefully turn on a few new listeners.
+{% endblock %}
 
-<!--more-->
-
+{% block content %}
 **For reference, here are links to the previous posts:**
 
 [July 2011 Podcasts for Web Developers, Programmers and Software Engineers][1]
@@ -110,3 +111,4 @@ That's all I have for the moment folks! There are a few podcasts I didn't mentio
 [31]: http://www.hanselman.com/blog/TheSadStateOfDiabetesTechnologyIn2012.aspx
 [32]: http://herdingcode.com/
 [33]: http://www.smore.com/clippy-js
+{% endblock %}

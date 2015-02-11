@@ -10,6 +10,7 @@
             <h2>{{ page.title }} <small>post</small></h2>
         </header>
         <div>
+            {{ page.blocks.excerpt|raw }}
             {{ page.blocks.content|raw }}
         </div>
         {% if page.categories %}

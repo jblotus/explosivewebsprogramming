@@ -11,12 +11,13 @@ categories:
     - Progamming
 
 ---
+{% block excerpt %}
 [PHPUnit](http://phpunit.de/) offers a [handy annotation called @dataProvider](http://phpunit.de/manual/current/en/phpunit-book.html#appendixes.annotations.dataProvider) which can be
 used for all sorts of testing situations. Typically you will use this to feed in a wide variety of data into the same test to ensure that the **system-under-test** can handle a variety of inputs.
 Over time I have discovered a few other neat uses for `dataProvider` methods that I want to share with you today.
+{% endblock %}
 
-<!--more-->
-
+{% block content %}
 Here is an example of a simple `dataProvider` that feeds data into our test method. The first thing to notice is the annotation in the DocBlock for our test method. Simply put the name of the dataProvider method here. The dataProvider itself must be a `public static` method that must return an `array`. Each element in the outer dataProvider array must also be an array. Each element of the inner array will be passed as an argument to the test method. That sounds rather complicated, so this example might help:
 
 ~~~
@@ -152,3 +153,4 @@ class ExpensiveBusinessProcessTest extends PHPUnit_Framework_TestCase
 }
 ~~~
 So the next time you find yourself doing the copy/paste dance ask yourself if a dataProvider would be more appropriate. As with anything, it is possible to go overboard with them and sacrifice clarity for the sake of reduced duplication. I look forward to hearing about how YOU use them in your tests, so please leave a comment!
+{% endblock %}

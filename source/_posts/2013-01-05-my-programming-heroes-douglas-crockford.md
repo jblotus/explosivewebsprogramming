@@ -2,7 +2,6 @@
 title: 'My Programming Heroes: Douglas Crockford'
 author: jblotus
 layout: post
-
 dsq_thread_id:
   - 1010187022
 categories:
@@ -31,11 +30,12 @@ tags:
   - xss
   - yui
 ---
->JavaScript is a language that people would use without learning it first, which is a that you would not make in any other language - Douglas Crockford</blockquote>
-
+{% block excerpt %}
 I'm a huge fan of [Douglas Crockford][1], and that has a lot to do with how I learned [JavaScript][2]. Like many web developers, I generally loathed JavaScript until [jQuery][3] came along, and then I suddenly thought I understood the language. It wasn't until I had to write non-trivial applications in JavaScript that I truly began to notice the huge gaps in my education. With the rise of server-side JavaScript and the constant deluge of new interesting things happening in the JavaScript community, I felt that I needed to catch up, quickly. I needed a master to learn from, and Douglas Crockford was the master I chose.
+{% endblock %}
 
-<!--more-->
+{% block content %}
+>JavaScript is a language that people would use without learning it first, which is a that you would not make in any other language - Douglas Crockford</blockquote>
 
 ## Who is this Douglas Crockford?
 
@@ -199,3 +199,4 @@ Essentially, I immersed myself in Douglas Crockford's teachings because he is 
  [43]: http://tjholowaychuk.com/
  [44]: https://twitter.com/substack
  [45]: https://github.com/isaacs
+{% endblock %}

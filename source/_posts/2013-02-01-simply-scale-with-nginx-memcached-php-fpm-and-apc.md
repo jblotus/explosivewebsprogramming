@@ -27,10 +27,11 @@ tags:
   - scaling
   - web servers
 ---
+{% block excerpt %}
 When I started programming in PHP, my hosting setup involved a cPanel installation with Apache and MySQL. This has been the de facto standard for many PHP developers and for the most part I don't think any of that needs to change. I simply never had to deal with websites that got more than 10,000 visits a day. This all changed when I started work at my current job a few years ago. We sell an educational product that serves a predictable 15,000 requests per minute for 10+ hours/day, every day. Instead of Apache, we use nginx with [PHP-FPM][1] to handle this traffic. This is becoming a very popular setup for many companies with non-trivial traffic, but I have also found success with it in my small [256MB Ram VPS][2]. For various reasons, nginx does a better job with memory and concurrent connection handling than Apache. In this post, I want to talk about some of the reasons you might want to go with this setup.
+{% endblock %}
 
-<!--more-->
-
+{% block content %}
 ### I/O is slow
 
 CPU's are fast.[ L1 cache and L2 cache is the nuts][3]. Next in line, you want to live in RAM. Since we can't fit everything into CPU cache or RAM, we end up going with some sort of disk. You could go SSD, but most systems are some type of spinning platter hard drive. RAID and disk cache speeds it up, but eventually things like fragmentation and load slow down access speeds. We also have swap situations which murder our performance, when the OS has to dump memory to disk to fill it up with new things constantly, and shuffle between them (overburden). Then you have things like network access, which in some cases is faster than disk depending on what they do. One example of that is memcached. If you save processing on a database server that might need to analyze millions of records by pulling the results directly out of memory, you have created huge efficiency gains.
@@ -132,3 +133,4 @@ I don't want this post to come off as an Apache bash,  and I merely present to
  [7]: https://github.com/php-memcached-dev/php-memcached
  [8]: http://techportal.inviqa.com/2010/08/03/apc-memcache-the-high-performance-duo/
  [9]: http://ilia.ws/
+{% endblock %}

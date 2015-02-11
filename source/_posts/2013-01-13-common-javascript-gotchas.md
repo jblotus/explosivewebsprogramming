@@ -27,10 +27,11 @@ tags:
   - tips
   - var keyword
 ---
+{% block excerpt %}
 PHP was my first programming language, and my initial exposure to JavaScript was through libraries like [jQuery][1]. There were things about JavaScript that always seemed to trip me up in the beginning due to how they worked differently than PHP. Heck there are still some things today that are confusing. I want to share some of the things that I struggled when I started working with JavaScript. I am going to cover the global namespace, `this`, knowing the difference between **ECMAScript 3** and **ECMAScript 5**, asynchronous operations, prototypes, and simple JavaScript inheritance.
+{% endblock %}
 
-<!--more-->
-
+{% block content %}
 ### The Global Namespace
 
 In PHP specifically, when you declare a variable function outside of a class ([or namespace block][2]) you are essentially adding a function to the global namespace. In JavaScript, there is no such thing as a namespace per se, rather everything is attached to the global object. In the case of the web browser, that is the `window` object. The other key difference is that in JavaScript, functions and variables are attributes of the global object, which we typically refer to as properties.
@@ -409,3 +410,4 @@ JavaScript may be the only language people don't need to learn before using it, 
 
 [1]: http://jquery.com/
 [2]: http://php.net/manual/en/language.namespaces.definitionmultiple.php
+{% endblock %}
