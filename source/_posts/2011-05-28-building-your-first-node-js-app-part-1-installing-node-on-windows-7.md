@@ -17,7 +17,7 @@ tags:
   - node.js installation windows
   - node.js troubleshooting
 ---
-After watching a few videos on [thinkvitamin membership][1], the node.js hype finally got to me. If you haven&#8217;t heard of [node.js][2] before, it is an application framework which allows you to write server side programs using javascript. An obvious use case for node.js is as a web server and we are going to use it to create a simple todo list web application. This application will cover the basics of setting up a simple web server and explore a few of the core node.js libraries for dealing with common web development problems like request/response handling, authorization and file access.
+After watching a few videos on [thinkvitamin membership][1], the node.js hype finally got to me. If you haven't heard of [node.js][2] before, it is an application framework which allows you to write server side programs using javascript. An obvious use case for node.js is as a web server and we are going to use it to create a simple todo list web application. This application will cover the basics of setting up a simple web server and explore a few of the core node.js libraries for dealing with common web development problems like request/response handling, authorization and file access.
 
 **The Plan**
 
@@ -29,7 +29,7 @@ I will be building the application on my local machine, but you can also find no
 
 **Step 1: Install Dependencies**
 
-**UPDATE: joyent (who employs Ryan who created node) has posted a [great tutorial to get node up and running with cygwin][4]. This would be a great place to start if my directions don&#8217;t work for you.**
+**UPDATE: joyent (who employs Ryan who created node) has posted a [great tutorial to get node up and running with cygwin][4]. This would be a great place to start if my directions don't work for you.**
 
 Download and install [cygwin][5] . Make sure to add:
 
@@ -145,7 +145,7 @@ Open a cygwin prompt.
 
 
 <p>
-  To be honest, the installation of node.js on Windows 7 with cygwin was actually a bit painful and it would be easy to get stuck on this step. If you can&#8217;t get node running, I would recommend installing on a virtual machine running CentOS, Ubuntu or some other brand of linux. Next, in <a href="http://www.jblotus.com/2011/05/30/building-your-first-node-js-app-%E2%80%93-part-2-building-the-web-server-and-request-dispatcher/">part 2 of my node.js tutorial</a>, we will set up our webserver and get it responding to user requests.
+  To be honest, the installation of node.js on Windows 7 with cygwin was actually a bit painful and it would be easy to get stuck on this step. If you can't get node running, I would recommend installing on a virtual machine running CentOS, Ubuntu or some other brand of linux. Next, in <a href="http://www.jblotus.com/2011/05/30/building-your-first-node-js-app-%E2%80%93-part-2-building-the-web-server-and-request-dispatcher/">part 2 of my node.js tutorial</a>, we will set up our webserver and get it responding to user requests.
 </p>
 
 

@@ -27,7 +27,7 @@ In [part 2 of my node.js tutorial][1], we built the web server and created a dis
 
 **Before We Dive In **(Refactoring) ** **Right now would be a good time to think about how we want to structure our node application going forward. We want to have the dispatcher, controller, model and view as separate objects. This makes sense because we want each object to be responsible for as little as possible. This will help to keep the system more decoupled. We need to extract functionality out of our dispatcher that actually belongs in a controller, and move any display logic into a view component.
 
-So, in essence we are creating our own Node.js MVC ([Model-View-Controller][5]) framework. I will be up front and admit that applying the MVC paradigm to node is somewhat difficult if you are used to working in something like CakePHP or Rails. It feels a bit like putting a square peg in a round hole and perhaps doesn&#8217;t quite leverage the true strengths of Node. I still think exploring this path will be a good step into learning about some of node&#8217;s differences with your typical web stack.
+So, in essence we are creating our own Node.js MVC ([Model-View-Controller][5]) framework. I will be up front and admit that applying the MVC paradigm to node is somewhat difficult if you are used to working in something like CakePHP or Rails. It feels a bit like putting a square peg in a round hole and perhaps doesn't quite leverage the true strengths of Node. I still think exploring this path will be a good step into learning about some of node's differences with your typical web stack.
 
 **Where were at**
 
@@ -40,7 +40,7 @@ var actions = {
   'view' : function(user) {
     return '<h1>Todos for ' + user + '</h1>';
   }
-}</pre> What I want to do is break this object out into a separate component and store the different actions in there. The controller is going to be responsible for passing data off to the view. The controller might also want to get data from a Model object, which will contain the application&#8217;s business logic. Let&#8217;s go ahead and create the controller now.
+}</pre> What I want to do is break this object out into a separate component and store the different actions in there. The controller is going to be responsible for passing data off to the view. The controller might also want to get data from a Model object, which will contain the application's business logic. Let's go ahead and create the controller now.
 
 **Create the controller **Drop this bit of code in */lib/controller.js*
 
@@ -49,7 +49,7 @@ var actions = {
  <em>/
 var controller = function() {};
 module.exports = new controller();</pre>
-Inside of this file, we are in module scope. Any file that does a <strong>require </strong>on this module only has access to exported methods. What I am doing in this file is creating a constructor function (<em>var controller) </em>for the controller object and telling Node that it should return this object when a require is performed. You can export individual functions, but I prefer to export an entire object with prototype methods and properties using the <a href="http://geekswithblogs.net/liammclennan/archive/2011/02/06/143843.aspx">Javascript class pattern</a>. Let&#8217;s go ahead and move our actions object from <em>dispatcher.js</em> into the controller.
+Inside of this file, we are in module scope. Any file that does a <strong>require </strong>on this module only has access to exported methods. What I am doing in this file is creating a constructor function (<em>var controller) </em>for the controller object and telling Node that it should return this object when a require is performed. You can export individual functions, but I prefer to export an entire object with prototype methods and properties using the <a href="http://geekswithblogs.net/liammclennan/archive/2011/02/06/143843.aspx">Javascript class pattern</a>. Let's go ahead and move our actions object from <em>dispatcher.js</em> into the controller.
 
 
 <pre class="brush:js">/</em>
@@ -77,14 +77,14 @@ var controller = function() {};</p>
 
 
 <p>
-  Now let&#8217;s modify the dispatcher so it requires our <em>controller.js</em> module, and calls the appropriate action when requested by the browser.
+  Now let's modify the dispatcher so it requires our <em>controller.js</em> module, and calls the appropriate action when requested by the browser.
 </p>
 
 
 
 <p>
   <strong>Modifying the dispatcher
-  </strong>The role of the dispatcher will be to call an <em>action method</em> inside the controller matching the string fragment supplied in-between the requested url&#8217;s first set of forward slashes. The dispatcher will also pass a single argument to the controller, the string in-between the second set of forward slashes. Here is how the requested url is broken down:
+  </strong>The role of the dispatcher will be to call an <em>action method</em> inside the controller matching the string fragment supplied in-between the requested url's first set of forward slashes. The dispatcher will also pass a single argument to the controller, the string in-between the second set of forward slashes. Here is how the requested url is broken down:
 
 
   <pre class="brush:js">/*
@@ -95,13 +95,13 @@ var controller = function() {};</p>
  */</pre>
   The dispatcher will need to pass a
 
-  <strong>callback function</strong> to the controller to be executed when the controller is finished doing it&#8217;s business. The reason a callback is needed is that we don&#8217;t know if the controller will be calling asynchronous methods. We can&#8217;t simply call the controller, expect it to put data into the view, and return a view due to the asynchronous nature of Node. (<em>Although there are several synchronous, blocking equivalents of most functions</em>).
+  <strong>callback function</strong> to the controller to be executed when the controller is finished doing it's business. The reason a callback is needed is that we don't know if the controller will be calling asynchronous methods. We can't simply call the controller, expect it to put data into the view, and return a view due to the asynchronous nature of Node. (<em>Although there are several synchronous, blocking equivalents of most functions</em>).
 </p>
 
 
 
 <p>
-  Another thing that I want to do is move some request/response handling into a module so we can keep the dispatcher focused more on dispatching requests and less on handling responses. Let&#8217;s first create our response handler in <em>/lib/response_handler.js</em>
+  Another thing that I want to do is move some request/response handling into a module so we can keep the dispatcher focused more on dispatching requests and less on handling responses. Let's first create our response handler in <em>/lib/response_handler.js</em>
 
 
   <pre class="brush:js">/*
@@ -184,7 +184,7 @@ var response_handler = require('./response_handler');</p>
 
 
 <p>
-  Let&#8217;s add a http error handler:
+  Let's add a http error handler:
 
 
   <pre class="brush:js">/*
@@ -199,7 +199,7 @@ var response_handler = require('./response_handler');</p>
 //inside prototype</pre>
   This method simply serves up an http error code and writes it to the browser. So in the dispatcher we can call
 
-  <em>response_handler.serverError(404, &#8216;Missing Page&#8217;)</em> to send a 404 message.
+  <em>response_handler.serverError(404, &#8216;Missing Page')</em> to send a 404 message.
 </p>
 
 
@@ -247,7 +247,7 @@ var response_handler = require('./response_handler');</p>
     });
   }
 //inside prototype</pre>
-This method takes a node url object passed in which was generated in the dispatcher using <code>url.parse(req.url)</code> and tries to find a file to serve. If you asked for <em>/css/style.css</em> this method will look for <em>/app/webroot/css/style.css</em>. If Node doesn&#8217;t find the file, we tell our response handler to render a 404 error. If we do find the file, we still have to figure out which headers to send to the browser. To accomplish this I created a simply header parsing method which analyzes the file extension of the request href.
+This method takes a node url object passed in which was generated in the dispatcher using <code>url.parse(req.url)</code> and tries to find a file to serve. If you asked for <em>/css/style.css</em> this method will look for <em>/app/webroot/css/style.css</em>. If Node doesn't find the file, we tell our response handler to render a 404 error. If we do find the file, we still have to figure out which headers to send to the browser. To accomplish this I created a simply header parsing method which analyzes the file extension of the request href.
 
 
 <pre class="brush:js">/</em>
@@ -359,7 +359,7 @@ return headers;
 
 
 <p>
-  You can see that it is pretty bare bones. What Mustache will do is take the user data from the controller action and replace it in this template. We will then collect that html into a view. I don&#8217;t want to get into a huge overview of the Mustache syntax, so I would ask you to visit the <a href="https://github.com/janl/mustache.js">Mustache JS Documentation</a>.
+  You can see that it is pretty bare bones. What Mustache will do is take the user data from the controller action and replace it in this template. We will then collect that html into a view. I don't want to get into a huge overview of the Mustache syntax, so I would ask you to visit the <a href="https://github.com/janl/mustache.js">Mustache JS Documentation</a>.
 </p>
 
 
@@ -442,7 +442,7 @@ self.getView(name, 'html', function(content) {
 
 <p>
   <strong>On Callback functions</strong>
-  The callback function is important enough to throw an exception if we don&#8217;t supply one. The callback function the view&#8217;s link to the browser. Since the view is performing a file read operation that is asyncrounous in node, we wont be able to capture that output and hand it off the the response handler. We need to actually pass the response handler method we want in as a callback so it can be fired off when the file is ready. This is one of those things that takes a bit of practice to get the hang of when coming to Node from a threaded, blocking environment.
+  The callback function is important enough to throw an exception if we don't supply one. The callback function the view's link to the browser. Since the view is performing a file read operation that is asyncrounous in node, we wont be able to capture that output and hand it off the the response handler. We need to actually pass the response handler method we want in as a callback so it can be fired off when the file is ready. This is one of those things that takes a bit of practice to get the hang of when coming to Node from a threaded, blocking environment.
 </p>
 
 
@@ -496,7 +496,7 @@ fs.readFile(path, 'utf-8', function(error, content) {
 
 
 <p>
-  See how we aren&#8217;t returning the content to the <strong>renderView() </strong>method? That&#8217;s because of all this file reading business. So the trick in Node is to think in terms of supplying your methods with the functionality they need in the form of a callback function that can be passed along. I like to think of it like sending out instructions with your package. The recipient is going to need to know what to do once it gets to their house. You as the send will not have total control as to when the package is actually recieved so you need to ensure that the receiver has what he needs.
+  See how we aren't returning the content to the <strong>renderView() </strong>method? That's because of all this file reading business. So the trick in Node is to think in terms of supplying your methods with the functionality they need in the form of a callback function that can be passed along. I like to think of it like sending out instructions with your package. The recipient is going to need to know what to do once it gets to their house. You as the send will not have total control as to when the package is actually recieved so you need to ensure that the receiver has what he needs.
 </p>
 
 
@@ -540,7 +540,7 @@ fs.readFile(path, 'utf-8', function(error, content) {
 <p>
   }
     //inside view prototype</pre>
-  This method is extremely similar to the <strong>getView()</strong> method in the sense that it takes a view name (<em>string</em>), format (<em>string</em>) and callback function. In fact I may wish to refactor that in the future. It will pull up the layout file and execute the supplied callback function, which was defined in this case by the <strong>renderView()</strong> method. The <strong>renderView()</strong> method will take this raw file string and compile it using Mustache, passing in the view action&#8217;s compiled html string as the data.
+  This method is extremely similar to the <strong>getView()</strong> method in the sense that it takes a view name (<em>string</em>), format (<em>string</em>) and callback function. In fact I may wish to refactor that in the future. It will pull up the layout file and execute the supplied callback function, which was defined in this case by the <strong>renderView()</strong> method. The <strong>renderView()</strong> method will take this raw file string and compile it using Mustache, passing in the view action's compiled html string as the data.
 
 
   <pre class="brush:js">  //inside view prototype
@@ -652,7 +652,7 @@ view.renderView('view', data, function(data) {
 
 <p>
   module.exports = new controller();</pre>
-  I modified the <strong>view()</strong> action inside the controller to take a user name (<em>string</em>) and a callback function (from the dispatcher). If no callback is supplied we just make a empty function so we don&#8217;t throw an error by calling a non existent function. The <em>data </em>object is populate with some properties which are then handed off to the view object. Since the view module has been included using <strong>require()</strong>, we call the <strong>view.renderView() </strong>method with the action name &#8216;<em>view</em>&#8216; (sorry bad name to start off with), the data for the view, and finally a callback function telling <strong>renderView()</strong> what to do once it has finished it business. This callback supplied to <strong>renderView() </strong>is simply the execution of the callback we supplied our controller with. That callback is going to come in from the dispatcher. In fact it would be a good idea to do that now.
+  I modified the <strong>view()</strong> action inside the controller to take a user name (<em>string</em>) and a callback function (from the dispatcher). If no callback is supplied we just make a empty function so we don't throw an error by calling a non existent function. The <em>data </em>object is populate with some properties which are then handed off to the view object. Since the view module has been included using <strong>require()</strong>, we call the <strong>view.renderView() </strong>method with the action name &#8216;<em>view</em>&#8216; (sorry bad name to start off with), the data for the view, and finally a callback function telling <strong>renderView()</strong> what to do once it has finished it business. This callback supplied to <strong>renderView() </strong>is simply the execution of the callback we supplied our controller with. That callback is going to come in from the dispatcher. In fact it would be a good idea to do that now.
 </p>
 
 
@@ -687,7 +687,7 @@ view.renderView('home', data, function(data) {
 
 <p>
   },</pre>
-  Let&#8217;s also create the view template for the &#8216;home&#8217; action. <em>/app/views/actions/home.html</em>
+  Let's also create the view template for the &#8216;home' action. <em>/app/views/actions/home.html</em>
 
 
   <pre class="brush:js">/*
@@ -725,7 +725,7 @@ view.renderView('home', data, function(data) {
 
 
 <p>
-  Let&#8217;s take a look at the complete code for the dispatcher:
+  Let's take a look at the complete code for the dispatcher:
 
 
   <pre class="brush:js">/*

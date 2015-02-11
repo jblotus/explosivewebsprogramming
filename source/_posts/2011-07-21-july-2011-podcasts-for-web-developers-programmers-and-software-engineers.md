@@ -81,7 +81,7 @@ SE Radio is a long running podcast that focus on all things software creation. T
 
 [<img class="alignleft size-full wp-image-662" title="Listen to WebDevRadio podcast" src="http://www.jblotus.com/wp-content/uploads/2011/07/web-dev-radio.jpg" alt="WebDevRadio logo" width="218" height="135" />][27]**[WebDevRadio][28]**
 
-WebDevRadio is a podcast that offers quality interviews with developers of new and notable projects, rundowns of of interesting new sites or events or coverage of upcoming major releases. I have only caught a few episodes of the show but I find the host very easy to listen to and generally the podcast is well put together. They do have a few filler shows which seem more like check-in&#8217;s than about new content, but the content is good when you get it.
+WebDevRadio is a podcast that offers quality interviews with developers of new and notable projects, rundowns of of interesting new sites or events or coverage of upcoming major releases. I have only caught a few episodes of the show but I find the host very easy to listen to and generally the podcast is well put together. They do have a few filler shows which seem more like check-in's than about new content, but the content is good when you get it.
 
 **Notable Shows include:** [Nate Abele and Garrett Woodworth of the Lithium PHP 5.3 project][29], [Travis Swicegood on git and php][30], [PHP Master Michelangelo van Dam at ZendCon][31], [Frank Wierzbicki on Python, Jython, Java][32] and more.
 
@@ -89,7 +89,7 @@ WebDevRadio is a podcast that offers quality interviews with developers of new a
 
 **[<img class="alignleft size-full wp-image-664" title="Listen to the Voices of the elephpant podcast with Cal Evans" src="http://www.jblotus.com/wp-content/uploads/2011/07/voices-of-the-elephpant.jpg" alt="Voices of the Elephpant  podcast logo" width="255" height="125" />][33][Voices of the Elephpant][34]**
 
-Voices of the ele-php-ant is hosted by the omnipresent Cal Evans who is a fixture of the greater PHP community. Cal usually fires off a series of three questions and manages to coax out of his guests an interesting interview with a prominent PHP developer. The thing that turns me on to this podcasts interviews PHP developers who are prolific writers but seldom interviewed. For PHP devs like myself this is a great way to see what&#8217;s going on at the top of the spectrum.
+Voices of the ele-php-ant is hosted by the omnipresent Cal Evans who is a fixture of the greater PHP community. Cal usually fires off a series of three questions and manages to coax out of his guests an interesting interview with a prominent PHP developer. The thing that turns me on to this podcasts interviews PHP developers who are prolific writers but seldom interviewed. For PHP devs like myself this is a great way to see what's going on at the top of the spectrum.
 
 **Notable Shows Include:** [Interview with Keith Casey][35],  [Interview with Matthew Weier O’Phinney and Ralph Schindler][36], and more.
 

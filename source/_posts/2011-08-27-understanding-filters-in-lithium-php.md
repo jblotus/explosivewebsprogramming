@@ -19,13 +19,13 @@ tags:
   - lithium php filter system
   - php
 ---
-One of the core features of the Lithium PHP 5.3 Framework is the[ innovative filter system][1]. I initially found the concept a bit hard to understand at first, but the idea is that you can modify a filterable method by applying a filter in some other part of the code. Many of the core methods that ship with Lithium&#8217;s classes are already filterable, which simply means they return a closure containing their logic which checks for any applied filters at runtime. This powerful concept allows for near-total modification of a method, nearly anywhere in the application that calls it. In fact, you can make your own methods &#8220;filterable&#8221; to take advantage of this behavior.
+One of the core features of the Lithium PHP 5.3 Framework is the[ innovative filter system][1]. I initially found the concept a bit hard to understand at first, but the idea is that you can modify a filterable method by applying a filter in some other part of the code. Many of the core methods that ship with Lithium's classes are already filterable, which simply means they return a closure containing their logic which checks for any applied filters at runtime. This powerful concept allows for near-total modification of a method, nearly anywhere in the application that calls it. In fact, you can make your own methods &#8220;filterable&#8221; to take advantage of this behavior.
 
 <!--more-->
 
 **Anatomy of a Filterable method **
 
-Currently I think the documentation and examples for the Lithium PHP Filter system don&#8217;t do a great job of explaining the basics of how Filters actually work. This was a stumbling block for me until I studied the well-commented core code.  Consider the following example code:
+Currently I think the documentation and examples for the Lithium PHP Filter system don't do a great job of explaining the basics of how Filters actually work. This was a stumbling block for me until I studied the well-commented core code.  Consider the following example code:
 
 `in app/models/Users.php`
 
@@ -62,13 +62,13 @@ namespace app\models;</p>
 
 
 <p>
-  Taking a look at our model, you will see that there is a static function called <code>filterableFunction</code>. This is the method we want to apply filters to. They way this works is the method <em>returns a closure</em> produced by the <code>lithium\core\StaticObject::_filter()</code>. So what that means is the <code> lithium\core\StaticObject::_filter</code> method will execute any registered filters that were applied to the method before executing it. The _filter method takes a method name as it&#8217;s first argument, and any passed arguments for the method as an array. The third argument is actually a closure which contains your method&#8217;s logic.  Is your mind blown yet?
+  Taking a look at our model, you will see that there is a static function called <code>filterableFunction</code>. This is the method we want to apply filters to. They way this works is the method <em>returns a closure</em> produced by the <code>lithium\core\StaticObject::_filter()</code>. So what that means is the <code> lithium\core\StaticObject::_filter</code> method will execute any registered filters that were applied to the method before executing it. The _filter method takes a method name as it's first argument, and any passed arguments for the method as an array. The third argument is actually a closure which contains your method's logic.  Is your mind blown yet?
 </p>
 
 
 
 <p>
-  If we were to call this method right now, you would simply get the output <code>"foo"</code>.  This is because we haven&#8217;t actually applied any filters to this method yet. Let&#8217;s go ahead and do that now:
+  If we were to call this method right now, you would simply get the output <code>"foo"</code>.  This is because we haven't actually applied any filters to this method yet. Let's go ahead and do that now:
 </p>
 
 
@@ -140,7 +140,7 @@ exit;
 
 
 <p>
-  You will notice that the closure takes three arguments, <code>$self</code>, <code>$params</code>, and <code>$chain</code>. This won&#8217;t normally be changing so it would be a good idea to memorize the format. What it does is simply give us access to aspects of the original filterable method inside the context of this closure. In the example these arguments aren&#8217;t utilized, but instead are just passed along to the next method in the filter chain.  By calling <code>$chain-&gt;next($self, $params, $chain)</code> I am collecting the output of the filterable method. This allows us to act on and manipulate that data before actually returning it.
+  You will notice that the closure takes three arguments, <code>$self</code>, <code>$params</code>, and <code>$chain</code>. This won't normally be changing so it would be a good idea to memorize the format. What it does is simply give us access to aspects of the original filterable method inside the context of this closure. In the example these arguments aren't utilized, but instead are just passed along to the next method in the filter chain.  By calling <code>$chain-&gt;next($self, $params, $chain)</code> I am collecting the output of the filterable method. This allows us to act on and manipulate that data before actually returning it.
 </p>
 
 
@@ -158,7 +158,7 @@ exit;
 
 
 <p>
-  We also get access to our filterable methods agruments in the context of <code>applyFilter()</code>. In order to do this, let&#8217;s modify our original example a bit.
+  We also get access to our filterable methods agruments in the context of <code>applyFilter()</code>. In order to do this, let's modify our original example a bit.
 </p>
 
 
@@ -208,7 +208,7 @@ return static::_filter(__FUNCTION__, $params, function($self, $params) {
       return $framework . ' BOOOOOOOOOM!!!';
     }
   }</pre>
-  Now our filterable method get&#8217;s interesting. I want to call another static method in the class and pass it an argument. If we couldn&#8217;t do this, the whole filter system would be kind of pointless since our class we not be very <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY (don&#8217;t repeat yourself)</a> if we had to stuff all our logic inside a closure. What we need to do is capture the true name of the called class using <a href="http://php.net/manual/en/function.get-called-class.php">get_called_class()</a>. If you didn&#8217;t know already <code>get_called_class()</code> is similar to the static scope operator in the sense that it uses late static binding to determine the correct inheritance for static methods. We also collect any arguments into a <code>'key' =&gt; $value</code> array that need to be passed in to the closure.  The closure itself needs to be modified to accept <code>$self</code> and <code>$params</code> as arguments.
+  Now our filterable method get's interesting. I want to call another static method in the class and pass it an argument. If we couldn't do this, the whole filter system would be kind of pointless since our class we not be very <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY (don't repeat yourself)</a> if we had to stuff all our logic inside a closure. What we need to do is capture the true name of the called class using <a href="http://php.net/manual/en/function.get-called-class.php">get_called_class()</a>. If you didn't know already <code>get_called_class()</code> is similar to the static scope operator in the sense that it uses late static binding to determine the correct inheritance for static methods. We also collect any arguments into a <code>'key' =&gt; $value</code> array that need to be passed in to the closure.  The closure itself needs to be modified to accept <code>$self</code> and <code>$params</code> as arguments.
 </p>
 
 
@@ -227,7 +227,7 @@ return static::_filter(__FUNCTION__, $params, function($self, $params) {
 'LITHIUM BOOOOOOOOOM!!!'
 'After Execution'
 'Lithium BOOOOOOOOOM!!!'</pre>
-  Cool. Now let&#8217;s modify it a little bit more in our
+  Cool. Now let's modify it a little bit more in our
 
   <code>applyFilter()</code> closure in <code>UsersController::test_filter()</code>.
 </p>
@@ -288,9 +288,9 @@ exit;
   <pre class="brush:shell">'Before Execution, modifying params'
 'After Execution'
 'Symfony2 BOOOOOOOOOM!!!'</pre>
-  Wow. This is some cool stuff. Think about what we just did. We modified the arguments that get passed into our filterable method&#8217;s closure. Think of the power and flexibility that gives you. This replaces the need to have the model level and controller level
+  Wow. This is some cool stuff. Think about what we just did. We modified the arguments that get passed into our filterable method's closure. Think of the power and flexibility that gives you. This replaces the need to have the model level and controller level
 
-  <a title="Callbacks in CakePHP" href="http://book.cakephp.org/view/984/Callbacks">callbacks that we have in CakePHP</a> (which you can still create by the way, simply apply a filter in the classes  <em>_init()</em> method). Now we only define callbacks where we need them and we don&#8217;t always have to open up our classes to modify them.
+  <a title="Callbacks in CakePHP" href="http://book.cakephp.org/view/984/Callbacks">callbacks that we have in CakePHP</a> (which you can still create by the way, simply apply a filter in the classes  <em>_init()</em> method). Now we only define callbacks where we need them and we don't always have to open up our classes to modify them.
 </p>
 
 
@@ -302,7 +302,7 @@ exit;
 
 
 <p>
-  Please let me know how you use Lithium&#8217;s filter system in the comments.
+  Please let me know how you use Lithium's filter system in the comments.
 </p>
 
  [1]: http://lithify.me/docs/manual/lithium-basics/filters.wiki "Filter System Manual for Lithium PHP"

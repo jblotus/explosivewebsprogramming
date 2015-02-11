@@ -26,7 +26,7 @@ To turn off auto correct and autocapitalize:
 <pre class="brush:plain">&lt;input type="text" name="field1" autocorrect="off" autocapitalize="off" /&gt;
 </pre>
 
-Please put this on your case-sensitive form fields asap. It doesn&#8217;t break anything (except maybe W3C validation, which doesn&#8217;t matter atm with HTML5).
+Please put this on your case-sensitive form fields asap. It doesn't break anything (except maybe W3C validation, which doesn't matter atm with HTML5).
 
 NRY9V5EK22P9
 

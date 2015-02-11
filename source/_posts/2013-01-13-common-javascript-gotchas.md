@@ -35,7 +35,7 @@ PHP was my first programming language, and my initial exposure to JavaScript was
 
 In PHP specifically, when you declare a variable function outside of a class ([or namespace block][2]) you are essentially adding a function to the global namespace. In JavaScript, there is no such thing as a namespace per se, rather everything is attached to the global object. In the case of the web browser, that is the `window` object. The other key difference is that in JavaScript, functions and variables are attributes of the global object, which we typically refer to as properties.
 
-This can be troublesome because you won&#8217;t get a warning in JavaScript if you overwrite a global function or property and it can actually be quite dangerous.
+This can be troublesome because you won't get a warning in JavaScript if you overwrite a global function or property and it can actually be quite dangerous.
 
 <pre class="brush:js">function globalFunction() {
   console.log('I am the original global function');
@@ -96,7 +96,7 @@ This can be troublesome because you won&#8217;t get a warning in JavaScript if y
 
 
 <p>
-  You also might have noticed the <code>var</code> keyword. If you aren&#8217;t sure of how it is used, a basic explanation is that by preceding a variable declaration with <code>var</code> creates a property on the nearest containing function. If you omit the <code>var</code> keyword than you are saying that you want to assign a new value to an existing variable higher up the scope chain, which may or may not be the global scope.
+  You also might have noticed the <code>var</code> keyword. If you aren't sure of how it is used, a basic explanation is that by preceding a variable declaration with <code>var</code> creates a property on the nearest containing function. If you omit the <code>var</code> keyword than you are saying that you want to assign a new value to an existing variable higher up the scope chain, which may or may not be the global scope.
 
 
   <pre class="brush:js">var imAGlobal = true;</p>
@@ -148,7 +148,7 @@ This can be troublesome because you won&#8217;t get a warning in JavaScript if y
 
 
 <p>
-  Let&#8217;s look at how variable hoisting happens:
+  Let's look at how variable hoisting happens:
 
 
   <pre class="brush:js">function variableHoist() {
@@ -176,7 +176,7 @@ This can be troublesome because you won&#8217;t get a warning in JavaScript if y
   } catch (e) {
     console.log(e);
   }</pre>
-  So as you can see, it doesn&#8217;t actually matter where you put the <code>var</code> declaration in the function, because the property gets created before the function executes any code. Now in practice, generally you want to put your <code>var</code> declarations at the top of the function, since that is where they end up anyway. It is also totally acceptable to initialize you variables at the top of the function, just be aware of the order of events here.
+  So as you can see, it doesn't actually matter where you put the <code>var</code> declaration in the function, because the property gets created before the function executes any code. Now in practice, generally you want to put your <code>var</code> declarations at the top of the function, since that is where they end up anyway. It is also totally acceptable to initialize you variables at the top of the function, just be aware of the order of events here.
 </p>
 
 
@@ -271,13 +271,13 @@ var myFunction = function() {
 <p>
   myFunction.call(newObject, 'foo', 'bar'); //outputs newObject "foo" "bar"
   myFunction.apply(newObject, ['foo', 'bar']); //outputs newObject "foo" "bar"</pre>
-  But let&#8217;s not get ahead of ourselves. All we are doing here is invoking the function <code>myFunction</code> by substituting an alternative value for <code>this</code> inside the function by placing the value of the object we want to use a substitute as the first argument. The fundamental difference between <code>call()</code> and <code>apply()</code> is the way you pass arguments to the function. <code>call()</code> will take an unlimited amount of arguments after the first argument and <code>apply()</code> expects and array of arguments as it&#8217;s second argument.
+  But let's not get ahead of ourselves. All we are doing here is invoking the function <code>myFunction</code> by substituting an alternative value for <code>this</code> inside the function by placing the value of the object we want to use a substitute as the first argument. The fundamental difference between <code>call()</code> and <code>apply()</code> is the way you pass arguments to the function. <code>call()</code> will take an unlimited amount of arguments after the first argument and <code>apply()</code> expects and array of arguments as it's second argument.
 </p>
 
 
 
 <p>
-  Libraries like jQuery perform a lot of magic by invoking things this way. <strong>Let&#8217;s look at the $.each() method in jQuery:</strong>
+  Libraries like jQuery perform a lot of magic by invoking things this way. <strong>Let's look at the $.each() method in jQuery:</strong>
 
 
   <pre class="brush:js">var $els = [$('div'), $('span')];
@@ -320,7 +320,7 @@ var handler = function() {
 
 
 <p>
-  For many years, <strong>ECMAScript 3</strong> has been the standard in most browsers, but more recently <strong>ECMAScript 5</strong> has made it&#8217;s way into most modern browsers (IE is still lagging behind). ECMAScript 5 introduced a lot of common sense features to JavaScript and some native methods that you previously relied upon a library for, such as <code>String.trim()</code> and <code>Array.forEach()</code>. The problem is you still can&#8217;t rely on these methods being available in browser environments if you have users that are using Internet Explorer.
+  For many years, <strong>ECMAScript 3</strong> has been the standard in most browsers, but more recently <strong>ECMAScript 5</strong> has made it's way into most modern browsers (IE is still lagging behind). ECMAScript 5 introduced a lot of common sense features to JavaScript and some native methods that you previously relied upon a library for, such as <code>String.trim()</code> and <code>Array.forEach()</code>. The problem is you still can't rely on these methods being available in browser environments if you have users that are using Internet Explorer.
 </p>
 
 
@@ -457,7 +457,7 @@ $.ajax({
 
 
 <p>
-  <strong>Animations in the browser are also asyncronous</strong>, so this is also a common source of confusion. I&#8217;m not going to go into detail here, but you need to treat animations much like ajax requests in the way you handle them via callbacks. I&#8217;m not really an expert on the subject though so please take a look at the <a href="http://api.jquery.com/animate/">jQuery .animate() method</a>.
+  <strong>Animations in the browser are also asyncronous</strong>, so this is also a common source of confusion. I'm not going to go into detail here, but you need to treat animations much like ajax requests in the way you handle them via callbacks. I'm not really an expert on the subject though so please take a look at the <a href="http://api.jquery.com/animate/">jQuery .animate() method</a>.
 </p>
 
 
@@ -475,13 +475,13 @@ $.ajax({
 
 
 <p>
-  Each <code>prototype</code> is basically an object in itself that describes properties available when creating an instance of an object. The prototype chain is what allows prototypes to extend other prototypes. In fact, prototypes themselves can have prototypes. When a method or attribute does not exist on an object instance, then it is looked for in that object&#8217;s <code>prototype</code>, and the prototypes&#8217;s <code>prototype</code>, and so on until it finally reaches <code>undefined</code> if no such property exists.
+  Each <code>prototype</code> is basically an object in itself that describes properties available when creating an instance of an object. The prototype chain is what allows prototypes to extend other prototypes. In fact, prototypes themselves can have prototypes. When a method or attribute does not exist on an object instance, then it is looked for in that object's <code>prototype</code>, and the prototypes's <code>prototype</code>, and so on until it finally reaches <code>undefined</code> if no such property exists.
 </p>
 
 
 
 <p>
-  Thankfully, beginners generally don&#8217;t need to mess with this stuff at all, since it is easy enough to create an object literal and append properties to it at runtime.
+  Thankfully, beginners generally don't need to mess with this stuff at all, since it is easy enough to create an object literal and append properties to it at runtime.
 
 
   <pre class="brush:js">var obj = {};</p>
@@ -550,7 +550,7 @@ $.ajax({
 <p>
   console.log(finalObj.a); //outputs "i am a lonely property"
   console.log(finalObj.b); //outputs "i am a lonely function"</pre>
-  You can get pretty deep into the subject of <a href="http://www.crockford.com/javascript/inheritance.html">inheritance in JavaScript</a> but the beautiful thing here again is that you really don&#8217;t have to due to the immense power and flexibility of the language.
+  You can get pretty deep into the subject of <a href="http://www.crockford.com/javascript/inheritance.html">inheritance in JavaScript</a> but the beautiful thing here again is that you really don't have to due to the immense power and flexibility of the language.
 </p>
 
 
@@ -630,7 +630,7 @@ $.ajax({
 
 
 <p>
-  JavaScript may be the only language people don&#8217;t need to learn before using it, but eventually you are going to run in to some unexplained trouble. Other than avoiding your own bugs, learning JavaScript makes a lot of sense these days considering it&#8217;s rebirth and widespread availability. This blog by no means attempts to be a complete panacea, but hopefully it will help a few people understand some of the fundamentals before being forced into writing more awful JavaScript code, secretly hoping to get reassigned to a backend project buried in database queries in happy PHP land.
+  JavaScript may be the only language people don't need to learn before using it, but eventually you are going to run in to some unexplained trouble. Other than avoiding your own bugs, learning JavaScript makes a lot of sense these days considering it's rebirth and widespread availability. This blog by no means attempts to be a complete panacea, but hopefully it will help a few people understand some of the fundamentals before being forced into writing more awful JavaScript code, secretly hoping to get reassigned to a backend project buried in database queries in happy PHP land.
 </p>
 
  [1]: http://jquery.com/

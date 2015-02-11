@@ -21,7 +21,7 @@ tags:
   - tickets
   - versioning
 ---
-How many bugs can you keep track of in your head at once? If you are anything like me, that number is somewhere in the single digit range. This is why issue tracking is a very important tool that every programmer should be using now. There are tons of free issue tracking programs like [Mantis][1], [Bugzilla][2], or even web based applications like [Lighthouse][3]. There is no excuse to put it off any longer if you aren&#8217;t already doing it. The reason it is important to use issue tracking on every project is that you will be more likely to produce a better product by fixing bugs before you add new features. Tracking your issues also allows your clients to see what you are doing on their projects and allows them to have a better understanding of  what their deadline and progress expectations should be.
+How many bugs can you keep track of in your head at once? If you are anything like me, that number is somewhere in the single digit range. This is why issue tracking is a very important tool that every programmer should be using now. There are tons of free issue tracking programs like [Mantis][1], [Bugzilla][2], or even web based applications like [Lighthouse][3]. There is no excuse to put it off any longer if you aren't already doing it. The reason it is important to use issue tracking on every project is that you will be more likely to produce a better product by fixing bugs before you add new features. Tracking your issues also allows your clients to see what you are doing on their projects and allows them to have a better understanding of  what their deadline and progress expectations should be.
 
 Frankly I think simplicity is best for issue tracking and [Lighthouse ][4]is the tool I use to handle all of my issue tracking for every project I work on. It is a very simple, powerful and beautiful issue tracker that allows for third party integration via its API. This is great because you can commit files and the changes will be attached to your tickets, like commits from [GitHub ][5]or [Beanstalk][6].
 
@@ -30,7 +30,7 @@ Frankly I think simplicity is best for issue tracking and [Lighthouse ][4]is the
 In this post I will walk though the basics of setting up a simple issue tracker for a fictional new client, &#8220;Inmate Penpals, Inc.&#8221; The company in this example bought their website as a script for $999 and it is simply broken. The company described in their job posting a very long list of features that were broken, or bugs that needed to be fixed. **Sounds great right? ***Why bother setting up an issue tracker?The client already made a list!*
 
 > 90% of clients will not know the full extent of their issues beforehand, so treat any project description as a synopsis of their issues
-The first thing that you need to do is convince the client that they need an issue tracker, as it will help keep the project on budget and allow them the opportunity to see you making progress on their projects. It won&#8217;t cost them a dime to set up a free account over at [Lighthouseapp][3], so that argument should be pretty easy to win!
+The first thing that you need to do is convince the client that they need an issue tracker, as it will help keep the project on budget and allow them the opportunity to see you making progress on their projects. It won't cost them a dime to set up a free account over at [Lighthouseapp][3], so that argument should be pretty easy to win!
 
 ## Step 1: Set Up a Issue Tracker
 
@@ -70,7 +70,7 @@ Once you have confirmed your email address you can click the link and be taken d
   </p>
 </div>
 
-You have to fill out some details about your project, mainly the project name and description. The important thing on this page are the options for &#8220;**Public Project**&#8220;, &#8220;**Private Project**&#8220;, and &#8220;**Open Source Project**&#8220;. For most client work, you are going to want to choose &#8220;**Private Project**&#8221; because you don&#8217;t want to share your troubles with the world, especially considering that sensitive information may be stored on the issue tracker.
+You have to fill out some details about your project, mainly the project name and description. The important thing on this page are the options for &#8220;**Public Project**&#8220;, &#8220;**Private Project**&#8220;, and &#8220;**Open Source Project**&#8220;. For most client work, you are going to want to choose &#8220;**Private Project**&#8221; because you don't want to share your troubles with the world, especially considering that sensitive information may be stored on the issue tracker.
 
 <div id="attachment_123" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-123" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/invite-2/"><img class="size-large wp-image-123" title="Invite users to Project" src="http://www.jblotus.com/wp-content/uploads/2010/12/invite1-550x306.jpg" alt="Invite users to Project" width="550" height="306" /></a>
@@ -80,7 +80,7 @@ You have to fill out some details about your project, mainly the project name an
   </p>
 </div>
 
-Next you will want to invite your client to the tracker, or have them invite you if they set it up. On this screen you can set read & write permissions for other users or invite people via email. Since I don&#8217;t want to add another user right now I will move on to the next section, defining milestones.
+Next you will want to invite your client to the tracker, or have them invite you if they set it up. On this screen you can set read & write permissions for other users or invite people via email. Since I don't want to add another user right now I will move on to the next section, defining milestones.
 
 ## Step 2: Define Project Milestones
 
@@ -137,17 +137,17 @@ We want to add **milestones **for our first due date, which I have set to Dec 30
 </div>
 
 <p style="text-align: left;">
-  In most projects, there are features that would be nice to have but really aren&#8217;t important enough to get done on your current milestone. In order to avoid scope creep, it is important to put these tickets into a separate milestone. You can always move tickets in or out of the milestone, in this case called &#8220;<strong>Future</strong>&#8220;, into a milestone with a due date.
+  In most projects, there are features that would be nice to have but really aren't important enough to get done on your current milestone. In order to avoid scope creep, it is important to put these tickets into a separate milestone. You can always move tickets in or out of the milestone, in this case called &#8220;<strong>Future</strong>&#8220;, into a milestone with a due date.
 </p>
 
 ## Step 3: Working with tickets
 
-Milestone&#8217;s are all well and good, but &#8220;**Tickets**&#8221; are the real meat of the issue tracking experience. A ticket can represent anything from a large feature request, a small database bug, or something even as small as a typo. The ticket system in Lighthouseapp is really exceptional. You can add attachments, assign tickets to specific users, and even integrate 3rd party changesets (i.e. commits) to update directly on the tickets! When combined with versioning from GitHub or Beanstalkapp, this is a powerful way to track the code as it changes over time.
+Milestone's are all well and good, but &#8220;**Tickets**&#8221; are the real meat of the issue tracking experience. A ticket can represent anything from a large feature request, a small database bug, or something even as small as a typo. The ticket system in Lighthouseapp is really exceptional. You can add attachments, assign tickets to specific users, and even integrate 3rd party changesets (i.e. commits) to update directly on the tickets! When combined with versioning from GitHub or Beanstalkapp, this is a powerful way to track the code as it changes over time.
 
 The client has submitted a job description, which describes what the client wants accomplished overall. Our job is to parse this out into separate tickets. This might be a bit difficult at first as we come to terms with the scope of the project, but it will git much easier to refine after we enter everything in.
 
-> Our site is completely malfunctioned. The email doesn&#8217;t work when the user sends a note to an inmate. There is a display bug on the homepage when you hover your mouse over the &#8220;contact us&#8221; 3d button that causes the button to go away. Our server seems really slow and I want all of this fixed.  On the homepage only 10 inmates pictures are supposed to show but instead the whole database of prisoners loads. We would also like to have a rotating slideshow that makes the entire page change colors during the holidays. Thanks! -InmatePenpals CEO
-Wow, that wasn&#8217;t the worst job post I ever saw, but it certainly needs to be broken down a bit further. We are going to start creating &#8220;**tickets**&#8221; for each issue.
+> Our site is completely malfunctioned. The email doesn't work when the user sends a note to an inmate. There is a display bug on the homepage when you hover your mouse over the &#8220;contact us&#8221; 3d button that causes the button to go away. Our server seems really slow and I want all of this fixed.  On the homepage only 10 inmates pictures are supposed to show but instead the whole database of prisoners loads. We would also like to have a rotating slideshow that makes the entire page change colors during the holidays. Thanks! -InmatePenpals CEO
+Wow, that wasn't the worst job post I ever saw, but it certainly needs to be broken down a bit further. We are going to start creating &#8220;**tickets**&#8221; for each issue.
 
 <div id="attachment_129" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-129" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/newticket-2/"><img class="size-large wp-image-129" title="newticket" src="http://www.jblotus.com/wp-content/uploads/2010/12/newticket1-550x307.jpg" alt="The new ticket button is available almost anywhere in the project overview" width="550" height="307" /></a>
@@ -192,7 +192,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </div>
 
 <p style="text-align: left;">
-  Each ticket also has a line for &#8220;<strong>Tags</strong>&#8220;. Tags are something that need to be fairly consistent throughout your project and I will tell you why when we create ticket bins to categorize our tickets. Two tags that are very important are &#8220;<strong>defect</strong>&#8221; and &#8220;<strong>enhancement</strong>&#8220;. I tend to categorize every ticket into one of those two categories. Most bugs are defects and most features that don&#8217;t exist or need to be improved are called <strong>enhancements</strong>. Since the ticket in question relates to email not working, we can assume the it is a &#8220;<strong>defect</strong>&#8220;. We can always change this later to &#8220;<strong>enhancement</strong>&#8221; if it turns out that email functionality was never implemented in the first place.  I also added the tag <strong>&#8220;email</strong>&#8220;, but I don&#8217;t want to go tag crazy so two tags should be fine in most cases.
+  Each ticket also has a line for &#8220;<strong>Tags</strong>&#8220;. Tags are something that need to be fairly consistent throughout your project and I will tell you why when we create ticket bins to categorize our tickets. Two tags that are very important are &#8220;<strong>defect</strong>&#8221; and &#8220;<strong>enhancement</strong>&#8220;. I tend to categorize every ticket into one of those two categories. Most bugs are defects and most features that don't exist or need to be improved are called <strong>enhancements</strong>. Since the ticket in question relates to email not working, we can assume the it is a &#8220;<strong>defect</strong>&#8220;. We can always change this later to &#8220;<strong>enhancement</strong>&#8221; if it turns out that email functionality was never implemented in the first place.  I also added the tag <strong>&#8220;email</strong>&#8220;, but I don't want to go tag crazy so two tags should be fine in most cases.
 </p>
 
 <div id="attachment_133" style="width: 560px" class="wp-caption aligncenter">
@@ -218,7 +218,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 ## Step 4: Grouping and sorting tickets with Ticket Bins
 
 <p style="text-align: left;">
-  I like to use Ticket Bins to group my tickets into separate categories. I make one ticket bind for <strong>defects</strong>, and another one for <strong>enhancements</strong>. Lighthouseapp already provides some ticket bins by default, under &#8220;<strong>Shared Ticket Bins</strong>&#8221; on the right hand side of the screen. These are &#8220;<strong>Open Tickets</strong>&#8220;, &#8220;<strong>Resolved Tickets</strong>&#8220;, and &#8220;<strong>This week&#8217;s tickets</strong>&#8220;. Each ticket bin has a number next to it showing how many tickets are in that bin. A ticket can be in an unlimited number of bins.
+  I like to use Ticket Bins to group my tickets into separate categories. I make one ticket bind for <strong>defects</strong>, and another one for <strong>enhancements</strong>. Lighthouseapp already provides some ticket bins by default, under &#8220;<strong>Shared Ticket Bins</strong>&#8221; on the right hand side of the screen. These are &#8220;<strong>Open Tickets</strong>&#8220;, &#8220;<strong>Resolved Tickets</strong>&#8220;, and &#8220;<strong>This week's tickets</strong>&#8220;. Each ticket bin has a number next to it showing how many tickets are in that bin. A ticket can be in an unlimited number of bins.
 </p>
 
 <p style="text-align: left;">
@@ -391,7 +391,7 @@ To assign a commit to a specific ticket do this:
 
 <pre lang="bash">this is my commit message [#1] //#1 is the ticket number</pre> To close a ticket do this:
 
-<pre lang="bash">this is my commit message [#1 state:resolved] //#1 is the ticket number</pre> All of the keywords go inside square brackets []. I usually don&#8217;t close tickets directly from a commit, and I find that assigning a commit to a specific ticket is usually good enough. You can do some pretty crazy things with Beanstalk such as automatic deployment, just from a simple commit message.
+<pre lang="bash">this is my commit message [#1 state:resolved] //#1 is the ticket number</pre> All of the keywords go inside square brackets []. I usually don't close tickets directly from a commit, and I find that assigning a commit to a specific ticket is usually good enough. You can do some pretty crazy things with Beanstalk such as automatic deployment, just from a simple commit message.
 
 [Here is a complete list of Lighthouse keywords][14].
 
@@ -417,15 +417,15 @@ You will see the newest changeset and commit message applied as a comment to the
 
 ## Step 6: Ticket Management
 
-At this point you might want to mark a ticket as &#8220;Resolved&#8221; if the issue described has been solved. The different ways you can mark a ticket&#8217;s status are:
+At this point you might want to mark a ticket as &#8220;Resolved&#8221; if the issue described has been solved. The different ways you can mark a ticket's status are:
 
   * **New **- New ticket that has not been worked on. Use this when you first create a ticket.
   * **Open **- A ticket is currently being worked on
   * **Resolved **- A issue has been resolved successfully.
-  * **Hold **- Valid issues that can&#8217;t be resolved or that aren&#8217;t worth resolving.
+  * **Hold **- Valid issues that can't be resolved or that aren't worth resolving.
   * **Invalid** &#8211; Issues that are poorly formed, already working, or generally not bugs or feature requests.
 
-How you use these states will be largely up to you, but try not to use &#8220;**Resolved**&#8221; in cases where &#8220;**Hold**&#8221; or &#8220;**Invalid**&#8221; might be more appropriate, such as when you can&#8217;t reproduce a bug, or the ticket did not describe a bug but rather incorrect usage.
+How you use these states will be largely up to you, but try not to use &#8220;**Resolved**&#8221; in cases where &#8220;**Hold**&#8221; or &#8220;**Invalid**&#8221; might be more appropriate, such as when you can't reproduce a bug, or the ticket did not describe a bug but rather incorrect usage.
 
 ## Summary
 

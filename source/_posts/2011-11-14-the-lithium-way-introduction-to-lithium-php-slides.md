@@ -44,7 +44,7 @@ I recently gave a presentation on <a title="Lithium PHP Framework" href="http://
       <strong>Live Coding is risky. </strong>I originally build a sample app to be shown with the slides, but the process of switching to the code made for a dragging presentation. Instead I opted to make short clear code samples. I would probably do live coding for a workshop, screencast or tutorial, but for a presentation too many things can go wrong.
     </li>
     <li>
-      <strong>Practice your talk. </strong>I spent about 2 months developing this presentation through a few iterations. I ended up with about 110 slides and a sample application. Rehearsing the talk gave me the opportunity to see I was being way too verbose and lengthy. I also spotted a number of errors(not all though, apparently) that wouldn&#8217;t have been spotted otherwise.
+      <strong>Practice your talk. </strong>I spent about 2 months developing this presentation through a few iterations. I ended up with about 110 slides and a sample application. Rehearsing the talk gave me the opportunity to see I was being way too verbose and lengthy. I also spotted a number of errors(not all though, apparently) that wouldn't have been spotted otherwise.
     </li>
     <li>
       <strong>Keep it simple and short. </strong>Originally I wrote my slides like they were an extended tutorial. This was a mistake. The slides should not be read verbatim unless going through a code sample. Knowing what you are talking about is key here. Distill your slides into key points, concepts and digestible examples. Leave time for questions, but err on the side of too little information.

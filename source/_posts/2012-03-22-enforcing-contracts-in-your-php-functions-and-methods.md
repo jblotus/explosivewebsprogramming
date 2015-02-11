@@ -117,7 +117,7 @@ function foo($string = '', $int = 0, array $array = array()) {</p>
 
 
 <p>
-  PHP&#8217;s <a title="php.net assert()" href="http://php.net/manual/en/function.assert.php">assert()</a> is a native PHP function for asserting conditions, but it is probably much unsuitable for production due to the overhead involved. It also seems fairly cryptic and complicated to me, without adding much value or clarity. To be fair I really don&#8217;t know much about assert() so I might be misinformed.
+  PHP's <a title="php.net assert()" href="http://php.net/manual/en/function.assert.php">assert()</a> is a native PHP function for asserting conditions, but it is probably much unsuitable for production due to the overhead involved. It also seems fairly cryptic and complicated to me, without adding much value or clarity. To be fair I really don't know much about assert() so I might be misinformed.
 </p>
 
 
@@ -161,7 +161,7 @@ message '$string should be a string</p>
 
 <p>
   </pre>
-  The benefits of using PHPUnit as an assertion library are obvious. Well tested and curated assertions exist for nearly any type of situation. These assertions should also be quite familiar if you are already using PHPUnit to test your code. A potential drawback however is adding a static dependency to PHPUnit to your production code. I haven&#8217;t actually tried this in a production setting, but it seems quite servicable.
+  The benefits of using PHPUnit as an assertion library are obvious. Well tested and curated assertions exist for nearly any type of situation. These assertions should also be quite familiar if you are already using PHPUnit to test your code. A potential drawback however is adding a static dependency to PHPUnit to your production code. I haven't actually tried this in a production setting, but it seems quite servicable.
 </p>
 
 
@@ -236,7 +236,7 @@ use Phix_Project\ContractLib\Contract;</p>
 <p>
   foo();
   foo('');</pre>
-  First of all, you will notice that you need a <a title="PSR-0 Standard gist" href="https://gist.github.com/1234504">PSR-0 compatible autoloader</a> in order to use ContractLib. Not really a big deal but if you already use one ignore that block of code. Secondly, you also have to explicitly tell ContractLib to enforce contracts. This would allow you to only enforce contracts in a development environment for example. Apparently <a title="PHP assert() vs ContractLib" href="http://blog.stuartherbert.com/php/2012/01/17/comparing-contractlib-to-phps-built-in-assert/">ContractLib is pretty fast vs PHP&#8217;s assert()</a>, and I would personally argue that contracts should be enforced at all times. You can always turn it off and benchmark your code to see if there is a big difference.
+  First of all, you will notice that you need a <a title="PSR-0 Standard gist" href="https://gist.github.com/1234504">PSR-0 compatible autoloader</a> in order to use ContractLib. Not really a big deal but if you already use one ignore that block of code. Secondly, you also have to explicitly tell ContractLib to enforce contracts. This would allow you to only enforce contracts in a development environment for example. Apparently <a title="PHP assert() vs ContractLib" href="http://blog.stuartherbert.com/php/2012/01/17/comparing-contractlib-to-phps-built-in-assert/">ContractLib is pretty fast vs PHP's assert()</a>, and I would personally argue that contracts should be enforced at all times. You can always turn it off and benchmark your code to see if there is a big difference.
 </p>
 
 
@@ -252,7 +252,7 @@ PHP Fatal error:  Uncaught exception
  was ''; reason for failure was: $string must be a string' in ...</pre>
   I think
 
-  <a title="ContractLib github" href="https://github.com/stuartherbert/ContractLib">ContractLib</a> looks pretty exciting, although I am not entirely sold about using it in production yet. I am probably leaning towards some sort of DI wrapping for PHPUnit&#8217;s assertions to work into my projects, since static dependencies scare me and make testing difficult.
+  <a title="ContractLib github" href="https://github.com/stuartherbert/ContractLib">ContractLib</a> looks pretty exciting, although I am not entirely sold about using it in production yet. I am probably leaning towards some sort of DI wrapping for PHPUnit's assertions to work into my projects, since static dependencies scare me and make testing difficult.
 </p>
 
 

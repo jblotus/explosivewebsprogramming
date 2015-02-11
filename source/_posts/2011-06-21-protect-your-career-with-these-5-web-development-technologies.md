@@ -48,19 +48,19 @@ Obviously you have [heard of Git][7] by now if you are using open source softwar
 
 **Distribution**
 
-In the future we will all have our own copies of repositories. Merging and branching will replace painful reintegrates and the  merge hell brought about by a long running feature branch. We will no longer bow down to a centralized master, who exposes our mistakes to our team with every experimental misstep. No longer will the village idiot bring down an entire repository with his careless commits. Version control is a problem that Git solved on SVN&#8217;s behalf.
+In the future we will all have our own copies of repositories. Merging and branching will replace painful reintegrates and the  merge hell brought about by a long running feature branch. We will no longer bow down to a centralized master, who exposes our mistakes to our team with every experimental misstep. No longer will the village idiot bring down an entire repository with his careless commits. Version control is a problem that Git solved on SVN's behalf.
 
 **Get Started with Git Today**
 
-You need to learn the basics of git now. Being a master isn&#8217;t a requirement yet but knowing the basics is going to get your prepared. You need to install git on your computer. You can use [RailsInstaller][9], [Cygwin][10], or run it native on Mac OSX or Linux. Start a new project and let the commits fly. Don&#8217;t be afraid to make mistakes. Set up an account on [GitHub][11]. Practice push your changes to [GitHub][11]. As your work you will have problems to solve. This will prompt you further down the git hole and move you closer towards being a master.
+You need to learn the basics of git now. Being a master isn't a requirement yet but knowing the basics is going to get your prepared. You need to install git on your computer. You can use [RailsInstaller][9], [Cygwin][10], or run it native on Mac OSX or Linux. Start a new project and let the commits fly. Don't be afraid to make mistakes. Set up an account on [GitHub][11]. Practice push your changes to [GitHub][11]. As your work you will have problems to solve. This will prompt you further down the git hole and move you closer towards being a master.
 
 **Why do I need Git?**
 
-Take a look at the top projects on GitHub. [Rails][12],  [jQuery][13], [Symfony][14], [CakePHP][15], [Modernizr][16], [CoffeeScript][17], etc, etc, etc. This is where the herd is headed, so don&#8217;t get left behind.
+Take a look at the top projects on GitHub. [Rails][12],  [jQuery][13], [Symfony][14], [CakePHP][15], [Modernizr][16], [CoffeeScript][17], etc, etc, etc. This is where the herd is headed, so don't get left behind.
 
 ## **2. Server-side Javascript with node.js**
 
-You already know [Javascript ][18]right? Well it runs on the server side now. In fact, it&#8217;s the server. Surely even the coldest, densest rocks have heard the echoes of [node.js][19], which has been embraced by those in the know, including the curmudgeonly [Douglas Crockford][20]. (You know,[ the guy who discovered JSON][21]). Node is the new rails, only twice as hard to understand. Kind of like [vim compared to anything else][22]. Node let&#8217;s you program i/o in a language that you already use, and solves the problem of [multiple concurrent connections][23] quite nicely.  You will laugh at how hard it is to do simple things in Node, and how easy it is to do really hard things.
+You already know [Javascript ][18]right? Well it runs on the server side now. In fact, it's the server. Surely even the coldest, densest rocks have heard the echoes of [node.js][19], which has been embraced by those in the know, including the curmudgeonly [Douglas Crockford][20]. (You know,[ the guy who discovered JSON][21]). Node is the new rails, only twice as hard to understand. Kind of like [vim compared to anything else][22]. Node let's you program i/o in a language that you already use, and solves the problem of [multiple concurrent connections][23] quite nicely.  You will laugh at how hard it is to do simple things in Node, and how easy it is to do really hard things.
 
 **Getting started with node**
 
@@ -68,19 +68,19 @@ You already know [Javascript ][18]right? Well it runs on the server side now. In
 
 **Why do I need to learn node.js?**
 
-Learning Node has two benefits, the first being that the demand for programmers with experience in Node.js will rise due to the sheer maintenance requirements of the Node apps being written by today&#8217;s cutting edge developers. Secondly, learning how to program asynchronously will challenge your brain and make you a better developer by learning how to solve problems in a new way.
+Learning Node has two benefits, the first being that the demand for programmers with experience in Node.js will rise due to the sheer maintenance requirements of the Node apps being written by today's cutting edge developers. Secondly, learning how to program asynchronously will challenge your brain and make you a better developer by learning how to solve problems in a new way.
 
 ## **3. Concurrent Programming Languages**
 
-Web Scale is not only an unfunny meme, but a growing reality for many high availability websites. A busy site means a lot of things, mostly racks of hardware, craploads of caching and a fairly complicated infrastructure.[ Concurrent programming languages][27] today are a a bit esoteric for most people&#8217;s web site needs, but on an enterprise level they really start to demonstrate amazing abilities. Concurrent programming languages like [Erlang][28], [Clojure ][29]and [Scala][30] allow for parallel processing. As a simplified example, it&#8217;s like using 64 guys to lay bricks instead of 1. These languages specialize in dealing with organizing these processes and eliminating some of the pain in developing immutable, multiprocess programs.
+Web Scale is not only an unfunny meme, but a growing reality for many high availability websites. A busy site means a lot of things, mostly racks of hardware, craploads of caching and a fairly complicated infrastructure.[ Concurrent programming languages][27] today are a a bit esoteric for most people's web site needs, but on an enterprise level they really start to demonstrate amazing abilities. Concurrent programming languages like [Erlang][28], [Clojure ][29]and [Scala][30] allow for parallel processing. As a simplified example, it's like using 64 guys to lay bricks instead of 1. These languages specialize in dealing with organizing these processes and eliminating some of the pain in developing immutable, multiprocess programs.
 
-**Who&#8217;s using concurrent programming?**
+**Who's using concurrent programming?**
 
-[Github wrote it&#8217;s backend in Erlang][31]. [CouchDB ][32]is Erlang. [Twitter uses Scala][33]. Ever hear of Call Of Duty? Check out how [Demonware uses Erlang to handle millions of connections][34]. Big companies with big demands are investing in these technologies. These jobs are not going to trainees.
+[Github wrote it's backend in Erlang][31]. [CouchDB ][32]is Erlang. [Twitter uses Scala][33]. Ever hear of Call Of Duty? Check out how [Demonware uses Erlang to handle millions of connections][34]. Big companies with big demands are investing in these technologies. These jobs are not going to trainees.
 
 ## **4. NoSQL**
 
-You could probably bundle NoSQL in with web scale, considering that&#8217;s where the meme started. In fact NoSQL is a fairly diverse set of technologies for dealing with data storage and retrieval, usually across multiple machines. Databases like MongoDB use a javascript syntax instead of horribly complex sql queries, and can scale to insane levels. [CouchDB][32], [Redis][35], [Membase][36], [Cassandra ][37]and other NoSQL products are exploding onto the marketplace. You are starting to see them listed as &#8220;Nice to haves&#8221; on your craigslist job ads. I would not argue that these technologies are killing SQL, but they will be bigger players in the future as corporate acceptance of NoSQL becomes the norm.
+You could probably bundle NoSQL in with web scale, considering that's where the meme started. In fact NoSQL is a fairly diverse set of technologies for dealing with data storage and retrieval, usually across multiple machines. Databases like MongoDB use a javascript syntax instead of horribly complex sql queries, and can scale to insane levels. [CouchDB][32], [Redis][35], [Membase][36], [Cassandra ][37]and other NoSQL products are exploding onto the marketplace. You are starting to see them listed as &#8220;Nice to haves&#8221; on your craigslist job ads. I would not argue that these technologies are killing SQL, but they will be bigger players in the future as corporate acceptance of NoSQL becomes the norm.
 
 **Getting Started with NoSQL**
 
@@ -88,7 +88,7 @@ You should seriously just[ try MongoDB ][38]right now, in your browser. Then, ta
 
 ## **5. Responsive Web Design**
 
-HTML5? CSS3? Old news. The biggest idea taking hold in the front end development world is called Responsive Web Design. The key takeaway from this concept is the fact that you shouldn&#8217;t be making separate layouts for difference viewport sizes, but rather, you should be laying out your content in such a way that you site will reflow content appropriately. In other words screen size, or rather browser window size should be the main determining factor in your layout, not device detection. This is a huge deviation from the current state of affiars, where mobile sites are being devloped as near seperate entities, and standard websites are hit or miss on a small screen.
+HTML5? CSS3? Old news. The biggest idea taking hold in the front end development world is called Responsive Web Design. The key takeaway from this concept is the fact that you shouldn't be making separate layouts for difference viewport sizes, but rather, you should be laying out your content in such a way that you site will reflow content appropriately. In other words screen size, or rather browser window size should be the main determining factor in your layout, not device detection. This is a huge deviation from the current state of affiars, where mobile sites are being devloped as near seperate entities, and standard websites are hit or miss on a small screen.
 
 **Getting started with Responsive Web Design**
 

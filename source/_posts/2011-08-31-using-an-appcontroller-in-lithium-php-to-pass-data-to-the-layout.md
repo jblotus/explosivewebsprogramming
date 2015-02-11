@@ -20,9 +20,9 @@ tags:
   - php
   - view
 ---
-**Note:** *This article may not be pushing best practices. Instead of setting view data via an AppController, we can create a helper for any arbitrary data we need. Due to Lithium&#8217;s autoloading, this takes care of including our helper as needed and may make a bit more sense than injecting view variables via an AppController.*
+**Note:** *This article may not be pushing best practices. Instead of setting view data via an AppController, we can create a helper for any arbitrary data we need. Due to Lithium's autoloading, this takes care of including our helper as needed and may make a bit more sense than injecting view variables via an AppController.*
 
-A concept that has been somewhat glossed over in the [Lithium PHP community][1],  but is standard practice when coming from CakePHP is the [use of an AppController class][2]. The idea here is that all your app&#8217;s controllers will extend from this custom controller instead of `\lithium\action\Controller`. This allows us to share some common controller functionality across our entire application. Obviously with [Lithium&#8217;s Filter system][3], application wide callbacks are not as essential as they once were, nor as cumbersome, but I still think extending an `AppController` (and `AppModel` btw) is a good practice. One specific example is the passing of variables to a common layout that should be present on every page of your website.
+A concept that has been somewhat glossed over in the [Lithium PHP community][1],  but is standard practice when coming from CakePHP is the [use of an AppController class][2]. The idea here is that all your app's controllers will extend from this custom controller instead of `\lithium\action\Controller`. This allows us to share some common controller functionality across our entire application. Obviously with [Lithium's Filter system][3], application wide callbacks are not as essential as they once were, nor as cumbersome, but I still think extending an `AppController` (and `AppModel` btw) is a good practice. One specific example is the passing of variables to a common layout that should be present on every page of your website.
 
 <!--more-->
 

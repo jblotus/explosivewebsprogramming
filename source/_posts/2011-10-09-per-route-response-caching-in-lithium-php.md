@@ -18,7 +18,7 @@ tags:
   - lithium router
   - page caching
 ---
-Occasionally, you will want to cache entire responses from different areas of your Lithium app. [Micheal N already posted a nice tip about response caching][1] by applying a filter to the `Dispatcher::run()` method, but I wanted to be able to set my cache times differently per route. Now in keeping with the aspect-oriented style, I want to define my cache times right in my `routes.php` file. With a bit of closure magic, combined with Lithium&#8217;s filter system, this was a piece of cake. <!--more--> I figure that the best way to do this is by adding a bit of extra data to the
+Occasionally, you will want to cache entire responses from different areas of your Lithium app. [Micheal N already posted a nice tip about response caching][1] by applying a filter to the `Dispatcher::run()` method, but I wanted to be able to set my cache times differently per route. Now in keeping with the aspect-oriented style, I want to define my cache times right in my `routes.php` file. With a bit of closure magic, combined with Lithium's filter system, this was a piece of cake. <!--more--> I figure that the best way to do this is by adding a bit of extra data to the
 
 `Request` object before it hits `Dispatcher::run()` method, but just after a route is matched.
 
@@ -32,7 +32,7 @@ Occasionally, you will want to cache entire responses from different areas of yo
   return $request;
 });</pre> So in my application, I am trying to match a url that looks like:
 
-`/podcasts/the-javascript-show`. This will normally take me to the Episodes controller&#8217;s index action, passing `:slug` as an attribute of the request object. You will notice that for the third argument of `Router::connect()`, I have passed a closure to intercept the request object to modify the request object and add some caching info to a new attribute. Finally and importantly, I return the `$request` object. If you don&#8217;t return that the Dispatcher won&#8217;t know how to process your route.
+`/podcasts/the-javascript-show`. This will normally take me to the Episodes controller's index action, passing `:slug` as an attribute of the request object. You will notice that for the third argument of `Router::connect()`, I have passed a closure to intercept the request object to modify the request object and add some caching info to a new attribute. Finally and importantly, I return the `$request` object. If you don't return that the Dispatcher won't know how to process your route.
 
 The second step of this process involves adding a filter to `Dispatcher::run()` to handle the caching aspect.
 
@@ -99,7 +99,7 @@ if (!$response) {
 
 
 <p>
-  So what we are doing here is adding a filter to <code>Dispatcher::run()</code>. The first thing we have to do is process the request object by passing it off to the router. This is important because at this phase of the application request cycle, the request object has not yet been parsed. <code>Dispatcher::run()</code> will eventually do this before it returns a response, but we won&#8217;t be able to intercept our custom cache attribute if we don&#8217;t do it here.
+  So what we are doing here is adding a filter to <code>Dispatcher::run()</code>. The first thing we have to do is process the request object by passing it off to the router. This is important because at this phase of the application request cycle, the request object has not yet been parsed. <code>Dispatcher::run()</code> will eventually do this before it returns a response, but we won't be able to intercept our custom cache attribute if we don't do it here.
 </p>
 
 
@@ -111,7 +111,7 @@ if (!$response) {
 
 
 <p>
-  We then try to read the response from cache based upon the given key. If we find it then that becomes the <code>$response</code> object. If we don&#8217;t, the <code>$response</code> object is captured from the filter chain and stored in cache. Finally you must return the <code>$response</code> object.
+  We then try to read the response from cache based upon the given key. If we find it then that becomes the <code>$response</code> object. If we don't, the <code>$response</code> object is captured from the filter chain and stored in cache. Finally you must return the <code>$response</code> object.
 </p>
 
 

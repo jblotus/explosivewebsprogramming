@@ -35,7 +35,7 @@ tags:
 **Installing Phactory** Phactory is available as a PEAR package and is super easy to install:
 
 <pre class="brush:shell">pear channel-discover pearhub.org
-pear install pearhub/Phactory</pre> Once Phactory is installed, you want to integrate Phactory with your test runner. You should probably create a new base test case for models using Phactory. Let&#8217;s do that now:
+pear install pearhub/Phactory</pre> Once Phactory is installed, you want to integrate Phactory with your test runner. You should probably create a new base test case for models using Phactory. Let's do that now:
 
 <pre class="brush:php">/*
  * /models/shoe.php
@@ -132,7 +132,7 @@ Phactory::setConnection($pdo);
 
 <p>
   <strong>Setting Up the Test Database
-  </strong>Your test database should be a copy of your project&#8217;s main database, minus any records. A quick way to get a SQL dump of a database without any records is:
+  </strong>Your test database should be a copy of your project's main database, minus any records. A quick way to get a SQL dump of a database without any records is:
 
 
   <pre class="brush:shell">mysqldump --host="localhost" --user="root" project_db --no-data &gt; "schema.sql";</pre>
@@ -197,7 +197,7 @@ class Shoe
 
 
 <p>
-  The model has one method, <strong>Shoe::getShoesByBrandName() </strong>which takes a string, the brand name. It executes some SQL and returns an array of shoes. Let&#8217;s go ahead and set up a test case for this model.
+  The model has one method, <strong>Shoe::getShoesByBrandName() </strong>which takes a string, the brand name. It executes some SQL and returns an array of shoes. Let's go ahead and set up a test case for this model.
 
 
   <pre class="brush:php"><?php
@@ -249,13 +249,13 @@ Phactory::define('shoe_table', array());
 
 
 <p>
-  We also sometimes need to tell Phactory not to pluralize our table names when it does it&#8217;s magic by calling <strong>Phactory::setInflection()</strong>.
+  We also sometimes need to tell Phactory not to pluralize our table names when it does it's magic by calling <strong>Phactory::setInflection()</strong>.
 </p>
 
 
 
 <p>
-  A blueprint must be defined for any tables we want to use in our test. We do this by calling <strong>Phactory::define().</strong> The first argument is the name of the table, the second argument is an array of default values that will be populated upon an insert. In this array you specify keys matching column names in your table with a default value. For now I am passing in an empty array because I don&#8217;t want to set up any default values.
+  A blueprint must be defined for any tables we want to use in our test. We do this by calling <strong>Phactory::define().</strong> The first argument is the name of the table, the second argument is an array of default values that will be populated upon an insert. In this array you specify keys matching column names in your table with a default value. For now I am passing in an empty array because I don't want to set up any default values.
 </p>
 
 
@@ -302,7 +302,7 @@ $this-&gt;assertEquals(2, count($actual));
 
 <p>
   <strong>That Was Easy</strong>
-  You can also do more complicated multi-table relationships and joins in your Model code, and all you have to do in your test case is create a corresponding table blueprint. You will also need to create any records you need in all of the tables you are testing. This offers you incredible flexibility as opposed to developing with fixtures since you can control what records you need when you need them. You also don&#8217;t need to specify every column when defining a table blueprint so you will save a ton of time over using a<a href="http://www.phpunit.de/manual/current/en/fixtures.html"> PHPUnit XML dataset</a>.
+  You can also do more complicated multi-table relationships and joins in your Model code, and all you have to do in your test case is create a corresponding table blueprint. You will also need to create any records you need in all of the tables you are testing. This offers you incredible flexibility as opposed to developing with fixtures since you can control what records you need when you need them. You also don't need to specify every column when defining a table blueprint so you will save a ton of time over using a<a href="http://www.phpunit.de/manual/current/en/fixtures.html"> PHPUnit XML dataset</a>.
 </p>
 
 

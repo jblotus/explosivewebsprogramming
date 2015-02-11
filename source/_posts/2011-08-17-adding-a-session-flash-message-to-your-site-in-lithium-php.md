@@ -21,7 +21,7 @@ tags:
   - session flash message
   - sessions
 ---
-I&#8217;ve finally had a chance to start hacking on the[ Lithium PHP Framework][1] and I must say it&#8217;s really cool. I have been working with [CakePHP ][2]for a few years and most of the concepts familiar to CakePHP developers will feel natural for those who choose to try Lithium. Unfortunately for those of us who expect the framework to come with everything you need out of the box, you will be somewhat disappointed or confused at first. In my case, I needed to display to the user a &#8220;flash message&#8221; after redirecting them to another page. CakePHP has this as part of the framework by default but Lithium will ask you to do a bit more work. Luckily,[ Lithium framework lead developer Nate Abele][3] has created a[ handy extension to the Lithium session helper ][4]will will give us exactly what we need.
+I've finally had a chance to start hacking on the[ Lithium PHP Framework][1] and I must say it's really cool. I have been working with [CakePHP ][2]for a few years and most of the concepts familiar to CakePHP developers will feel natural for those who choose to try Lithium. Unfortunately for those of us who expect the framework to come with everything you need out of the box, you will be somewhat disappointed or confused at first. In my case, I needed to display to the user a &#8220;flash message&#8221; after redirecting them to another page. CakePHP has this as part of the framework by default but Lithium will ask you to do a bit more work. Luckily,[ Lithium framework lead developer Nate Abele][3] has created a[ handy extension to the Lithium session helper ][4]will will give us exactly what we need.
 
 <!--more-->
 
@@ -35,7 +35,7 @@ Here is how to get it working in Lithium:
 
 <pre class="brush:php">require <strong>DIR</strong> . '/bootstrap/session.php';</pre>
 
-**2. Download the latest version of [Nate Abele&#8217;s Session Helper Extension][5] and save it to ***app/extensions/helpers/Session.php***. I have pasted the code here for convenience.**
+**2. Download the latest version of [Nate Abele's Session Helper Extension][5] and save it to ***app/extensions/helpers/Session.php***. I have pasted the code here for convenience.**
 
 <pre class="brush:php"><?php</p>
 
@@ -223,7 +223,7 @@ if ($this-&gt;request-&gt;data) {
 
 
 <p>
-  This should be all you need to get started with session-based flash messages for your Lithium PHP Framework powered website. You can of course customize the appearance and behavior of your messages to suit your specific app. Let me know in the comments if I missed anything! Remember to do are return when calling any redirects since it Lithium won&#8217;t stop the method on it&#8217;s own.
+  This should be all you need to get started with session-based flash messages for your Lithium PHP Framework powered website. You can of course customize the appearance and behavior of your messages to suit your specific app. Let me know in the comments if I missed anything! Remember to do are return when calling any redirects since it Lithium won't stop the method on it's own.
 </p>
 
  [1]: http://lithify.me/ "Lithium PHP Framework Homepage"

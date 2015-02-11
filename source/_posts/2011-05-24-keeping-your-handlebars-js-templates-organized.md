@@ -17,7 +17,7 @@ tags:
   - jquery
   - self executing anonymous functions
 ---
-[Handlebars.js][1] is a great tool for client side templates, but one thing that is a bit of a nag about Handlebars.js templates is the fact that the docs recommend you insert the templates as inline script tags. This can be a bit of an issue if you have a lot of views, since you probably don&#8217;t want to put them all on your page, or perhaps you have something more dynamic in mind.. Consider the implementation defined in the Handlebars.js docs:
+[Handlebars.js][1] is a great tool for client side templates, but one thing that is a bit of a nag about Handlebars.js templates is the fact that the docs recommend you insert the templates as inline script tags. This can be a bit of an issue if you have a lot of views, since you probably don't want to put them all on your page, or perhaps you have something more dynamic in mind.. Consider the implementation defined in the Handlebars.js docs:
 
 <pre class="brush:js">&lt;script id="entry-template" type="text/x-handlebars-template"&gt;
 {{content}}

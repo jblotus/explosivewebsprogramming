@@ -19,7 +19,7 @@ tags:
   - shorthand ternary
   - views
 ---
-### **<span style="color: #ff0000;">NOTE: Don&#8217;t use the information in this article, consider it a discussion point at best. Suppressing errors like this leads to bad code.</span> &#8211; 09/05/2012**
+### **<span style="color: #ff0000;">NOTE: Don't use the information in this article, consider it a discussion point at best. Suppressing errors like this leads to bad code.</span> &#8211; 09/05/2012**
 
 If you are using an MVC framework, or any other type of template, you do a lot of error checking for the presence of variables, properties and array keys in your views. This is a pain point when trying to write clean and readable templates. I am recommending that instead of using isset() everywhere, we leverage the [@ (error suppression)][1] and [?: (shorthand ternary) operators][2] to test for variables.
 
@@ -32,9 +32,9 @@ Consider the following view:
        I am very &lt;?= $emotions['current'] ?&gt;
        when I &lt;?= $actions-&gt;enjoyMost ?&gt;
     &lt;/p&gt;
-&lt;/div&gt;</pre> We have a few potential problems with this code. Does $name exist? How about the &#8216;current&#8217; key in $emotions? If it does exist, is it a string? Maybe $actions->enjoyMost is actually being called on a non-object?
+&lt;/div&gt;</pre> We have a few potential problems with this code. Does $name exist? How about the &#8216;current' key in $emotions? If it does exist, is it a string? Maybe $actions->enjoyMost is actually being called on a non-object?
 
-Phew. That&#8217;s a lot of potential error checking. I have come to the conclusion that you usually don&#8217;t need to be particularly concerned with these situations when dealing with views. At worst, these variable can fall back to being an empty string and you don&#8217;t have to deal with polluted error logs and E\_NOTICE, or E\_WARNING errors.
+Phew. That's a lot of potential error checking. I have come to the conclusion that you usually don't need to be particularly concerned with these situations when dealing with views. At worst, these variable can fall back to being an empty string and you don't have to deal with polluted error logs and E\_NOTICE, or E\_WARNING errors.
 
 Here is the correct way to do it:
 
@@ -45,7 +45,7 @@ Here is the correct way to do it:
       I am very &lt;?= @$emotions['current'] ?: '' ?&gt;
       when I &lt;?= @$actions-&gt;enjoyMost ?: '' ?&gt;
     &lt;/p&gt;
-&lt;/div&gt;</pre> E\_FATAL errors will still stop your program, and suppressing E\_NOTICE and E_WARNING won&#8217;t create any issues with your template that wouldn&#8217;t have existed anyway, minus the annoying error message (especially with xdebug!).
+&lt;/div&gt;</pre> E\_FATAL errors will still stop your program, and suppressing E\_NOTICE and E_WARNING won't create any issues with your template that wouldn't have existed anyway, minus the annoying error message (especially with xdebug!).
 
 &nbsp;
 

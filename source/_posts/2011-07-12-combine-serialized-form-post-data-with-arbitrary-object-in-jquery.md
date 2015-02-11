@@ -18,7 +18,7 @@ tags:
   - jquery
   - serialize
 ---
-Sometimes when you do an ajax form post in jQuery, you need to merge another object into your post data. The idea behind this solution is to serialize the existing form data using jQuery&#8217;s **$().serialize** method. Then we use the** $.param()** utility method to create a serialized version of any javascript object or array. Simply concatenate the two and you are off to the races.
+Sometimes when you do an ajax form post in jQuery, you need to merge another object into your post data. The idea behind this solution is to serialize the existing form data using jQuery's **$().serialize** method. Then we use the** $.param()** utility method to create a serialized version of any javascript object or array. Simply concatenate the two and you are off to the races.
 
 <pre class="brush:js">var $form = $(form);</p>
 

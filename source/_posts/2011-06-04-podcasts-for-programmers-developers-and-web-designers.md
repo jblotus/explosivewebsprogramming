@@ -17,13 +17,13 @@ tags:
   - the changelog
   - the dev show
 ---
-In our industry, constant education is the norm. If you don&#8217;t stay up on the latest you risk falling behind and making yourself less valuable to companies. One tactic I use to stay current is to listen to podcasts relating to programming on an almost religious basis. Spend an hour a day on listening to these podcasts and it will change your life. All of these podcasts are available on the web or itunes.
+In our industry, constant education is the norm. If you don't stay up on the latest you risk falling behind and making yourself less valuable to companies. One tactic I use to stay current is to listen to podcasts relating to programming on an almost religious basis. Spend an hour a day on listening to these podcasts and it will change your life. All of these podcasts are available on the web or itunes.
 
 **[The changelog][1]**[<img class="alignleft size-full wp-image-339" title="The Changelog Podcast" src="http://www.jblotus.com/wp-content/uploads/2011/06/chnagelog.jpg" alt="The Changelog Podcast" width="170" height="170" />][1]
 
 The changelog is absolutely the must listen to podcast if you are interested in cutting edge open source software. Every episode is an in depth interview with the creator(s) of some of the most popular and most esoteric open source projects around. Hosts Wynn Netherland, Adam Stacoviak are really good interviewers and they ask questions skillfully enough to prompt thoughfull responses from their guests.
 
-**Notable guests include: **[Douglas Crockford][2], [Zed Shaw][3], [Yehuda Katz][4], [Dr. Nic][5], [Kohsuke Kawaguchi][6], [Thomas Fuchs][7], [John Resig][8], [Felix Geisendörfer][9] and many more. Think of it as a who&#8217;s who of the developer world.
+**Notable guests include: **[Douglas Crockford][2], [Zed Shaw][3], [Yehuda Katz][4], [Dr. Nic][5], [Kohsuke Kawaguchi][6], [Thomas Fuchs][7], [John Resig][8], [Felix Geisendörfer][9] and many more. Think of it as a who's who of the developer world.
 
 &nbsp;
 
@@ -49,7 +49,7 @@ On this podcast, Dan Benjamin interviews people who create amazing things. Innov
 
 [ <img class="alignleft size-full wp-image-345" title="Sitepoint Podcast" src="http://www.jblotus.com/wp-content/uploads/2011/06/sitepoint.png" alt="Sitepoint Podcast" width="454" height="142" />**Sitepoint Podcast**][30]
 
-Sitepoint is a weekly podcast that doesn&#8217;t get too heavy into how to make things, but rather discusses the states of current web developments affairs and analyzes the constantly moving trends of the ever evolving internet. This show offers a great set of round table perspectives from the hosts with the occasional special guest.
+Sitepoint is a weekly podcast that doesn't get too heavy into how to make things, but rather discusses the states of current web developments affairs and analyzes the constantly moving trends of the ever evolving internet. This show offers a great set of round table perspectives from the hosts with the occasional special guest.
 
 &nbsp;
 
@@ -61,13 +61,13 @@ This is a podcast hosted by Dan Benjamin and Marco Arment, the creator of instap
 
 [<img class="size-full wp-image-348 alignleft" title="The Dev Show" src="http://www.jblotus.com/wp-content/uploads/2011/06/devshow-thumb.jpg" alt="The Dev Show" width="288" height="162" />**The Dev Show**][32]
 
-This podcast is hosted by Dan Benjamin and [Jason Seifer ][33]and focuses on topics relativing to software development in the ruby, php, java and javascript worlds. (and sometimes perl). Also they hate python because whitespace is significant. This show has a banter that you either love or hate, especially the arrogance and language bashing. I don&#8217;t think they are making new episodes of this show which is a shame because it was one of my favorites.
+This podcast is hosted by Dan Benjamin and [Jason Seifer ][33]and focuses on topics relativing to software development in the ruby, php, java and javascript worlds. (and sometimes perl). Also they hate python because whitespace is significant. This show has a banter that you either love or hate, especially the arrogance and language bashing. I don't think they are making new episodes of this show which is a shame because it was one of my favorites.
 
 &nbsp;
 
 [<img class="alignleft size-full wp-image-349" title="Founders Talk Podcast" src="http://www.jblotus.com/wp-content/uploads/2011/06/founderstalk-thumb.jpg" alt="Founders Talk Podcast" width="288" height="162" />**Founders Talk**][34]
 
-Hosted by Adam Stacoviak, who also hosts [the changelog][35] and focuses on interviewing founders who build companies both online and offline. You can get some great information from people who have already been through the process of starting and running businesses from scratch. This show hasn&#8217;t been around for long but it is shaping up to become a regular listen.
+Hosted by Adam Stacoviak, who also hosts [the changelog][35] and focuses on interviewing founders who build companies both online and offline. You can get some great information from people who have already been through the process of starting and running businesses from scratch. This show hasn't been around for long but it is shaping up to become a regular listen.
 
 &nbsp;
 
