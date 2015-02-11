@@ -31,7 +31,7 @@ tags:
   - xss
   - yui
 ---
-> JavaScript is a language that people would use without learning it first, which is by mistake that you would not make in other language &#8211; Douglas Crockford
+<blockquote>JavaScript is a language that people would use without learning it first, which is a that you would not make in any other language - Douglas Crockford</blockquote>
 I'm a huge fan of [Douglas Crockford][1], and that has a lot to do with how I learned [JavaScript][2]. Like many web developers, I generally loathed JavaScript until [jQuery][3] came along, and then I suddenly thought I understood the language. It wasn't until I had to write non-trivial applications in JavaScript that I truly began to notice the huge gaps in my education. With the rise of server-side JavaScript and the constant deluge of new interesting things happening in the JavaScript community, I felt that I needed to catch up, quickly. I needed a master to learn from, and Douglas Crockford was the master I chose.
 
 <!--more-->
@@ -42,8 +42,6 @@ I'm a huge fan of [Douglas Crockford][1], and that has a lot to do with how I le
 
 [There is a ton of stuff to cover with Crockford][13], but his recorded talks are probably one of my favorite resources and frankly I fall asleep with these playing on my iPad quite regularly. If you are looking for some free JavaScript education, do yourself a favor and **WATCH ALL OF HIS VIDEOS**.
 
-##
-
 ## YUI Library Lectures
 
 This is an awesome[ **8-part series** of lectures given by Crockford while he was still Chief JavaScript Architect at Yahoo][14]. This is a great starting point for anyone looking to learn more about JavaScript.
@@ -52,7 +50,9 @@ This is an awesome[ **8-part series** of lectures given by Crockford while he w
 
 In this video, Douglas Crockford covers pretty much the entire history of our industry! This video taught me about [Grace Hopper and her contributions to programming][15], such as [creating the first compiler][16] and [coining the term &#8220;bug&#8221;][17]. He also covers CPU architecture, mainframes, and the first software. **Too many programmers today don't bother learning anything about the origin of programming** and the fact that he was able to sum it up in just under two hours is quite impressive.
 
-http://www.youtube.com/watch?v=JxAXlJEmNMg
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe id="ytplayer embed-responsive-item" type="text/html" src="http://www.youtube.com/embed/JxAXlJEmNMg?autoplay=0&origin=http://{{ site.domain }}"></iframe>
+</div>
 
 ### Chapter 2 &#8211; And Then There Was JavaScript
 
