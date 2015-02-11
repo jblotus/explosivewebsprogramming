@@ -423,7 +423,7 @@ At this point you might want to mark a ticket as &#8220;Resolved&#8221; if the i
   * **Open **- A ticket is currently being worked on
   * **Resolved **- A issue has been resolved successfully.
   * **Hold **- Valid issues that can't be resolved or that aren't worth resolving.
-  * **Invalid** &#8211; Issues that are poorly formed, already working, or generally not bugs or feature requests.
+  * **Invalid** - Issues that are poorly formed, already working, or generally not bugs or feature requests.
 
 How you use these states will be largely up to you, but try not to use &#8220;**Resolved**&#8221; in cases where &#8220;**Hold**&#8221; or &#8220;**Invalid**&#8221; might be more appropriate, such as when you can't reproduce a bug, or the ticket did not describe a bug but rather incorrect usage.
 

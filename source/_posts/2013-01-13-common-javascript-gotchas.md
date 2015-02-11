@@ -42,14 +42,14 @@ function globalFunction() {
   console.log('I am the original global function');
 }
 
-  function overWriteTheGlobal() {
-    globalFunction = function() {
-      console.log('I am the new global function');
-    }
+function overWriteTheGlobal() {
+  globalFunction = function() {
+    console.log('I am the new global function');
   }
-  globalFunction(); //outputs "I am the original global function"
-  overWriteTheGlobal(); //this will overwrite the original global function
-  globalFunction(); //outputs "I am the new global function"
+}
+globalFunction(); //outputs "I am the original global function"
+overWriteTheGlobal(); //this will overwrite the original global function
+globalFunction(); //outputs "I am the new global function"
 ```
 
 One technique that is useful in JavaScript to ensure that your variables and functions are self contained is to use a **immediately-invoked function expression**, commonly known as a **self-executing anonymous function**. I typically expose things to the outside world by passing in a carrier object to the function. This is a variation of the **module pattern**.

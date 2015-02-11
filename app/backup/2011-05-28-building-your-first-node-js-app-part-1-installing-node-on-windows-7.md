@@ -1,5 +1,5 @@
 ---
-title: 'Building your first node.js app &#8211; Part 1: Installing node on Windows 7'
+title: 'Building your first node.js app - Part 1: Installing node on Windows 7'
 author: jblotus
 layout: post
 

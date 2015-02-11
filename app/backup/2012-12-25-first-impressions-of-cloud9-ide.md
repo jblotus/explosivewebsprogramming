@@ -75,7 +75,7 @@ $ make install</p>
 
 
 <p>
-  Well it seems that just like GitHub  you can create<strong> unlimited public workspaces, with unlimited collaborators.</strong> If you need more than one private project and only want to give your team access, or you want to connect your own VM instead of using the built in sandbox &#8211; you will probably want to cough up the<em> $12/month</em>. If you are strictly experimenting or working on open-source there isn't a lot to lose here.
+  Well it seems that just like GitHub  you can create<strong> unlimited public workspaces, with unlimited collaborators.</strong> If you need more than one private project and only want to give your team access, or you want to connect your own VM instead of using the built in sandbox - you will probably want to cough up the<em> $12/month</em>. If you are strictly experimenting or working on open-source there isn't a lot to lose here.
 </p>
 
 

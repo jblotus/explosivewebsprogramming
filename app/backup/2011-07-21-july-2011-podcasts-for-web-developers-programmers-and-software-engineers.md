@@ -59,7 +59,7 @@ With the emergence of Javascript as a first-class language, it seems that the ti
 
 Node Up is (as of this post) a brand new podcast hosted by notable Node Community members and features a round-table discussion format among the hosts. I am an aspiring Node developer, so getting insights from these guys will help you crack the node.js enigma that seems so hard to explain from the outside.
 
-**Notable Guests/Hosts include: **[Isaac Schlueter][7] (creator of [npm &#8211; node package manager][8]),  [James Halliday][9] ([browserling][10]), [Felix Geisendörfer][11] ([transloadit][12], [debugabble][13]), [Mikeal Rogers][14], and more!
+**Notable Guests/Hosts include: **[Isaac Schlueter][7] (creator of [npm - node package manager][8]),  [James Halliday][9] ([browserling][10]), [Felix Geisendörfer][11] ([transloadit][12], [debugabble][13]), [Mikeal Rogers][14], and more!
 
 &nbsp;
 

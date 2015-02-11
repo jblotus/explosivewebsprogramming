@@ -34,7 +34,7 @@ In **2012**:
   * I attended **8** [SoFlo PHP Users Group meetups][2]
   * [Adam Culp][3], [Pablo Godel][4], [John Gills][5] and I drank beers with [Derick Rethans][6] from [10gen][7] (MongoDB) after [his presentation][8] and argued about the [difference between a British Pint and an American Pint][9]
   * Watched [Rasmus Lerdorf speak][10] and even got to ask him a few questions (about [short array syntax in php 5.4][11]).  *Technically this was December 2011 but I'm still counting it!*
-  * I attended [CodeWorks 2012][12], my first conference - albeit a small one &#8211; still great times and very eye opening. I even convinced the boss to shell out for it!
+  * I attended [CodeWorks 2012][12], my first conference - albeit a small one - still great times and very eye opening. I even convinced the boss to shell out for it!
   * I helped select talks for  [SunshinePHP][13]. I also built a little app to help rate the talks with [CakePHP][14] at [Adam Culp][3]&#8216;s request. It was and is a great honor to be help out with this upcoming conference. **[Click here to buy tickets][15]**
   * I moved into the lead developer position at [work][16] (on my team) and have really had some great experiences there this year.
   * Made my first [wordpress plugin][17]

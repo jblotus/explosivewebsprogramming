@@ -1,5 +1,5 @@
 ---
-title: 'The Lithium Way &#8211; Introduction to Lithium PHP slides'
+title: 'The Lithium Way - Introduction to Lithium PHP slides'
 author: jblotus
 layout: post
 
@@ -27,7 +27,7 @@ I recently gave a presentation on <a title="Lithium PHP Framework" href="http://
 <!--more-->
 
 <div id="__ss_10160823" style="width: 425px;">
-  <strong style="display: block; margin: 12px 0 4px;"><a title="The Lithium Way - Intro to Lithium PHP Framework" href="http://www.slideshare.net/jblotus/the-lithium-way-intro-to-lithium-php-framework">The Lithium Way &#8211; Intro to Lithium PHP Framework</a></strong>
+  <strong style="display: block; margin: 12px 0 4px;"><a title="The Lithium Way - Intro to Lithium PHP Framework" href="http://www.slideshare.net/jblotus/the-lithium-way-intro-to-lithium-php-framework">The Lithium Way - Intro to Lithium PHP Framework</a></strong>
 
   <div style="padding: 5px 0 12px;">
     View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/jblotus">James Fuller</a>.

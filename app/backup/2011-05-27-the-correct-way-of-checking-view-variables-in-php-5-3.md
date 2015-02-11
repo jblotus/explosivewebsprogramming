@@ -19,7 +19,7 @@ tags:
   - shorthand ternary
   - views
 ---
-### **<span style="color: #ff0000;">NOTE: Don't use the information in this article, consider it a discussion point at best. Suppressing errors like this leads to bad code.</span> &#8211; 09/05/2012**
+### **<span style="color: #ff0000;">NOTE: Don't use the information in this article, consider it a discussion point at best. Suppressing errors like this leads to bad code.</span> - 09/05/2012**
 
 If you are using an MVC framework, or any other type of template, you do a lot of error checking for the presence of variables, properties and array keys in your views. This is a pain point when trying to write clean and readable templates. I am recommending that instead of using isset() everywhere, we leverage the [@ (error suppression)][1] and [?: (shorthand ternary) operators][2] to test for variables.
 

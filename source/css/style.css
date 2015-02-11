@@ -1,3 +1,7 @@
 body {
   padding-top: 3em;
 }
+
+.twitter-timeline-container {
+  min-height: 600px; /* prevent pop-in */
+}

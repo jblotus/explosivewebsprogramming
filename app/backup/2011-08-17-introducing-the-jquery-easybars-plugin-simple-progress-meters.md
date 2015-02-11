@@ -1,5 +1,5 @@
 ---
-title: 'Introducing the jQuery easyBars plugin &#8211; Simple Progress Meters'
+title: 'Introducing the jQuery easyBars plugin - Simple Progress Meters'
 author: jblotus
 layout: post
 
