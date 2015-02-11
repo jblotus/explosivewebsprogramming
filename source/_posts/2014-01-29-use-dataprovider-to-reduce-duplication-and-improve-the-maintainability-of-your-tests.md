@@ -8,11 +8,11 @@ tags:
     - test duplication
     - multiple datasets in PHPUnit
 categories:
-    - progamming
+    - Progamming
 
 ---
-[PHPUnit](http://phpunit.de/) offers a [handy annotation called @dataProvider](http://phpunit.de/manual/current/en/phpunit-book.html#appendixes.annotations.dataProvider) which can be 
-used for all sorts of testing situations. Typically you will use this to feed in a wide variety of data into the same test to ensure that the **system-under-test** can handle a variety of inputs. 
+[PHPUnit](http://phpunit.de/) offers a [handy annotation called @dataProvider](http://phpunit.de/manual/current/en/phpunit-book.html#appendixes.annotations.dataProvider) which can be
+used for all sorts of testing situations. Typically you will use this to feed in a wide variety of data into the same test to ensure that the **system-under-test** can handle a variety of inputs.
 Over time I have discovered a few other neat uses for `dataProvider` methods that I want to share with you today.
 
 <!--more-->
@@ -109,8 +109,8 @@ class CamelCaseToUnderscoreConverterTest extends PHPUnit_Framework_TestCase
 }
 ~~~
 
-One thing to keep in mind is that dataProvider methods run before your **TestCase** can run it's **setUp**, so you won't have access to anything that gets configured there. 
-In this example, we need to create a multiple database rows for different use cases to run our expensive business process. 
+One thing to keep in mind is that dataProvider methods run before your **TestCase** can run it's **setUp**, so you won't have access to anything that gets configured there.
+In this example, we need to create a multiple database rows for different use cases to run our expensive business process.
 The dataProvider has no access to our database connection so we instead pass an array of "instructions" to our test method to be created when the test gets executed.
 
 ~~~
