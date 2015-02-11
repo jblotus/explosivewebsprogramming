@@ -1,5 +1,5 @@
 ---
-title: 'Why can't someone just make a good IDE for PHP?'
+title: 'Why cant someone just make a good IDE for PHP?'
 author: jblotus
 layout: post
 
@@ -24,17 +24,17 @@ tags:
   - software philosophy
   - zend studio
 ---
-I think the first "[IDE][1]&#8221; I ever used for web development would have to be [Adobe Dreamweaver][2] (née Macromedia). Ok, so maybe it was [Microsoft FrontPage][3], but that shouldn't really count. Dreamweaver for the novice held the promise of being able to easily create [DHTML][4] animations and offered [WYSIWYG][5] perfection for creating web interactive pages. All of the deployment you needed was built in (FTP) and you did get some sense that it was the best product on the market for doing web work (in fact it still might be for your average designer). This post is about my experience moving away from the oft-maligned program and some lessons learned in my quest for the perfect IDE. <!--more-->
+I think the first [IDE][1] I ever used for web development would have to be [Adobe Dreamweaver][2] (née Macromedia). Ok, so maybe it was [Microsoft FrontPage][3], but that shouldn't really count. Dreamweaver for the novice held the promise of being able to easily create [DHTML][4] animations and offered [WYSIWYG][5] perfection for creating web interactive pages. All of the deployment you needed was built in (FTP) and you did get some sense that it was the best product on the market for doing web work (in fact it still might be for your average designer). This post is about my experience moving away from the oft-maligned program and some lessons learned in my quest for the perfect IDE. <!--more-->
 
 ### Ignorance is Bliss
 
-I wrote a ton of [PHP][6] code in Dreamweaver. In fact, I learned PHP while using Dreamweaver to edit [joomla][7] templates back when I was a "website manager&#8221;. I went on to write thousands of lines of code in Dreamweaver for about a year into my programming journey. Eventually though, I started to feel like I was missing out on something. I decided to search for dedicated PHP development software and realized were at least 10 IDE programs available for PHP and clearly Dreamweaver was not among them. I decided then and there that I needed to move forward and ditch my old reliable Dreamweaver.
+I wrote a ton of [PHP][6] code in Dreamweaver. In fact, I learned PHP while using Dreamweaver to edit [joomla][7] templates back when I was a "website manager". I went on to write thousands of lines of code in Dreamweaver for about a year into my programming journey. Eventually though, I started to feel like I was missing out on something. I decided to search for dedicated PHP development software and realized were at least 10 IDE programs available for PHP and clearly Dreamweaver was not among them. I decided then and there that I needed to move forward and ditch my old reliable Dreamweaver.
 
 As a novice, it was an [overwhelming experience even trying to pick an IDE][8]. I was writing a large website with [CakePHP][9] at the time and figured that I would look around and see what others in that community were using. For the record, candidates included: [Komodo][10], [NetBeans][11], [Eclipse PDT][12], [Zend Studio][13], [PHPStorm][14] and a few more. I downloaded a few different programs and had a difficult time evaluating them because after all, how would a beginner know what made for a good IDE? Additionally, some of these programs cost money and I did not have a penny to spare in those days. So it had to be free.
 
 ### NoobBeans
 
-I settled on NetBeans initially. I had heard of this nifty feature called "[code-completion][15]&#8221; and some people said that you could use it to [auto-complete model class relationships and methods for CakePHP][16]. I had mixed results with that, but in time code-completion in general was quickly becoming something that I could not live without. NetBeans also had built-in FTP and [SVN][17] integration. That was neat, especially since I had begun using version control with [TortoiseSVN ][18]recently (it seemed important to learn). Eventually I found the auto-format code button, and realized my coding style was pretty sloppy compared to the corrections it was making.
+I settled on NetBeans initially. I had heard of this nifty feature called "[code-completion][15]" and some people said that you could use it to [auto-complete model class relationships and methods for CakePHP][16]. I had mixed results with that, but in time code-completion in general was quickly becoming something that I could not live without. NetBeans also had built-in FTP and [SVN][17] integration. That was neat, especially since I had begun using version control with [TortoiseSVN ][18]recently (it seemed important to learn). Eventually I found the auto-format code button, and realized my coding style was pretty sloppy compared to the corrections it was making.
 
 I gave NetBeans a daily workout for a good year or two, but then I decided wanted to make mobile apps for a living. After learning that I needed a mac to make iPhone applications, I decided that I would have to [start out with android][19]. Of course this required me to learn Java, and also introduced me to Eclipse. Once I started using Eclipse in a Java context, I was starting to feel that net beans was lacking a ton of configuration options that eclipse offered. So I downloaded [Eclipse PDT][12], which is basically a free version of Zend Studio.** Now I felt powerful**.
 

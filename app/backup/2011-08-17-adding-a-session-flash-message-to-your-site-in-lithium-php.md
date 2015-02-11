@@ -21,7 +21,7 @@ tags:
   - session flash message
   - sessions
 ---
-I've finally had a chance to start hacking on the[ Lithium PHP Framework][1] and I must say it's really cool. I have been working with [CakePHP ][2]for a few years and most of the concepts familiar to CakePHP developers will feel natural for those who choose to try Lithium. Unfortunately for those of us who expect the framework to come with everything you need out of the box, you will be somewhat disappointed or confused at first. In my case, I needed to display to the user a "flash message&#8221; after redirecting them to another page. CakePHP has this as part of the framework by default but Lithium will ask you to do a bit more work. Luckily,[ Lithium framework lead developer Nate Abele][3] has created a[ handy extension to the Lithium session helper ][4]will will give us exactly what we need.
+I've finally had a chance to start hacking on the[ Lithium PHP Framework][1] and I must say it's really cool. I have been working with [CakePHP ][2]for a few years and most of the concepts familiar to CakePHP developers will feel natural for those who choose to try Lithium. Unfortunately for those of us who expect the framework to come with everything you need out of the box, you will be somewhat disappointed or confused at first. In my case, I needed to display to the user a "flash message" after redirecting them to another page. CakePHP has this as part of the framework by default but Lithium will ask you to do a bit more work. Luckily,[ Lithium framework lead developer Nate Abele][3] has created a[ handy extension to the Lithium session helper ][4]will will give us exactly what we need.
 
 <!--more-->
 

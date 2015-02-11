@@ -143,7 +143,7 @@ Starting server @ http://127.0.0.1:1337/
 Server running at http://127.0.0.1:1337/</pre>
   If you fire up your browser at
 
-  <em>http://127.0.0.1:1337/</em> at this point you are just going to be served an infinite loop since we haven't actually told our web server what to do with the requests it recieves from client browsers. You might also get a "<em>could not connect</em>&#8221; error if you had any typos or javascript errors in<em> server.js</em>. That brings me to my next point.
+  <em>http://127.0.0.1:1337/</em> at this point you are just going to be served an infinite loop since we haven't actually told our web server what to do with the requests it recieves from client browsers. You might also get a "<em>could not connect</em>" error if you had any typos or javascript errors in<em> server.js</em>. That brings me to my next point.
 </p>
 
 

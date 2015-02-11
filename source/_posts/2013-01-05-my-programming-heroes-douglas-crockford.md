@@ -49,7 +49,7 @@ This is an awesome[ **8-part series** of lectures given by Crockford while he w
 
 ### Volume 1 - The Early Years
 
-In this video, Douglas Crockford covers pretty much the entire history of our industry! This video taught me about [Grace Hopper and her contributions to programming][15], such as [creating the first compiler][16] and [coining the term "bug&#8221;][17]. He also covers CPU architecture, mainframes, and the first software. **Too many programmers today don't bother learning anything about the origin of programming** and the fact that he was able to sum it up in just under two hours is quite impressive.
+In this video, Douglas Crockford covers pretty much the entire history of our industry! This video taught me about [Grace Hopper and her contributions to programming][15], such as [creating the first compiler][16] and [coining the term "bug"][17]. He also covers CPU architecture, mainframes, and the first software. **Too many programmers today don't bother learning anything about the origin of programming** and the fact that he was able to sum it up in just under two hours is quite impressive.
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe id="ytplayer embed-responsive-item" type="text/html" src="http://www.youtube.com/embed/JxAXlJEmNMg?autoplay=0&origin=http://{{ site.domain }}"></iframe>
@@ -109,7 +109,7 @@ This video has Douglas Talking about [ECMAScript 5][26], and some of the challen
 
 > JavaScript and brains? What's the connection? -Douglas Crockford
 
-This talk is mostly about how consistent programming style affects good habits and reduces errors in our code. This is probably one of the more controversial things Douglas Crockford is known for, considering how "subjective&#8221; most programmers are about coding style. Douglas tries to make the argument that these things are actually less subjective than we think  and that by following a consistent and rigorous style, we actually produce better code.
+This talk is mostly about how consistent programming style affects good habits and reduces errors in our code. This is probably one of the more controversial things Douglas Crockford is known for, considering how "subjective" most programmers are about coding style. Douglas tries to make the argument that these things are actually less subjective than we think  and that by following a consistent and rigorous style, we actually produce better code.
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe id="ytplayer embed-responsive-item" type="text/html" src="http://www.youtube.com/embed/taaEzHI9xyY?autoplay=0&origin=http://{{ site.domain }}"></iframe>

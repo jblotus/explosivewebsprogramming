@@ -27,7 +27,7 @@ Frankly I think simplicity is best for issue tracking and [Lighthouse ][4]is the
 
 ## Sample Project
 
-In this post I will walk though the basics of setting up a simple issue tracker for a fictional new client, "Inmate Penpals, Inc.&#8221; The company in this example bought their website as a script for $999 and it is simply broken. The company described in their job posting a very long list of features that were broken, or bugs that needed to be fixed. **Sounds great right? ***Why bother setting up an issue tracker?The client already made a list!*
+In this post I will walk though the basics of setting up a simple issue tracker for a fictional new client, "Inmate Penpals, Inc." The company in this example bought their website as a script for $999 and it is simply broken. The company described in their job posting a very long list of features that were broken, or bugs that needed to be fixed. **Sounds great right? ***Why bother setting up an issue tracker?The client already made a list!*
 
 > 90% of clients will not know the full extent of their issues beforehand, so treat any project description as a synopsis of their issues
 The first thing that you need to do is convince the client that they need an issue tracker, as it will help keep the project on budget and allow them the opportunity to see you making progress on their projects. It won't cost them a dime to set up a free account over at [Lighthouseapp][3], so that argument should be pretty easy to win!
@@ -60,7 +60,7 @@ First, [sign up for a free lighthouseapp account][7]. You have to choose your p
   </p>
 </div>
 
-Once you have confirmed your email address you can click the link and be taken directly to your project dashboard, which is totally empty right now. Next, click "**Create a New Project**&#8221; to set up your first project.
+Once you have confirmed your email address you can click the link and be taken directly to your project dashboard, which is totally empty right now. Next, click "**Create a New Project**" to set up your first project.
 
 <div id="attachment_122" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-122" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/createnewproject-3/"><img class="size-large wp-image-122" title="createnewproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/createnewproject2-550x415.jpg" alt="Create a new Lighthouse project" width="550" height="415" /></a>
@@ -70,7 +70,7 @@ Once you have confirmed your email address you can click the link and be taken d
   </p>
 </div>
 
-You have to fill out some details about your project, mainly the project name and description. The important thing on this page are the options for "**Public Project**", "**Private Project**", and "**Open Source Project**". For most client work, you are going to want to choose "**Private Project**&#8221; because you don't want to share your troubles with the world, especially considering that sensitive information may be stored on the issue tracker.
+You have to fill out some details about your project, mainly the project name and description. The important thing on this page are the options for "**Public Project**", "**Private Project**", and "**Open Source Project**". For most client work, you are going to want to choose "**Private Project**" because you don't want to share your troubles with the world, especially considering that sensitive information may be stored on the issue tracker.
 
 <div id="attachment_123" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-123" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/invite-2/"><img class="size-large wp-image-123" title="Invite users to Project" src="http://www.jblotus.com/wp-content/uploads/2010/12/invite1-550x306.jpg" alt="Invite users to Project" width="550" height="306" /></a>
@@ -116,7 +116,7 @@ Milestones are important because they allow you to set a date for certain bugs o
   </p>
 </div>
 
-From the "**Milestone**&#8221; screen you can view, add, edit or delete your project milestones.  To create a milestone, you simply click the "**Create Milestone**&#8221; menu link.
+From the "**Milestone**" screen you can view, add, edit or delete your project milestones.  To create a milestone, you simply click the "**Create Milestone**" menu link.
 
 <div id="attachment_127" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-127" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/alphatest-2/"><img class="size-large wp-image-127" title="alphatest" src="http://www.jblotus.com/wp-content/uploads/2010/12/alphatest1-550x477.jpg" alt="Set the milestone title, due date, and description" width="550" height="477" /></a>
@@ -126,7 +126,7 @@ From the "**Milestone**&#8221; screen you can view, add, edit or delete your pro
   </p>
 </div>
 
-We want to add **milestones **for our first due date, which I have set to Dec 30, 2010. The focus and goals for this milestone are to fix all of the major bugs. Once your save the milestone, I want to click "**New Milestone**&#8221; again to create a second milestone.
+We want to add **milestones **for our first due date, which I have set to Dec 30, 2010. The focus and goals for this milestone are to fix all of the major bugs. Once your save the milestone, I want to click "**New Milestone**" again to create a second milestone.
 
 <div id="attachment_128" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-128" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/noduedate-2/"><img class="size-large wp-image-128" title="noduedate" src="http://www.jblotus.com/wp-content/uploads/2010/12/noduedate1-550x390.jpg" alt="Set a Future milestone, with no due date" width="550" height="390" /></a>
@@ -142,12 +142,12 @@ We want to add **milestones **for our first due date, which I have set to Dec 30
 
 ## Step 3: Working with tickets
 
-Milestone's are all well and good, but "**Tickets**&#8221; are the real meat of the issue tracking experience. A ticket can represent anything from a large feature request, a small database bug, or something even as small as a typo. The ticket system in Lighthouseapp is really exceptional. You can add attachments, assign tickets to specific users, and even integrate 3rd party changesets (i.e. commits) to update directly on the tickets! When combined with versioning from GitHub or Beanstalkapp, this is a powerful way to track the code as it changes over time.
+Milestone's are all well and good, but "**Tickets**" are the real meat of the issue tracking experience. A ticket can represent anything from a large feature request, a small database bug, or something even as small as a typo. The ticket system in Lighthouseapp is really exceptional. You can add attachments, assign tickets to specific users, and even integrate 3rd party changesets (i.e. commits) to update directly on the tickets! When combined with versioning from GitHub or Beanstalkapp, this is a powerful way to track the code as it changes over time.
 
 The client has submitted a job description, which describes what the client wants accomplished overall. Our job is to parse this out into separate tickets. This might be a bit difficult at first as we come to terms with the scope of the project, but it will git much easier to refine after we enter everything in.
 
-> Our site is completely malfunctioned. The email doesn't work when the user sends a note to an inmate. There is a display bug on the homepage when you hover your mouse over the "contact us&#8221; 3d button that causes the button to go away. Our server seems really slow and I want all of this fixed.  On the homepage only 10 inmates pictures are supposed to show but instead the whole database of prisoners loads. We would also like to have a rotating slideshow that makes the entire page change colors during the holidays. Thanks! -InmatePenpals CEO
-Wow, that wasn't the worst job post I ever saw, but it certainly needs to be broken down a bit further. We are going to start creating "**tickets**&#8221; for each issue.
+> Our site is completely malfunctioned. The email doesn't work when the user sends a note to an inmate. There is a display bug on the homepage when you hover your mouse over the "contact us" 3d button that causes the button to go away. Our server seems really slow and I want all of this fixed.  On the homepage only 10 inmates pictures are supposed to show but instead the whole database of prisoners loads. We would also like to have a rotating slideshow that makes the entire page change colors during the holidays. Thanks! -InmatePenpals CEO
+Wow, that wasn't the worst job post I ever saw, but it certainly needs to be broken down a bit further. We are going to start creating "**tickets**" for each issue.
 
 <div id="attachment_129" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-129" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/newticket-2/"><img class="size-large wp-image-129" title="newticket" src="http://www.jblotus.com/wp-content/uploads/2010/12/newticket1-550x307.jpg" alt="The new ticket button is available almost anywhere in the project overview" width="550" height="307" /></a>
@@ -157,7 +157,7 @@ Wow, that wasn't the worst job post I ever saw, but it certainly needs to be bro
   </p>
 </div>
 
-Make sure that you are somewhere in the "**Project Overview**&#8221; section of the tracker. From almost anywhere in here you can click the "**Create a New Ticket**&#8221; button.
+Make sure that you are somewhere in the "**Project Overview**" section of the tracker. From almost anywhere in here you can click the "**Create a New Ticket**" button.
 
 I usually start out making the tickets rather quickly. I will simply copy and paste the problem in the clients own words to describe the ticket.
 
@@ -192,7 +192,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </div>
 
 <p style="text-align: left;">
-  Each ticket also has a line for "<strong>Tags</strong>". Tags are something that need to be fairly consistent throughout your project and I will tell you why when we create ticket bins to categorize our tickets. Two tags that are very important are "<strong>defect</strong>&#8221; and "<strong>enhancement</strong>". I tend to categorize every ticket into one of those two categories. Most bugs are defects and most features that don't exist or need to be improved are called <strong>enhancements</strong>. Since the ticket in question relates to email not working, we can assume the it is a "<strong>defect</strong>". We can always change this later to "<strong>enhancement</strong>&#8221; if it turns out that email functionality was never implemented in the first place.  I also added the tag <strong>"email</strong>", but I don't want to go tag crazy so two tags should be fine in most cases.
+  Each ticket also has a line for "<strong>Tags</strong>". Tags are something that need to be fairly consistent throughout your project and I will tell you why when we create ticket bins to categorize our tickets. Two tags that are very important are "<strong>defect</strong>" and "<strong>enhancement</strong>". I tend to categorize every ticket into one of those two categories. Most bugs are defects and most features that don't exist or need to be improved are called <strong>enhancements</strong>. Since the ticket in question relates to email not working, we can assume the it is a "<strong>defect</strong>". We can always change this later to "<strong>enhancement</strong>" if it turns out that email functionality was never implemented in the first place.  I also added the tag <strong>"email</strong>", but I don't want to go tag crazy so two tags should be fine in most cases.
 </p>
 
 <div id="attachment_133" style="width: 560px" class="wp-caption aligncenter">
@@ -212,13 +212,13 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </div>
 
 <p style="text-align: left;">
-  I went ahead and created the other tickets while you were reading the previous section. Make sure to tag your bugs as <strong>defect </strong>and your feature requests as <strong>enhancement. </strong>Make sure to go eover each ticket with your client to make sure you are both on the same page, and also to further clarify the ticket. Posting an update to a ticket is a simple as adding a comment.  You can change the ticket title, upload screenshots, change tags, or change anything else about the ticket from the "<strong>Ticket Detail</strong>&#8221; screen. Once you have entered all the initial tickets, you can start organizing them into "<strong>Ticket Bins</strong>", which is a fancy way of saying a group of tickets.
+  I went ahead and created the other tickets while you were reading the previous section. Make sure to tag your bugs as <strong>defect </strong>and your feature requests as <strong>enhancement. </strong>Make sure to go eover each ticket with your client to make sure you are both on the same page, and also to further clarify the ticket. Posting an update to a ticket is a simple as adding a comment.  You can change the ticket title, upload screenshots, change tags, or change anything else about the ticket from the "<strong>Ticket Detail</strong>" screen. Once you have entered all the initial tickets, you can start organizing them into "<strong>Ticket Bins</strong>", which is a fancy way of saying a group of tickets.
 </p>
 
 ## Step 4: Grouping and sorting tickets with Ticket Bins
 
 <p style="text-align: left;">
-  I like to use Ticket Bins to group my tickets into separate categories. I make one ticket bind for <strong>defects</strong>, and another one for <strong>enhancements</strong>. Lighthouseapp already provides some ticket bins by default, under "<strong>Shared Ticket Bins</strong>&#8221; on the right hand side of the screen. These are "<strong>Open Tickets</strong>", "<strong>Resolved Tickets</strong>", and "<strong>This week's tickets</strong>". Each ticket bin has a number next to it showing how many tickets are in that bin. A ticket can be in an unlimited number of bins.
+  I like to use Ticket Bins to group my tickets into separate categories. I make one ticket bind for <strong>defects</strong>, and another one for <strong>enhancements</strong>. Lighthouseapp already provides some ticket bins by default, under "<strong>Shared Ticket Bins</strong>" on the right hand side of the screen. These are "<strong>Open Tickets</strong>", "<strong>Resolved Tickets</strong>", and "<strong>This week's tickets</strong>". Each ticket bin has a number next to it showing how many tickets are in that bin. A ticket can be in an unlimited number of bins.
 </p>
 
 <p style="text-align: left;">
@@ -234,7 +234,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </div>
 
 <p style="text-align: left;">
-  To create a custom search bin, aka ticket bin, you must first be on the main tickets index screen. To get here quickly you can click the "<strong>Tickets</strong>&#8221; menu item.
+  To create a custom search bin, aka ticket bin, you must first be on the main tickets index screen. To get here quickly you can click the "<strong>Tickets</strong>" menu item.
 </p>
 
 <div id="attachment_136" style="width: 560px" class="wp-caption aligncenter">
@@ -255,7 +255,7 @@ We have to set the search criteria for our ticket bins. In fact we can save any 
   </p>
 </div>
 
-[ ][10]To get a list of all open defect tickets that I am responsible for, I need to enter the following onto the "**Find Tickets**&#8221; line.
+[ ][10]To get a list of all open defect tickets that I am responsible for, I need to enter the following onto the "**Find Tickets**" line.
 
 <pre lang="bash">responsible:me state:open tagged:defect</pre>
 
@@ -267,9 +267,9 @@ We have to set the search criteria for our ticket bins. In fact we can save any 
   </p>
 </div>
 
-Now only tickets that I previously tagged as "**defect**&#8221; will appear in the list. To save the bin you must click on "**Save as Search Bin**".
+Now only tickets that I previously tagged as "**defect**" will appear in the list. To save the bin you must click on "**Save as Search Bin**".
 
-[ ][11]Give the search bin a name "**Open Defects**". I also repeated these steps for our "**Open Enhancements**&#8221; ticket bin.
+[ ][11]Give the search bin a name "**Open Defects**". I also repeated these steps for our "**Open Enhancements**" ticket bin.
 
 <div id="attachment_142" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-142" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/newbins-2/"><img class="size-large wp-image-142" title="newbins" src="http://www.jblotus.com/wp-content/uploads/2010/12/newbins1-550x443.jpg" alt="New bins will now appear on the right hand side of the screen" width="550" height="443" /></a>
@@ -295,7 +295,7 @@ The best part of all of this is the fact that you can integrate your commit mess
   </div>
 </div>
 
-To create an "**API token**", you must click on your username, and you will see on the right hand side of the screen a select list. Choose the current account to create an API token for this specific tracker account, or select "**All Accounts**&#8221; to generate an API token that can be used on all tracker accounts associated with your the logged in user.
+To create an "**API token**", you must click on your username, and you will see on the right hand side of the screen a select list. Choose the current account to create an API token for this specific tracker account, or select "**All Accounts**" to generate an API token that can be used on all tracker accounts associated with your the logged in user.
 
 <div id="attachment_145" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-145" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/currentproject-2/"><img class="size-large wp-image-145" title="currentproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/currentproject1-550x443.jpg" alt="Set API key permissions" width="550" height="443" /></a>
@@ -305,7 +305,7 @@ To create an "**API token**", you must click on your username, and you will see 
   </p>
 </div>
 
-For the purposes of our example, I chose to create an "**API Token**&#8221; for the current account, labeled Beanstalkapp since that is who I am giving the key to. I also chose to gave the key "**Full Access**&#8221; instead of "**Read only access**".
+For the purposes of our example, I chose to create an "**API Token**" for the current account, labeled Beanstalkapp since that is who I am giving the key to. I also chose to gave the key "**Full Access**" instead of "**Read only access**".
 
 <div id="attachment_146" style="width: 560px" class="wp-caption aligncenter">
   <a rel="attachment wp-att-146" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/apitoken-3/"><img class="size-large wp-image-146" title="apitoken" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitoken2-550x443.jpg" alt="Your new API token will appear on the right hand side" width="550" height="443" /></a>
@@ -365,7 +365,7 @@ Once in Beanstalk or GitHub, you will need to connect your repository to Lightho
   </p>
 </div>
 
-[ ][13]Once inside your Beanstalk repository dashboard interface, click the "Integration&#8221; menu link. You will see a list of services on the left that you can hook into with Beanstalk. Choose "Lighthouse&#8221; and click the "Activate&#8221; button. All you have to do in the next few forms is paste in your Lighthouse URL, paste in your API, select your active project and you are ready to Activate the integration.
+[ ][13]Once inside your Beanstalk repository dashboard interface, click the "Integration" menu link. You will see a list of services on the left that you can hook into with Beanstalk. Choose "Lighthouse" and click the "Activate" button. All you have to do in the next few forms is paste in your Lighthouse URL, paste in your API, select your active project and you are ready to Activate the integration.
 
 Once we are hooked in via Beanstalk or GitHub, you can add things in your commit messages that will post directly to tickets you create in Lighthouse.
 
@@ -417,7 +417,7 @@ You will see the newest changeset and commit message applied as a comment to the
 
 ## Step 6: Ticket Management
 
-At this point you might want to mark a ticket as "Resolved&#8221; if the issue described has been solved. The different ways you can mark a ticket's status are:
+At this point you might want to mark a ticket as "Resolved" if the issue described has been solved. The different ways you can mark a ticket's status are:
 
   * **New **- New ticket that has not been worked on. Use this when you first create a ticket.
   * **Open **- A ticket is currently being worked on
@@ -425,7 +425,7 @@ At this point you might want to mark a ticket as "Resolved&#8221; if the issue d
   * **Hold **- Valid issues that can't be resolved or that aren't worth resolving.
   * **Invalid** - Issues that are poorly formed, already working, or generally not bugs or feature requests.
 
-How you use these states will be largely up to you, but try not to use "**Resolved**&#8221; in cases where "**Hold**&#8221; or "**Invalid**&#8221; might be more appropriate, such as when you can't reproduce a bug, or the ticket did not describe a bug but rather incorrect usage.
+How you use these states will be largely up to you, but try not to use "**Resolved**" in cases where "**Hold**" or "**Invalid**" might be more appropriate, such as when you can't reproduce a bug, or the ticket did not describe a bug but rather incorrect usage.
 
 ## Summary
 
