@@ -13,7 +13,7 @@ tags:
   - natural sorting
   - sql
 ---
-Recently a question popped up over on the [CakePHP google group][1] where someone had a problem sorting on a column of &#8220;registration numbers&#8221;. This was his table sorted order by &#8220;**Reg No ASC**&#8220;:
+Recently a question popped up over on the [CakePHP google group][1] where someone had a problem sorting on a column of "registration numbers&#8221;. This was his table sorted order by "**Reg No ASC**":
 
 -
 
@@ -75,7 +75,7 @@ Recently a question popped up over on the [CakePHP google group][1] where someon
   </tr>
 </table>
 
-- 1, 123, 2. That's not correct right? **Well it is if we are sorting strings!** The problem here is that [MySQL will not do a &#8220;**natural sort**&#8220;][2] on a text type column like *char*, *varchar*, or *text*. The solution to this is to change the column type to a numeric value, especially considering he is storing numbers anyway! Once you change &#8220;**Reg No**&#8221; to *int*, the column will sort correctly.
+- 1, 123, 2. That's not correct right? **Well it is if we are sorting strings!** The problem here is that [MySQL will not do a "**natural sort**"][2] on a text type column like *char*, *varchar*, or *text*. The solution to this is to change the column type to a numeric value, especially considering he is storing numbers anyway! Once you change "**Reg No**&#8221; to *int*, the column will sort correctly.
 
 -
 

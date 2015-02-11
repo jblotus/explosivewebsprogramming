@@ -71,7 +71,7 @@ var controller = function() {};</p>
 
 <p>
   module.exports = new controller();</pre>
-  Here I converted the actions object into a prototype definition for our controller object. Now each &#8220;action&#8221; will actually be a function inside the controller object. So now when you call <em>controller.view()</em> it will return a html string that gets spit out to the browser.
+  Here I converted the actions object into a prototype definition for our controller object. Now each "action&#8221; will actually be a function inside the controller object. So now when you call <em>controller.view()</em> it will return a html string that gets spit out to the browser.
 </p>
 
 
@@ -347,7 +347,7 @@ return headers;
 
 
 <p>
-  Here is the view to for the &#8220;<strong>view</strong>&#8221; action:
+  Here is the view to for the "<strong>view</strong>&#8221; action:
 </p>
 
 

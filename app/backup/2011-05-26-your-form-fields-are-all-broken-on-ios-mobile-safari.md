@@ -17,7 +17,7 @@ tags:
   - mobile safari
   - mobile web
 ---
-If your site has a contact form, login form, or just about any other type of form element, there is a huge chance that you are annoying your iPhone, iPad and iPod touch audience. By default, these devices all offer a few normally helpful features like &#8220;autocapitalize&#8221; and &#8220;autocorrect&#8221;. The problem lies is the fact that some input fields expect case-sensitive data like username. On [Spelling City][1] we test input fields for correct word spelling, which critically relies upon proper case.  Asking your users to turn off autocorrect and autocapitalize is not really an adequate solution. Luckily the fix is trivially easy:
+If your site has a contact form, login form, or just about any other type of form element, there is a huge chance that you are annoying your iPhone, iPad and iPod touch audience. By default, these devices all offer a few normally helpful features like "autocapitalize&#8221; and "autocorrect&#8221;. The problem lies is the fact that some input fields expect case-sensitive data like username. On [Spelling City][1] we test input fields for correct word spelling, which critically relies upon proper case.  Asking your users to turn off autocorrect and autocapitalize is not really an adequate solution. Luckily the fix is trivially easy:
 
 As stated in the [Safari Web Content Guide for Designing Forms][2]:
 

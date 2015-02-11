@@ -64,9 +64,9 @@ You can tweak Apache to use worker mpm instead of prefork, which changes the w
 
 ### So what does Nginx do differently compared to Apache?
 
-  * nginx uses a set number of &#8220;workers&#8221; (Apache 2.4 has something similar now) and those workers utilize a predictable number of threads.
+  * nginx uses a set number of "workers&#8221; (Apache 2.4 has something similar now) and those workers utilize a predictable number of threads.
   * when a request is received, the response is asynchronous so the thread won't stay open until it has something to do. When the web server has a response ready it will be sent back to the client.
-  * This is called &#8220;never block, finish fast&#8221;. Think of an event loop in JavaScript.
+  * This is called "never block, finish fast&#8221;. Think of an event loop in JavaScript.
   * Most static assets are buffered to memory so they get served very fast
 
 Nginx handles this problem by using the Reactor pattern, which is another way of saying it is event driven. When a request comes in, nginx passes it off to the appropriate handler, but it does not hold a process or thread open waiting for the response! Only when the response is ready does nginx send it back to the client. Nginx also buffers static files to memory for increased performance, meaning that the hard disk doesn't have to be touched for some requests. I would argue the majority of requests against a web server are for static assets.
@@ -75,7 +75,7 @@ Now if you run nginx in front of Apache then you are essentially keeping Apac
 
 Ditching Apache might not be possible for you, especially if you are doing any sort of client hosting, since we lose the convenience of htaccess files. By the way, htaccess files are another performance killer for apache stacks since the file system has to be checked often (starting to see a theme here? file system is slow). If you have AllowOverride enabled, Apache also tries to read any .htaccess files before serving a page, which is another hook into the file system to degrade performance.
 
-I forego Apache entirely, but we still need a way to handle PHP requests. Nginx does not have a PHP &#8220;module&#8221; like Apache does. Instead we use the FASTCGI protocol to send requests to a program called PHP-FPM.
+I forego Apache entirely, but we still need a way to handle PHP requests. Nginx does not have a PHP "module&#8221; like Apache does. Instead we use the FASTCGI protocol to send requests to a program called PHP-FPM.
 
 #### But wait, what is FastCGI?
 
@@ -83,7 +83,7 @@ I forego Apache entirely, but we still need a way to handle PHP requests. Nginx 
 
 ### Is PHP-FPM just mod_php without Apache?
 
-PHP-FPM is a daemon that listens on a port or socket for php requests and it uses a similar worker setup to nginx, in that a main daemon controls several worker threads when FastCGI requests come in. You have a fixed or variable number of &#8220;workers&#8221; that can execute the PHP code and return a response back upstream to whatever requested it, typically the webserver. People often compare PHP-FPM to mod\_php without Apache. That's not really fair because Apache can also use PHP-FPM instead of mod\_php via the FASTCGI protocol.
+PHP-FPM is a daemon that listens on a port or socket for php requests and it uses a similar worker setup to nginx, in that a main daemon controls several worker threads when FastCGI requests come in. You have a fixed or variable number of "workers&#8221; that can execute the PHP code and return a response back upstream to whatever requested it, typically the webserver. People often compare PHP-FPM to mod\_php without Apache. That's not really fair because Apache can also use PHP-FPM instead of mod\_php via the FASTCGI protocol.
 
 One advantage of PHP-FPM is that it can run as a seperate user than the web server  This is a win for security since exploits that affect the webserver or php itself are isolated from eachother. Another nice thing about PHP-FPM is that you can reload and restart it without having to touch the web server  and vice-versa. That means that if you upgrade or reconfigure your web server or PHP you don't have to restart the whole shebang.
 
@@ -99,7 +99,7 @@ Memcached is a proven piece of software often used to deal with this problem a
 
 #### [php_memcache][5] or [php_memcached][6]
 
-php_memcache(d) with a &#8220;d&#8221; is the one you really want to be on since it is more actively developed. Unfortunately if you are on windows, you are out of luck and you will have to use [php_memcache with no &#8220;d&#8221;][7]. For a really awesome talk about memcached (and APC) I recommend listening to [DPCRadio: APC & Memcache the High Performance Duo][8] by [**Ilia Alshanetsky**][9] who is a core PHP developer and one of the maintainers of php_memcached.
+php_memcache(d) with a "d&#8221; is the one you really want to be on since it is more actively developed. Unfortunately if you are on windows, you are out of luck and you will have to use [php_memcache with no "d&#8221;][7]. For a really awesome talk about memcached (and APC) I recommend listening to [DPCRadio: APC & Memcache the High Performance Duo][8] by [**Ilia Alshanetsky**][9] who is a core PHP developer and one of the maintainers of php_memcached.
 
 ### APC
 

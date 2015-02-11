@@ -36,13 +36,13 @@ tags:
   - responsive web design
   - scala
 ---
-In 2009, rock star devs used to pimp jQuery and most web Ninjas were highly skilled at Rails. Then [rails became a ghetto][1] and [jQuery became a fat wife][2]. But in the year  2015, things have changed. [Javascript has been crowned the new emperor of the interwebz after a long exile][3]. [PHP 6 finally came out][4], and a collective wave of &#8220;meh..&#8221; washed over the community. [NoSQL finally became a contender][5] and [Git made SVN embarrassing to put on a *résumé*][6]. 2015 also marks the year that the mobile web started to merge with the regular web, and creating a separate mobile site was considered a high crime against accessibility. **You must protect yourself with preparation.**
+In 2009, rock star devs used to pimp jQuery and most web Ninjas were highly skilled at Rails. Then [rails became a ghetto][1] and [jQuery became a fat wife][2]. But in the year  2015, things have changed. [Javascript has been crowned the new emperor of the interwebz after a long exile][3]. [PHP 6 finally came out][4], and a collective wave of "meh..&#8221; washed over the community. [NoSQL finally became a contender][5] and [Git made SVN embarrassing to put on a *résumé*][6]. 2015 also marks the year that the mobile web started to merge with the regular web, and creating a separate mobile site was considered a high crime against accessibility. **You must protect yourself with preparation.**
 
 Here are the top five areas that I think will become job requirements by 2015 for many programmers and web developers.
 
 <!--more-->
 
-## **1. Git or any &#8220;Distributed Version Control System&#8221;**
+## **1. Git or any "Distributed Version Control System&#8221;**
 
 Obviously you have [heard of Git][7] by now if you are using open source software in a professional capacity. Many managers are asking themselves why they should bother [switching from SVN to Git?][8] What are the benefits?
 
@@ -80,7 +80,7 @@ Web Scale is not only an unfunny meme, but a growing reality for many high avail
 
 ## **4. NoSQL**
 
-You could probably bundle NoSQL in with web scale, considering that's where the meme started. In fact NoSQL is a fairly diverse set of technologies for dealing with data storage and retrieval, usually across multiple machines. Databases like MongoDB use a javascript syntax instead of horribly complex sql queries, and can scale to insane levels. [CouchDB][32], [Redis][35], [Membase][36], [Cassandra ][37]and other NoSQL products are exploding onto the marketplace. You are starting to see them listed as &#8220;Nice to haves&#8221; on your craigslist job ads. I would not argue that these technologies are killing SQL, but they will be bigger players in the future as corporate acceptance of NoSQL becomes the norm.
+You could probably bundle NoSQL in with web scale, considering that's where the meme started. In fact NoSQL is a fairly diverse set of technologies for dealing with data storage and retrieval, usually across multiple machines. Databases like MongoDB use a javascript syntax instead of horribly complex sql queries, and can scale to insane levels. [CouchDB][32], [Redis][35], [Membase][36], [Cassandra ][37]and other NoSQL products are exploding onto the marketplace. You are starting to see them listed as "Nice to haves&#8221; on your craigslist job ads. I would not argue that these technologies are killing SQL, but they will be bigger players in the future as corporate acceptance of NoSQL becomes the norm.
 
 **Getting Started with NoSQL**
 
@@ -100,7 +100,7 @@ The mobile web growing exponentially. It has a[ larger market share than any iOS
 
 ## **Summary**
 
-I hope I have given you at least a spark when it comes to picking up one of these new techs. I do this out of love for my fellow developer. It is too easy to get into a comfort zone only to fall behind and ask &#8220;[Who moved my cheese?][45]&#8221; when the opportunities and paychecks start drying up. Spend at least an hour a day messing with something new and unfamiliar. Comfort is death,[ just ask the sharks who stop swimming][46].
+I hope I have given you at least a spark when it comes to picking up one of these new techs. I do this out of love for my fellow developer. It is too easy to get into a comfort zone only to fall behind and ask "[Who moved my cheese?][45]&#8221; when the opportunities and paychecks start drying up. Spend at least an hour a day messing with something new and unfamiliar. Comfort is death,[ just ask the sharks who stop swimming][46].
 
  [1]: http://zedshaw.com/rants/rails_is_a_ghetto.html
  [2]: http://meta.stackoverflow.com/questions/45176/when-is-use-jquery-not-a-valid-answer-to-a-javascript-question

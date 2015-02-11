@@ -18,7 +18,7 @@ tags:
   - node.js server restart
   - node.js supervisor
 ---
-One of the annoyances of [Node.js][1] for development purposes is the fact that you have to restart the server everytime you make changes to your included modules. This is because Node actually caches module includes for better performance. A great workaround is using the Node Module &#8220;[Supervisor][2]&#8220;.
+One of the annoyances of [Node.js][1] for development purposes is the fact that you have to restart the server everytime you make changes to your included modules. This is because Node actually caches module includes for better performance. A great workaround is using the Node Module "[Supervisor][2]".
 
 Supervisor will monitor all of your included modules and restart the server automatically when changes are made.
 

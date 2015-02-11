@@ -37,7 +37,7 @@ function foo($arg) {
 
 <p>
   foo();</pre>
-  We then invoke our function, and you will get an <code>E_WARNING</code>. Notice that the function will still run and &#8220;<em>it ran</em>&#8221; will be output.
+  We then invoke our function, and you will get an <code>E_WARNING</code>. Notice that the function will still run and "<em>it ran</em>&#8221; will be output.
 
 
   <pre class="brush:shell">PHP Warning: Missing argument 1 for foo(), called in C:\Sites\temp\func.php on

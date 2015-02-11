@@ -19,7 +19,7 @@ tags:
   - lithium php filter system
   - php
 ---
-One of the core features of the Lithium PHP 5.3 Framework is the[ innovative filter system][1]. I initially found the concept a bit hard to understand at first, but the idea is that you can modify a filterable method by applying a filter in some other part of the code. Many of the core methods that ship with Lithium's classes are already filterable, which simply means they return a closure containing their logic which checks for any applied filters at runtime. This powerful concept allows for near-total modification of a method, nearly anywhere in the application that calls it. In fact, you can make your own methods &#8220;filterable&#8221; to take advantage of this behavior.
+One of the core features of the Lithium PHP 5.3 Framework is the[ innovative filter system][1]. I initially found the concept a bit hard to understand at first, but the idea is that you can modify a filterable method by applying a filter in some other part of the code. Many of the core methods that ship with Lithium's classes are already filterable, which simply means they return a closure containing their logic which checks for any applied filters at runtime. This powerful concept allows for near-total modification of a method, nearly anywhere in the application that calls it. In fact, you can make your own methods "filterable&#8221; to take advantage of this behavior.
 
 <!--more-->
 
