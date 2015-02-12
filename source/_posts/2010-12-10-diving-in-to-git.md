@@ -33,64 +33,86 @@ I determined that my next move should be to create a project on git and set up m
 My project is a resume written in [PHP ][8]and using [less.js][9], which I wanted to experiment with since it sounds so damn cool (which it is). After creating my project on [GitHub][10], I followed the simple instruction they printed out. It worked kind of like this:
 
 ## Global setup:
-
-<pre>Download and install <a href="http://git-scm.com/download" target="_blank">Git</a>
-  git config --global user.name "James"
-  git config --global user.email jblotus@gmail.com
-</pre>
+Download and install <a href="http://git-scm.com/download" target="_blank">Git</a>
+```
+git config --global user.name "James"
+git config --global user.email jblotus@gmail.com
+```
 
 ## Next steps:
+```
+mkdir myrepodir
+cd myrepodir
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:jblotus/myrepodir.git
+git push origin master
+```
 
-<pre>mkdir myrepodir
-  cd myrepodir
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:jblotus/myrepodir.git
-  git push origin master</pre> Let me try and explain what's going on here:
+Let me try and explain what's going on here:
 
-<pre>git config --global user.name "James"
+```
+git config --global user.name "James"
 git config --global user.email jblotus@gmail.com
-</pre> Obviously installing git was a prerequisite, which I did using
+```
+Obviously installing git was a prerequisite, which I did using
 
 [mysysgit][11]
 
-<pre>git init
-</pre> This is how you create the repo
+```
+git init
+```
+This is how you create the repo
 
-<pre>touch README
-</pre> Touch is a nix command that creates an empty file with the name you specify.
+```
+touch README
+```
+Touch is a nix command that creates an empty file with the name you specify.
 
 [GitHub][3] uses README as a description o the project on the project landing page.
 
-<pre>git add README</pre> This tells git to start tracking changes for a specfic file.
+```
+git add README
+```
+This tells git to start tracking changes for a specfic file.
 
-<pre>git commit -m 'first commit'
-</pre> This will commit the file to your repo(your local repo SVN users). The
+```
+git commit -m 'first commit'
+```
+This will commit the file to your repo(your local repo SVN users). The
 
-* -m * argument simply adds a one line commit message. Optionally you can omit it and a VIM editor will pop up and you can edit your message that way.
+`-m` argument simply adds a one line commit message. Optionally you can omit it and a VIM editor will pop up and you can edit your message that way.
 
-<pre>git remote add origin git@github.com:jblotus/myrepodir.git
-</pre> I assume that this command tells your local git repo that it is a mere child of the remote git master overlord located at the url provided by
+```
+git remote add origin git@github.com:jblotus/myrepodir.git
+```
+I assume that this command tells your local git repo that it is a mere child of the remote git master overlord located at the url provided by [GitHub][3].
 
-[GitHub][3].
+```
+git push origin master
+```
 
-<pre>git push origin master
-</pre> This pushes (commits your local repo) to github. At this point it will probably ask for a password which you will have, because you set up your ssh keys when you followed the github instructions.
+This pushes (commits your local repo) to github. At this point it will probably ask for a password which you will have, because you set up your ssh keys when you followed the github instructions.
 
 ## Your first edits
 
 Changing my workflow to git seems a tad confusing. In my IDE, I am normally used to seeing that a file is changed without having to do anything special since SVN is integrated and I have a handly little tab which tracks local modifications. In git the equivilant is:
 
-<pre>git status</pre> Diffing files is also something that is a joy in NetBeans. I simply did not enjoy using git to diff my files because I don't like reading my code via the bash shell. I am sure that there are tools to handle this but I really hope that the netbeans git module that is under development gets rolling quickly. For the record, to diff in git, you type:
+```
+git status
+```
+Diffing files is also something that is a joy in NetBeans. I simply did not enjoy using git to diff my files because I don't like reading my code via the bash shell. I am sure that there are tools to handle this but I really hope that the netbeans git module that is under development gets rolling quickly. For the record, to diff in git, you type:
 
-<pre>git diff</pre> I made a few changes to my index.php file and had to do the following:
+```git diff```
+I made a few changes to my index.php file and had to do the following:
 
-<pre>git add . //this adds all the files in the working directory recursively
+```
+git add . //this adds all the files in the working directory recursively
 git commit -m 'my changes for this commit' //make sure to use quotes
 git push //this uploaded my changes to github
-</pre>
+```
 
 ## When to stick with Subversion
 
