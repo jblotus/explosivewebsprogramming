@@ -67,7 +67,7 @@ This podcast is hosted by Dan Benjamin and [Jason Seifer ][33]and focuses on top
 
 Hosted by Adam Stacoviak, who also hosts [the changelog][35] and focuses on interviewing founders who build companies both online and offline. You can get some great information from people who have already been through the process of starting and running businesses from scratch. This show hasn't been around for long but it is shaping up to become a regular listen.
 
- 
+
 **Summary**
 
 Hopefully you got a good deal of links to get started. Most of these podcasts are available on iTunes which is great because you can subscribe to them, dump them on your iPod and listen to them on the commute to work. No better way to get pumped for writing code than listening to people who inspire you.
