@@ -49,7 +49,7 @@ Sounds pretty awesome if you think about it. You can even connect you own server
 If you are a **VIM** person you probably won't be 100% happy with the responsiveness and let's face it, [you guys hate IDE's][7]. To be fair you can pull up VI in a terminal window, but there are also some problems there. If you are used to a native terminal client or [PuTTY][8], the provided HTML5 terminal has some quirks, CTRL-C doesn't work as expected and I also ran in to some issues with my local aliases disappearing.
 
 ### Let's use PHP 5.5
-Some other complaints are that the built in versions for PHP are a bit low (5.3.3), an I'm not sure there is an obvious way to change this other than building from source. You do get **PEAR** and **PECL** pre-installed but I haven't tried to do anything serious with that yet. It looks like you do have the ability to compile from source, but it takes awhile. I was unable to successfully build memcached but I was able to build [PHP 5.5 alpha][9] (in about two hours) although due to permissions issues I had to do <span style="text-decoration: underline;" data-mce-mark="1">something like this</span>:
+Some other complaints are that the built in versions for PHP are a bit low (5.3.3), an I'm not sure there is an obvious way to change this other than building from source. You do get **PEAR** and **PECL** pre-installed but I haven't tried to do anything serious with that yet. It looks like you do have the ability to compile from source, but it takes awhile. I was unable to successfully build memcached but I was able to build [PHP 5.5 alpha][9] (in about two hours) although due to permissions issues I had to do <em>something like this</em>:
 
 ```
 $ ./configure prefix=$HOME
