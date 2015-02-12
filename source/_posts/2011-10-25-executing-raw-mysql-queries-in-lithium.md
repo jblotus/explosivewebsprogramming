@@ -2,7 +2,6 @@
 title: Executing raw MySQL queries in Lithium
 author: jblotus
 layout: post
-
 dsq_thread_id:
   - 452390981
 categories:
@@ -38,69 +37,41 @@ Model::connection()-&gt;invokeMethod('_execute', array($sql));</pre> This is not
 
 Here is what the adapter might look like:
 
-<pre class="brush:php"><?php</p>
+```
+<?php
+namespace app\extensions\data\source\adapter;
 
-
-
-<p>
-  namespace app\extensions\data\source\adapter;
-</p>
-
-
-
-<p>
-  class CustomMySql extends \lithium\data\source\adapter\MySql {
-</p>
-
-
-
-<p>
+class CustomMySql extends \lithium\data\source\adapter\MySql {
   public function query($sql) {
       return self::invokeMethod('_execute', array($sql));
-    }
-</p>
-
-
-
-<p>
   }
-</p>
+}
+```
 
+You would the define your custom adapter in your <em>app/config/connections.php</em>
 
+```
+Connections::add('default', array(
+ 'type' => 'database',
+  'adapter' => 'app\extensions\data\source\adapter\CustomMySql',
+  'host' => 'localhost',
+  'login' => 'root',
+  'password' => '',
+  'database' => 'my_blog'
+));
+```
 
-<p>
-  ?></pre>
-  You would the define your custom adapter in your <em>app/config/connections.php</em>
+You should then be able to do the following from within other sections of code that interact with the database:
 
-
-  <pre class="brush:php">Connections::add('default', array(
-  'type' =&gt; 'database',
-  'adapter' =&gt; 'app\extensions\data\source\adapter\CustomMySql',
-  'host' =&gt; 'localhost',
-  'login' =&gt; 'root',
-  'password' =&gt; '',
-  'database' =&gt; 'my_blog'
-));</pre>
-  You should then be able to do the following from within other sections of code that interact with the database:
-
-
-  <pre class="brush:php">
+```
 //disable all posts
-$sql = "UPDATE posts SET active = NOT active";</p>
+$sql = "UPDATE posts SET active = NOT active";
 
+//returns boolean true on success
+return Posts::connection()->query($sql);
+```
 
-
-<p>
-  //returns boolean true on success
-  return Posts::connection()->query($sql);
-  </pre>
-</p>
-
-
-
-<p>
-  You could of course expand upon the query function to be more flexible, but I have written it to be quite simple for demonstration purposes. In reality you might want to allow for options or even make the query method filterable. Hopefully one day the Lithium team will get around to including a native <code>query()</code> method in the adapter, but until then you are left to roll your own. Luckily Lithium makes substituting classes a breeze.
-</p>
+You could of course expand upon the query function to be more flexible, but I have written it to be quite simple for demonstration purposes. In reality you might want to allow for options or even make the query method filterable. Hopefully one day the Lithium team will get around to including a native <code>query()</code> method in the adapter, but until then you are left to roll your own. Luckily Lithium makes substituting classes a breeze.
 
  [1]: http://rad-dev.org/lithium/source/data/source/database/adapter/MySql.php
  [2]: http://en.wikipedia.org/wiki/Law_of_Demeter
