@@ -357,7 +357,7 @@ var fs = require('fs');</pre>
 
   <pre class="brush:js">var actions = {
   'view' : function(user) {
-    return '<h1>;Todos for ' + user + '</h1>;';
+    return '<h1>Todos for ' + user + '</h1>';
   }
 }</pre>
   Next we define our
@@ -457,7 +457,7 @@ touch webroot/index.html</pre>
   <strong>For now let's make it really simple:</strong>
 
 
-  <pre class="brush:plain"><strong><h1>;Todo list in Node</h1>;</strong></pre>
+  <pre class="brush:plain"><strong><h1>Todo list in Node</h1></strong></pre>
   That takes care of our static html index page, but next we need to handle the view action. In our app, we are going to say that if you go to
 
   <em> /view/james</em>, you are going to get a todo list belonging to the user <em>james</em>. To do this, we have to split the requested url on the forward slash character.
@@ -489,7 +489,7 @@ touch webroot/index.html</pre>
 
 
   <pre class="brush:js">    if (typeof actions[action] == 'function') {
-      var content = actions<a href="argument">action</a>;
+      var content = actions<a href="argument">action</a>
       renderHtml(content);
     } else {
       serverError(404, '404 Bad Request');
@@ -499,7 +499,7 @@ touch webroot/index.html</pre>
   <em>/view/james</em> you will get:
 
 
-  <pre class="brush:plain"><h1>;Todos for james</h1>;</pre>
+  <pre class="brush:plain"><h1>Todos for james</h1></pre>
 
 
   <strong>Conclusion</strong>

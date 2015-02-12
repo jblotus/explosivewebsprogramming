@@ -23,12 +23,12 @@ Lithium Day 2. This time just a simple quick tip about adding different input ty
 
 **Here is some sample code:**
 
-<pre class="brush:html"><?=$this->form->create($object); ?>;
-  <?=$this->form->field('title');?>;
-  <?=$this->form->field('url', array('type' => 'text'));?>;
-  <?=$this->form->field('Cancel', array('type' => 'button', 'label' => false)); ?>;
-  <?=$this->form->submit('Submit'); ?>;
-<?=$this->form->end(); ?>;</pre> The markup we get from this will tell us a few things:
+<pre class="brush:html"><?=$this->form->create($object); ?>
+  <?=$this->form->field('title');?>
+  <?=$this->form->field('url', array('type' => 'text'));?>
+  <?=$this->form->field('Cancel', array('type' => 'button', 'label' => false)); ?>
+  <?=$this->form->submit('Submit'); ?>
+<?=$this->form->end(); ?></pre> The markup we get from this will tell us a few things:
 
 <pre class="brush:plain"><form action="/my_controller/some_action" method="post">
   <div>

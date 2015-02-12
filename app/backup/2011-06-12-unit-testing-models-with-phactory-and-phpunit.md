@@ -135,7 +135,7 @@ Phactory::setConnection($pdo);
   </strong>Your test database should be a copy of your project's main database, minus any records. A quick way to get a SQL dump of a database without any records is:
 
 
-  <pre class="brush:shell">mysqldump --host="localhost" --user="root" project_db --no-data >; "schema.sql";</pre>
+  <pre class="brush:shell">mysqldump --host="localhost" --user="root" project_db --no-data > "schema.sql";</pre>
   Substitute the values for your project of course. What I am doing here is dumping the schema for the main database
 
   <em>project_db</em> into a sql file which I will use to create my test database. Go ahead and execute that sql on your test database, but be aware that you will have to keep any schema changes between the two databases in sync.

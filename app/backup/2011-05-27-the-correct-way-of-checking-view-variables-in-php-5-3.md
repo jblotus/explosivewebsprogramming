@@ -26,26 +26,26 @@ If you are using an MVC framework, or any other type of template, you do a lot o
 Consider the following view:
 
 <pre class="brush:php"><?php
-<div>;
-    <p>;
-      My name is <?= $name ?>;.
-       I am very <?= $emotions['current'] ?>;
-       when I <?= $actions->enjoyMost ?>;
-    </p>;
-</div>;</pre> We have a few potential problems with this code. Does $name exist? How about the &#8216;current' key in $emotions? If it does exist, is it a string? Maybe $actions->enjoyMost is actually being called on a non-object?
+<div>
+    <p>
+      My name is <?= $name ?>.
+       I am very <?= $emotions['current'] ?>
+       when I <?= $actions->enjoyMost ?>
+    </p>
+</div></pre> We have a few potential problems with this code. Does $name exist? How about the &#8216;current' key in $emotions? If it does exist, is it a string? Maybe $actions->enjoyMost is actually being called on a non-object?
 
 Phew. That's a lot of potential error checking. I have come to the conclusion that you usually don't need to be particularly concerned with these situations when dealing with views. At worst, these variable can fall back to being an empty string and you don't have to deal with polluted error logs and E\_NOTICE, or E\_WARNING errors.
 
 Here is the correct way to do it:
 
 <pre class="brush:php">?php
-<div>;
-    <p>;
-     My name is <?= @$name ?: '' ?>;.
-      I am very <?= @$emotions['current'] ?: '' ?>;
-      when I <?= @$actions->enjoyMost ?: '' ?>;
-    </p>;
-</div>;</pre> E\_FATAL errors will still stop your program, and suppressing E\_NOTICE and E_WARNING won't create any issues with your template that wouldn't have existed anyway, minus the annoying error message (especially with xdebug!).
+<div>
+    <p>
+     My name is <?= @$name ?: '' ?>.
+      I am very <?= @$emotions['current'] ?: '' ?>
+      when I <?= @$actions->enjoyMost ?: '' ?>
+    </p>
+</div></pre> E\_FATAL errors will still stop your program, and suppressing E\_NOTICE and E_WARNING won't create any issues with your template that wouldn't have existed anyway, minus the annoying error message (especially with xdebug!).
 
 &nbsp;
 

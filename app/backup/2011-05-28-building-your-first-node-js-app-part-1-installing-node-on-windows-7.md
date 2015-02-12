@@ -85,7 +85,7 @@ Open a cygwin prompt.
 
   <li>
     (Vista users) Edit line 110 of c:\cygwin\bin\rebaseall to say:
-    <pre>sed -e '\=/sys-root/mingw/bin=d' -e '\=cygwin1\.dll$=d' -e '\=cyglsa.*\.dll$=d' -e 's=^=/=' >;"$TmpFile"</pre>
+    <pre>sed -e '\=/sys-root/mingw/bin=d' -e '\=cygwin1\.dll$=d' -e '\=cyglsa.*\.dll$=d' -e 's=^=/=' >"$TmpFile"</pre>
 
   </li>
 

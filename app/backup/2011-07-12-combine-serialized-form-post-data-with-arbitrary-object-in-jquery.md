@@ -39,7 +39,7 @@ Sometimes when you do an ajax form post in jQuery, you need to merge another obj
       'success': function(data) {
         //do something
       }
-    });</pre>;
+    });</pre>
 </code></pre>
 
 
