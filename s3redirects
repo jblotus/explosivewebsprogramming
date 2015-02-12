@@ -1,0 +1,90 @@
+<RoutingRules>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>feed</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyWith>atom.xml</ReplaceKeyWith>
+      <HttpRedirectCode>301</HttpRedirectCode>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>author/jblotus</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyWith>about/</ReplaceKeyWith>
+      <HttpRedirectCode>301</HttpRedirectCode>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+      <Condition>
+        <KeyPrefixEquals>tag/</KeyPrefixEquals>
+      </Condition>
+      <Redirect>
+        <ReplaceKeyPrefixWith>tags/</ReplaceKeyPrefixWith>
+      </Redirect>
+    </RoutingRule>
+    <RoutingRule>
+      <Condition>
+        <KeyPrefixEquals>2010/12/12/issue-tracking-with-lighthouseapp/</KeyPrefixEquals>
+      </Condition>
+      <Redirect>
+        <ReplaceKeyWith>2010/12/12/issue-tracking-with-lighthouseapp/</ReplaceKeyWith>
+      </Redirect>
+    </RoutingRule>
+      <RoutingRule>
+        <Condition>
+          <KeyPrefixEquals>2011/06/09/building-your-first-node-js-app-%E2%80%93-part-3-view-controller-pattern-w-mustache/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+          <ReplaceKeyPrefixWith>2011/06/09/building-your-first-node-js-app-part-3-view-controller-pattern-w-mustache/</ReplaceKeyPrefixWith>
+        </Redirect>
+      </RoutingRule>
+
+      <RoutingRule>
+        <Condition>
+          <KeyPrefixEquals>2011/05/30/building-your-first-node-js-app-%e2%80%93-part-2-building-the-web-server-and-request-dispatcher/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+          <ReplaceKeyPrefixWith>2011/05/30/building-your-first-node-js-app-part-2-building-the-web-server-and-request-dispatcher/</ReplaceKeyPrefixWith>
+        </Redirect>
+      </RoutingRule>
+
+      <RoutingRule>
+        <Condition>
+          <KeyPrefixEquals>2011/05/30/building-your-first-node-js-app-%E2%80%93-part-2-building-the-web-server-and-request-dispatcher/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+          <ReplaceKeyPrefixWith>2011/06/09/building-your-first-node-js-app-part-3-view-controller-pattern-w-mustache/</ReplaceKeyPrefixWith>
+        </Redirect>
+      </RoutingRule>
+
+      <RoutingRule>
+        <Condition>
+          <KeyPrefixEquals>building-your-first-node-js-app-%e2%80%93-part-3-view-controller-pattern-w-mustache/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+          <ReplaceKeyPrefixWith>2011/06/09/building-your-first-node-js-app-part-3-view-controller-pattern-w-mustache/</ReplaceKeyPrefixWith>
+        </Redirect>
+      </RoutingRule>
+
+
+      <RoutingRule>
+        <Condition>
+          <KeyPrefixEquals>2011/06/09/building-your-first-node-js-app-%e2%80%93-part-3-view-controller-pattern-w-mustache/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+          <ReplaceKeyPrefixWith>2011/06/09/building-your-first-node-js-app-part-3-view-controller-pattern-w-mustache/</ReplaceKeyPrefixWith>
+        </Redirect>
+      </RoutingRule>
+
+      <RoutingRule>
+        <Condition>
+          <KeyPrefixEquals>2011/05/27/the-correct-way-of-checking-view-variables-in-php-5-3/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+          <ReplaceKeyWith>posts/</ReplaceKeyWith>
+        </Redirect>
+      </RoutingRule>
+</RoutingRules>
