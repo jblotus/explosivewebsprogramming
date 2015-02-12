@@ -29,7 +29,7 @@ I've been working on a project that is using the [MySql adapter for Lithium ][1]
 Here is my solution for simply executing a query:
 
 <pre class="brush:php">$sql = "UPDATE list_items SET completed = NOT completed WHERE id = $id";
-Model::connection()-&gt;invokeMethod('_execute', array($sql));</pre> This is not pretty, and certainly feels like a violation of
+Model::connection()->invokeMethod('_execute', array($sql));</pre> This is not pretty, and certainly feels like a violation of
 
 [The Law Of Demeter][2], but it works. In an update, this should simply return a boolean true, but in the case of records being returned it will actually return a `lithium\data\source\database\adapter\my_sql\Result` object that can be operated on. A Result object in the case of the MySQL adapter is simply an iterable object wrapper for **[mysql\_fetch\_row()][3]**.
 
