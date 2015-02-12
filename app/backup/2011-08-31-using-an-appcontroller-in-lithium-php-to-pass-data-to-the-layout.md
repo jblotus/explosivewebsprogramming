@@ -59,7 +59,7 @@ A concept that has been somewhat glossed over in the [Lithium PHP community][1],
 
 
 <pre><code>$auth = Auth::check('default');
-$this-&gt;set(compact('auth'));
+$this->set(compact('auth'));
 parent::render($options);
 </code></pre>
 
@@ -153,30 +153,30 @@ return compact('users');
   <code>in app/views/layouts.default.html.php</code>
 
 
-  <pre class="brush:php">&lt;!doctype html&gt;
-&lt;head&gt;
-&lt;?php
+  <pre class="brush:php"><!doctype html>;
+<head>;
+<?php
 /* Head stuff <em>/
-?&gt;
-&lt;/head&gt;
-&lt;body&gt;
-      &lt;ul&gt;
-        &lt;li class="active"&gt;&lt;?php echo $this-&gt;html-&gt;link('Home', '/'); ?&gt;&lt;/li&gt;
-        &lt;li&gt;
-          &lt;?php
+?>;
+</head>;
+<body>;
+      <ul>;
+        <li class="active">;<?php echo $this->html->link('Home', '/'); ?>;</li>;
+        <li>;
+          <?php
           if ($auth) {
-            echo $this-&gt;html-&gt;link('Logout', 'Users::logout');
+            echo $this->html->link('Logout', 'Users::logout');
           } else {
-            echo $this-&gt;html-&gt;link('Login', 'Users::login');
+            echo $this->html->link('Login', 'Users::login');
           }
-          ?&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-&lt;?php
+          ?>;
+        </li>;
+      </ul>;
+<?php
 /</em> Some more layout goodness */
-?&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+?>;
+</body>;
+</html>;</pre>
 </p>
 
  [1]: http://union-of-rad.org/ "#li3 Lithium PHP Twitter feed"

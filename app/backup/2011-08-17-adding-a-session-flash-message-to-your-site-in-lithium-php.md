@@ -188,20 +188,20 @@ namespace app\controllers;</p>
 
 
 
-<pre><code>$data = $this-&gt;request-&gt;data;
+<pre><code>$data = $this->request->data;
 
-if ($this-&gt;request-&gt;data) {
+if ($this->request->data) {
 
   $widget = Widgets::create($data);
-  $saved = $widget-&gt;save();
+  $saved = $widget->save();
 
   if ($saved) {
     Session::write('message', 'Saved the widget');
-    return $this-&gt;redirect(array('controller' => 'widgets', 'action' => 'index'), $options);
+    return $this->redirect(array('controller' => 'widgets', 'action' => 'index'), $options);
 
   } else {
     Session::write('message', 'Failed to save the widget, do it right this time');
-    return $this-&gt;redirect(array('controller' => 'widgets', 'action' => 'add'), $options);
+    return $this->redirect(array('controller' => 'widgets', 'action' => 'add'), $options);
   }
 }
 </code></pre>

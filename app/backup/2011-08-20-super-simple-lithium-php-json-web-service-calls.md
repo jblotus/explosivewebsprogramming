@@ -74,7 +74,7 @@ use lithium\net\http\Service;</p>
 
 
 <pre><code>//capture the response
-$data = $service-&gt;get('/lookup?id=909253');
+$data = $service->get('/lookup?id=909253');
 
 //decode the json
 $songs = json_decode($data);

@@ -103,7 +103,7 @@ namespace app\controllers;</p>
 <pre><code>Users::applyFilter('filterableFunction', function($self, $params, $chain) {
   var_dump('Before Execution');
 
-  $next = $chain-&gt;next($self, $params, $chain);
+  $next = $chain->next($self, $params, $chain);
   var_dump(strtoupper($next));
 
   var_dump('After Execution');
@@ -140,13 +140,13 @@ exit;
 
 
 <p>
-  You will notice that the closure takes three arguments, <code>$self</code>, <code>$params</code>, and <code>$chain</code>. This won't normally be changing so it would be a good idea to memorize the format. What it does is simply give us access to aspects of the original filterable method inside the context of this closure. In the example these arguments aren't utilized, but instead are just passed along to the next method in the filter chain.  By calling <code>$chain-&gt;next($self, $params, $chain)</code> I am collecting the output of the filterable method. This allows us to act on and manipulate that data before actually returning it.
+  You will notice that the closure takes three arguments, <code>$self</code>, <code>$params</code>, and <code>$chain</code>. This won't normally be changing so it would be a good idea to memorize the format. What it does is simply give us access to aspects of the original filterable method inside the context of this closure. In the example these arguments aren't utilized, but instead are just passed along to the next method in the filter chain.  By calling <code>$chain->next($self, $params, $chain)</code> I am collecting the output of the filterable method. This allows us to act on and manipulate that data before actually returning it.
 </p>
 
 
 
 <p>
-  It is usually a good idea to return something from the <code>applyFilter()</code> closure. In many cases you will simply return <code>$next</code> (the result of <code>$chain-&gt;next()</code>) unmolested. The idea is that you can create your own callbacks in different parts of your code to act upon these filterable. The value of <code>$next</code> is going to be the return value of the next registered filter for the filterable method, or the original method itself if the end of the chain has been reached.
+  It is usually a good idea to return something from the <code>applyFilter()</code> closure. In many cases you will simply return <code>$next</code> (the result of <code>$chain->next()</code>) unmolested. The idea is that you can create your own callbacks in different parts of your code to act upon these filterable. The value of <code>$next</code> is going to be the return value of the next registered filter for the filterable method, or the original method itself if the end of the chain has been reached.
 </p>
 
 
@@ -264,7 +264,7 @@ return static::_filter(__FUNCTION__, $params, function($self, $params) {
   var_dump('Before Execution, modifying params');
   $params['framework'] = 'Symfony2';
 
-  $next = $chain-&gt;next($self, $params, $chain);
+  $next = $chain->next($self, $params, $chain);
 
   var_dump('After Execution');
   return $next;

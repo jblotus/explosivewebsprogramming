@@ -23,7 +23,7 @@ As stated in the [Safari Web Content Guide for Designing Forms][2]:
 
 To turn off auto correct and autocapitalize:
 
-<pre class="brush:plain">&lt;input type="text" name="field1" autocorrect="off" autocapitalize="off" /&gt;
+<pre class="brush:plain"><input type="text" name="field1" autocorrect="off" autocapitalize="off" />;
 </pre>
 
 Please put this on your case-sensitive form fields asap. It doesn't break anything (except maybe W3C validation, which doesn't matter atm with HTML5).

@@ -135,7 +135,7 @@ Phactory::setConnection($pdo);
   </strong>Your test database should be a copy of your project's main database, minus any records. A quick way to get a SQL dump of a database without any records is:
 
 
-  <pre class="brush:shell">mysqldump --host="localhost" --user="root" project_db --no-data &gt; "schema.sql";</pre>
+  <pre class="brush:shell">mysqldump --host="localhost" --user="root" project_db --no-data >; "schema.sql";</pre>
   Substitute the values for your project of course. What I am doing here is dumping the schema for the main database
 
   <em>project_db</em> into a sql file which I will use to create my test database. Go ahead and execute that sql on your test database, but be aware that you will have to keep any schema changes between the two databases in sync.
@@ -178,7 +178,7 @@ class Shoe
 
   $shoes = array();
 
-  foreach ($this-&gt;db-&gt;query($sql) as $row) {
+  foreach ($this->db->query($sql) as $row) {
     $shoes[] = $row;
   }
 
@@ -266,8 +266,8 @@ Phactory::define('shoe_table', array());
 
   <pre class="brush:php">  public function testGetShoesByBrandName()
   {
-    $actual = $this-&gt;sut-&gt;getShoesByBrandName();
-    $this-&gt;assertNull($actual);
+    $actual = $this->sut->getShoesByBrandName();
+    $this->assertNull($actual);
   }</pre>
   This is usually always the first test I write since we should get a null value when passing no arguments to our method. Now for a real test.
 
@@ -285,10 +285,10 @@ Phactory::create('shoe_table', array('id' => 345, 'color' => 'blue', 'brand_name
 Phactory::create('shoe_table', array('id' => 456, 'color' => 'blue', 'brand_name' => 'Reebok'));
 Phactory::create('shoe_table', array('id' => 567, 'color' => 'blue', 'brand_name' => 'New Balance'));
 
-$actual = $this-&gt;sut-&gt;getShoesByBrandName('Nike');
+$actual = $this->sut->getShoesByBrandName('Nike');
 
 //should pull up first two rows
-$this-&gt;assertEquals(2, count($actual));
+$this->assertEquals(2, count($actual));
 </code></pre>
 
 
