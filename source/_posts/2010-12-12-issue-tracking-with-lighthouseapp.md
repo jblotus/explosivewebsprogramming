@@ -34,48 +34,48 @@ The first thing that you need to do is convince the client that they need an iss
 
 ## Step 1: Set Up a Issue Tracker
 
-<div id="attachment_53" style="width: 560px" class="wp-caption aligncenter">
-  <a href="http://www.jblotus.com/wp-content/uploads/2010/12/signup.jpg"></a><a rel="attachment wp-att-53" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/signup/"><img class="aligncenter size-large wp-image-53" title="signup" src="http://www.jblotus.com/wp-content/uploads/2010/12/signup-1024x705.jpg" alt="Signup for a Lighthouse Account" width="550" height="378" /></a>
+<div>
+  <img class="img-thumbnail" title="signup" src="http://www.jblotus.com/wp-content/uploads/2010/12/signup-1024x705.jpg" alt="Signup for a Lighthouse Account" width="550" height="378" />
 
-  <p class="wp-caption-text">
+  <p>
     Signup for a Lighthouse Account
   </p>
 </div>
 
 First, [sign up for a free lighthouseapp account][7]. You have to choose your project url, which in this case will be [inmatepenpals.lighthouseapp.com][8].
 
-<div id="attachment_55" style="width: 560px" class="wp-caption aligncenter">
-  <a href="http://www.jblotus.com/wp-content/uploads/2010/12/confirmation.jpg"></a><a rel="attachment wp-att-55" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/confirmation/"><img class="aligncenter size-large wp-image-55" title="confirmation" src="http://www.jblotus.com/wp-content/uploads/2010/12/confirmation-1024x313.jpg" alt="Confirm your Lighthouse account" width="550" height="168" /></a>
+<div>
+  <img class="img-thumbnail" title="confirmation" src="http://www.jblotus.com/wp-content/uploads/2010/12/confirmation-1024x313.jpg" alt="Confirm your Lighthouse account" width="550" height="168" />
 
-  <p class="wp-caption-text">
+  <p>
     Confirm your Email address
   </p>
 </div>
 
-<div id="attachment_56" style="width: 560px" class="wp-caption aligncenter">
-  <a href="http://www.jblotus.com/wp-content/uploads/2010/12/dashboard.jpg"></a><a rel="attachment wp-att-56" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/dashboard/"><img class="aligncenter size-large wp-image-56" title="dashboard" src="http://www.jblotus.com/wp-content/uploads/2010/12/dashboard-1024x470.jpg" alt="Your empty Lighhouse dashboard" width="550" height="252" /></a>
+<div>
+  <img class="img-thumbnail" title="dashboard" src="http://www.jblotus.com/wp-content/uploads/2010/12/dashboard-1024x470.jpg" alt="Your empty Lighhouse dashboard" width="550" height="252" />
 
-  <p class="wp-caption-text">
+  <p>
     Your empty project dashboard
   </p>
 </div>
 
 Once you have confirmed your email address you can click the link and be taken directly to your project dashboard, which is totally empty right now. Next, click "**Create a New Project**" to set up your first project.
 
-<div id="attachment_122" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-122" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/createnewproject-3/"><img class="size-large wp-image-122" title="createnewproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/createnewproject2-550x415.jpg" alt="Create a new Lighthouse project" width="550" height="415" /></a>
+<div>
+  <img class="size-large wp-image-122" title="createnewproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/createnewproject2-550x415.jpg" alt="Create a new Lighthouse project" width="550" height="415" />
 
-  <p class="wp-caption-text">
+  <p>
     Create a new Lighthouse project
   </p>
 </div>
 
 You have to fill out some details about your project, mainly the project name and description. The important thing on this page are the options for "**Public Project**", "**Private Project**", and "**Open Source Project**". For most client work, you are going to want to choose "**Private Project**" because you don't want to share your troubles with the world, especially considering that sensitive information may be stored on the issue tracker.
 
-<div id="attachment_123" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-123" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/invite-2/"><img class="size-large wp-image-123" title="Invite users to Project" src="http://www.jblotus.com/wp-content/uploads/2010/12/invite1-550x306.jpg" alt="Invite users to Project" width="550" height="306" /></a>
+<div>
+  <img class="size-large wp-image-123" title="Invite users to Project" src="http://www.jblotus.com/wp-content/uploads/2010/12/invite1-550x306.jpg" alt="Invite users to Project" width="550" height="306" />
 
-  <p class="wp-caption-text">
+  <p>
     Invite users to Project
   </p>
 </div>
@@ -86,19 +86,19 @@ Next you will want to invite your client to the tracker, or have them invite you
 
 Milestones are important because they allow you to set a date for certain bugs or features to be fixed or implemented by. For this project I will create two milestones, one for the expected due date of the project, and one for any future features or enhancements that are beyond the scope of the project deadline.  Every ticket represents an issue, and every issue belongs to a single milestone. This way you can easily prioritize the due dates of your tickets and track their progress.
 
-<div id="attachment_124" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-124" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/projects-2/"><img class="size-large wp-image-124" title="New Projects appear on the right hand side of the screen" src="http://www.jblotus.com/wp-content/uploads/2010/12/projects1-550x276.jpg" alt="New Projects appear on the right hand side of the screen" width="550" height="276" /></a>
+<div>
+  <img class="size-large wp-image-124" title="New Projects appear on the right hand side of the screen" src="http://www.jblotus.com/wp-content/uploads/2010/12/projects1-550x276.jpg" alt="New Projects appear on the right hand side of the screen" width="550" height="276" />
 
-  <p class="wp-caption-text">
+  <p>
     New Projects appear on the right hand side of the screenProjects
   </p>
 </div>
 
 <div class="mceTemp mceIEcenter">
-  <div id="attachment_125" style="width: 560px" class="wp-caption aligncenter">
-    <a rel="attachment wp-att-125" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/milestones-2/"><img class="size-large wp-image-125" title="milestones" src="http://www.jblotus.com/wp-content/uploads/2010/12/milestones1-550x276.jpg" alt="The milestones tab is located on the top menu" width="550" height="276" /></a>
+  <div>
+    <img class="size-large wp-image-125" title="milestones" src="http://www.jblotus.com/wp-content/uploads/2010/12/milestones1-550x276.jpg" alt="The milestones tab is located on the top menu" width="550" height="276" />
 
-    <p class="wp-caption-text">
+    <p>
       The milestones tab is located on the top menu
     </p>
   </div>
@@ -108,30 +108,30 @@ Milestones are important because they allow you to set a date for certain bugs o
   To create a milestone, we first have to make sure we are in the project screen for our new project. From the dashboard, you can see all of the projects listed on the right hand side of the interface. Since we only have one project, it should be pretty easy to spot. Click the project name and you will be taken to the project overview page.From the project overview screen, you will see a menu that says "<strong>Milestones</strong>". Click on this to go to the milestone edit screen.
 </p>
 
-<div id="attachment_126" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-126" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/newmilestone-2/"><img class="size-large wp-image-126" title="newmilestone" src="http://www.jblotus.com/wp-content/uploads/2010/12/newmilestone1-550x276.jpg" alt="Create a New Milestone" width="550" height="276" /></a>
+<div>
+  <img class="size-large wp-image-126" title="newmilestone" src="http://www.jblotus.com/wp-content/uploads/2010/12/newmilestone1-550x276.jpg" alt="Create a New Milestone" width="550" height="276" />
 
-  <p class="wp-caption-text">
+  <p>
     Create a New Milestone
   </p>
 </div>
 
 From the "**Milestone**" screen you can view, add, edit or delete your project milestones.  To create a milestone, you simply click the "**Create Milestone**" menu link.
 
-<div id="attachment_127" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-127" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/alphatest-2/"><img class="size-large wp-image-127" title="alphatest" src="http://www.jblotus.com/wp-content/uploads/2010/12/alphatest1-550x477.jpg" alt="Set the milestone title, due date, and description" width="550" height="477" /></a>
+<div>
+  <img class="img-thumbnail" title="alphatest" src="http://www.jblotus.com/wp-content/uploads/2010/12/alphatest1-550x477.jpg" alt="Set the milestone title, due date, and description" width="550" height="477" />
 
-  <p class="wp-caption-text">
+  <p>
     Set the milestone title, due date, and description
   </p>
 </div>
 
 We want to add **milestones **for our first due date, which I have set to Dec 30, 2010. The focus and goals for this milestone are to fix all of the major bugs. Once your save the milestone, I want to click "**New Milestone**" again to create a second milestone.
 
-<div id="attachment_128" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-128" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/noduedate-2/"><img class="size-large wp-image-128" title="noduedate" src="http://www.jblotus.com/wp-content/uploads/2010/12/noduedate1-550x390.jpg" alt="Set a Future milestone, with no due date" width="550" height="390" /></a>
+<div>
+  <img class="img-thumbnail" title="noduedate" src="http://www.jblotus.com/wp-content/uploads/2010/12/noduedate1-550x390.jpg" alt="Set a Future milestone, with no due date" width="550" height="390" />
 
-  <p class="wp-caption-text">
+  <p>
     Set a Future milestone, with no due date
   </p>
 </div>
@@ -149,10 +149,10 @@ The client has submitted a job description, which describes what the client want
 > Our site is completely malfunctioned. The email doesn't work when the user sends a note to an inmate. There is a display bug on the homepage when you hover your mouse over the "contact us" 3d button that causes the button to go away. Our server seems really slow and I want all of this fixed.  On the homepage only 10 inmates pictures are supposed to show but instead the whole database of prisoners loads. We would also like to have a rotating slideshow that makes the entire page change colors during the holidays. Thanks! -InmatePenpals CEO
 Wow, that wasn't the worst job post I ever saw, but it certainly needs to be broken down a bit further. We are going to start creating "**tickets**" for each issue.
 
-<div id="attachment_129" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-129" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/newticket-2/"><img class="size-large wp-image-129" title="newticket" src="http://www.jblotus.com/wp-content/uploads/2010/12/newticket1-550x307.jpg" alt="The new ticket button is available almost anywhere in the project overview" width="550" height="307" /></a>
+<div>
+  <img class="img-thumbnail" title="newticket" src="http://www.jblotus.com/wp-content/uploads/2010/12/newticket1-550x307.jpg" alt="The new ticket button is available almost anywhere in the project overview" width="550" height="307" />
 
-  <p class="wp-caption-text">
+  <p>
     The new ticket button is available almost anywhere in the project overview
   </p>
 </div>
@@ -161,20 +161,20 @@ Make sure that you are somewhere in the "**Project Overview**" section of the tr
 
 I usually start out making the tickets rather quickly. I will simply copy and paste the problem in the clients own words to describe the ticket.
 
-<div id="attachment_130" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-130" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/titledescription-2/"><img class="size-large wp-image-130" title="titledescription" src="http://www.jblotus.com/wp-content/uploads/2010/12/titledescription1-550x428.jpg" alt="Enter the ticket title and description" width="550" height="428" /></a>
+<div>
+  <img class="img-thumbnail" title="titledescription" src="http://www.jblotus.com/wp-content/uploads/2010/12/titledescription1-550x428.jpg" alt="Enter the ticket title and description" width="550" height="428" />
 
-  <p class="wp-caption-text">
+  <p>
     Enter the ticket title and description
   </p>
 </div>
 
 Enter a descriptive title for the ticket. I try an use my best judgement to sum up in my own words the issue at-hand. For description I will usually paste the words of the client and any other info the client has given about the problem. In some cases I may also attach a screenshot of the problem if it is visually demonstrable.
 
-<div id="attachment_131" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-131" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/whofixmilestone-2/"><img class="size-large wp-image-131" title="whofixmilestone" src="http://www.jblotus.com/wp-content/uploads/2010/12/whofixmilestone1-550x428.jpg" alt="Assign the ticket to a user and milestone" width="550" height="428" /></a>
+<div>
+  <img class="img-thumbnail" title="whofixmilestone" src="http://www.jblotus.com/wp-content/uploads/2010/12/whofixmilestone1-550x428.jpg" alt="Assign the ticket to a user and milestone" width="550" height="428" />
 
-  <p class="wp-caption-text">
+  <p>
     Assign the ticket to a user and milestone
   </p>
 </div>
@@ -183,10 +183,10 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
   You should also set the ticket to be assigned to yourself, since you will be fixing it. As for milestone, that really depends upon the request the client has made. If it is something from the original job description, I would probably consider that to be part of the project due date, in our case the Alpha Test milestone. On the other hand, if it were a feature request that the client put in two weeks after the project starts, I would probably put that into <strong>Future</strong>.
 </p>
 
-<div id="attachment_132" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-132" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/tags-2/"><img class="size-large wp-image-132" title="tags" src="http://www.jblotus.com/wp-content/uploads/2010/12/tags1-550x428.jpg" alt="Set your tags consistently" width="550" height="428" /></a>
+<div>
+  <img class="img-thumbnail" title="tags" src="http://www.jblotus.com/wp-content/uploads/2010/12/tags1-550x428.jpg" alt="Set your tags consistently" width="550" height="428" /><>
 
-  <p class="wp-caption-text">
+  <p>
     Set your tags consistently
   </p>
 </div>
@@ -195,18 +195,18 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
   Each ticket also has a line for "<strong>Tags</strong>". Tags are something that need to be fairly consistent throughout your project and I will tell you why when we create ticket bins to categorize our tickets. Two tags that are very important are "<strong>defect</strong>" and "<strong>enhancement</strong>". I tend to categorize every ticket into one of those two categories. Most bugs are defects and most features that don't exist or need to be improved are called <strong>enhancements</strong>. Since the ticket in question relates to email not working, we can assume the it is a "<strong>defect</strong>". We can always change this later to "<strong>enhancement</strong>" if it turns out that email functionality was never implemented in the first place.  I also added the tag <strong>"email</strong>", but I don't want to go tag crazy so two tags should be fine in most cases.
 </p>
 
-<div id="attachment_133" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-133" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/ticketview-2/"><img class="size-large wp-image-133" title="ticketview" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketview1-550x392.jpg" alt="The ticket view" width="550" height="392" /></a>
+<div>
+  <img class="img-thumbnail" title="ticketview" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketview1-550x392.jpg" alt="The ticket view" width="550" height="392" />
 
-  <p class="wp-caption-text">
+  <p>
     The ticket view
   </p>
 </div>
 
-<div id="attachment_134" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-134" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/tickets-2/"><img class="size-large wp-image-134" title="tickets" src="http://www.jblotus.com/wp-content/uploads/2010/12/tickets1-550x309.jpg" alt="The tickets index" width="550" height="309" /></a>
+<div>
+  <img class="img-thumbnail" title="tickets" src="http://www.jblotus.com/wp-content/uploads/2010/12/tickets1-550x309.jpg" alt="The tickets index" width="550" height="309" />
 
-  <p class="wp-caption-text">
+  <p>
     The tickets index
   </p>
 </div>
@@ -225,10 +225,10 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
   I always create two new ticket bins with every new project. These bins will be called "<strong>Open Defects</strong>", and "<strong>Open Enhancements</strong>".
 </p>
 
-<div id="attachment_135" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-135" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/ticketsscreen-2/"><img class="size-large wp-image-135" title="ticketsscreen" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketsscreen1-550x309.jpg" alt="Click the &quot;Tickets&quot; menu link" width="550" height="309" /></a>
+<div>
+  <img class="img-thumbnail" title="ticketsscreen" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketsscreen1-550x309.jpg" alt="Click the &quot;Tickets&quot; menu link" width="550" height="309" />
 
-  <p class="wp-caption-text">
+  <p>
     Click the "Tickets" menu link
   </p>
 </div>
@@ -237,44 +237,46 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
   To create a custom search bin, aka ticket bin, you must first be on the main tickets index screen. To get here quickly you can click the "<strong>Tickets</strong>" menu item.
 </p>
 
-<div id="attachment_136" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-136" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/findtickets-2/"><img class="size-large wp-image-136" title="findtickets" src="http://www.jblotus.com/wp-content/uploads/2010/12/findtickets1-550x309.jpg" alt="We have to enter our criteria under &quot;Find Tickets&quot;" width="550" height="309" /></a>
+<div>
+  <img class="img-thumbnail" title="findtickets" src="http://www.jblotus.com/wp-content/uploads/2010/12/findtickets1-550x309.jpg" alt="We have to enter our criteria under &quot;Find Tickets&quot;" width="550" height="309" />
 
-  <p class="wp-caption-text">
+  <p>
     We have to enter our criteria under "Find Tickets"
   </p>
 </div>
 
 We have to set the search criteria for our ticket bins. In fact we can save any search as a ticket bin. [Click here for a list of all searchable attributes][9].
 
-<div id="attachment_137" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-137" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/taggeddefect-2/"><img class="size-large wp-image-137" title="taggeddefect" src="http://www.jblotus.com/wp-content/uploads/2010/12/taggeddefect1-550x190.jpg" alt="Add in tagged:defecttagged" width="550" height="190" /></a>
+<div>
+  <img class="img-thumbnail" title="taggeddefect" src="http://www.jblotus.com/wp-content/uploads/2010/12/taggeddefect1-550x190.jpg" alt="Add in tagged:defecttagged" width="550" height="190" />
 
-  <p class="wp-caption-text">
+  <p>
     Add in tagged:defecttagged
   </p>
 </div>
 
-[ ][10]To get a list of all open defect tickets that I am responsible for, I need to enter the following onto the "**Find Tickets**" line.
+To get a list of all open defect tickets that I am responsible for, I need to enter the following onto the "**Find Tickets**" line.
 
-<pre lang="bash">responsible:me state:open tagged:defect</pre>
+```
+responsible:me state:open tagged:defect
+```
 
-<div id="attachment_138" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-138" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/onlydefects-2/"><img class="size-large wp-image-138" title="onlydefects" src="http://www.jblotus.com/wp-content/uploads/2010/12/onlydefects1-550x361.jpg" alt="The ticket search shows only tickets tagged with defect" width="550" height="361" /></a>
+<div>
+  <img class="img-thumbnail" title="onlydefects" src="http://www.jblotus.com/wp-content/uploads/2010/12/onlydefects1-550x361.jpg" alt="The ticket search shows only tickets tagged with defect" width="550" height="361" />
 
-  <p class="wp-caption-text">
+  <p>
     The ticket search shows only tickets tagged with defect
   </p>
 </div>
 
 Now only tickets that I previously tagged as "**defect**" will appear in the list. To save the bin you must click on "**Save as Search Bin**".
 
-[ ][11]Give the search bin a name "**Open Defects**". I also repeated these steps for our "**Open Enhancements**" ticket bin.
+Give the search bin a name "**Open Defects**". I also repeated these steps for our "**Open Enhancements**" ticket bin.
 
-<div id="attachment_142" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-142" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/newbins-2/"><img class="size-large wp-image-142" title="newbins" src="http://www.jblotus.com/wp-content/uploads/2010/12/newbins1-550x443.jpg" alt="New bins will now appear on the right hand side of the screen" width="550" height="443" /></a>
+<div>
+  <img class="img-thumbnail" title="newbins" src="http://www.jblotus.com/wp-content/uploads/2010/12/newbins1-550x443.jpg" alt="New bins will now appear on the right hand side of the screen" width="550" height="443" />
 
-  <p class="wp-caption-text">
+  <p>
     New bins will now appear on the right hand side of the screen
   </p>
 </div>
@@ -286,10 +288,10 @@ The new search bins will now appear in the list of "**Shared Ticket Bins**". Thi
 The best part of all of this is the fact that you can integrate your commit messages from GitHub, Beanstalkapp, or several other providers. It just so happens that I set up a project for this over at [Beanstalkapp][6], but setting it up via [GitHub ][5]is quite similar.
 
 <div class="mceTemp mceIEcenter">
-  <div id="attachment_144" style="width: 560px" class="wp-caption aligncenter">
-    <a rel="attachment wp-att-144" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/apitoken-2/"><img class="size-large wp-image-144" title="apitoken" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitoken1-550x443.jpg" alt="You create an API token for your username" width="550" height="443" /></a>
+  <div>
+    <img class="img-thumbnail" title="apitoken" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitoken1-550x443.jpg" alt="You create an API token for your username" width="550" height="443" />
 
-    <p class="wp-caption-text">
+    <p>
       You create an API token for your username
     </p>
   </div>
@@ -297,118 +299,124 @@ The best part of all of this is the fact that you can integrate your commit mess
 
 To create an "**API token**", you must click on your username, and you will see on the right hand side of the screen a select list. Choose the current account to create an API token for this specific tracker account, or select "**All Accounts**" to generate an API token that can be used on all tracker accounts associated with your the logged in user.
 
-<div id="attachment_145" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-145" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/currentproject-2/"><img class="size-large wp-image-145" title="currentproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/currentproject1-550x443.jpg" alt="Set API key permissions" width="550" height="443" /></a>
+<div>
+  <img class="img-thumbnail" title="currentproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/currentproject1-550x443.jpg" alt="Set API key permissions" width="550" height="443" />
 
-  <p class="wp-caption-text">
+  <p>
     Set API key permissions
   </p>
 </div>
 
 For the purposes of our example, I chose to create an "**API Token**" for the current account, labeled Beanstalkapp since that is who I am giving the key to. I also chose to gave the key "**Full Access**" instead of "**Read only access**".
 
-<div id="attachment_146" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-146" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/apitoken-3/"><img class="size-large wp-image-146" title="apitoken" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitoken2-550x443.jpg" alt="Your new API token will appear on the right hand side" width="550" height="443" /></a>
+<div>
+  <img class="img-thumbnail" title="apitoken" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitoken2-550x443.jpg" alt="Your new API token will appear on the right hand side" width="550" height="443" />
 
-  <p class="wp-caption-text">
+  <p>
     Your new API token will appear on the right hand side
   </p>
 </div>
 
 Once in Beanstalk or GitHub, you will need to connect your repository to Lighthouse. Here is a[ complete screencast for integrating Lighthouse with GitHub][12].
 
-<div id="attachment_147" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-147" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/integration-2/"><img class="size-large wp-image-147" title="integration" src="http://www.jblotus.com/wp-content/uploads/2010/12/integration1-550x304.jpg" alt="Integration in Beanstalkapp" width="550" height="304" /></a>
+<div>
+  <img class="img-thumbnail" title="integration" src="http://www.jblotus.com/wp-content/uploads/2010/12/integration1-550x304.jpg" alt="Integration in Beanstalkapp" width="550" height="304" />
 
-  <p class="wp-caption-text">
+  <p>
     Integration in Beanstalkapp
   </p>
 </div>
 
-<div id="attachment_148" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-148" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/activate-2/"><img class="size-large wp-image-148" title="activate" src="http://www.jblotus.com/wp-content/uploads/2010/12/activate1-550x304.jpg" alt="Activate Lighthouse Integration" width="550" height="304" /></a>
+<div>
+  <img class="img-thumbnail" title="activate" src="http://www.jblotus.com/wp-content/uploads/2010/12/activate1-550x304.jpg" alt="Activate Lighthouse Integration" width="550" height="304" />
 
-  <p class="wp-caption-text">
+  <p>
     Activate Lighthouse Integration
   </p>
 </div>
 
-<div id="attachment_149" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-149" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/accountdetails-2/"><img class="size-large wp-image-149" title="accountdetails" src="http://www.jblotus.com/wp-content/uploads/2010/12/accountdetails1-550x394.jpg" alt="Add Lighthouse Tracker URL" width="550" height="394" /></a>
+<div>
+  <img class="img-thumbnail" title="accountdetails" src="http://www.jblotus.com/wp-content/uploads/2010/12/accountdetails1-550x394.jpg" alt="Add Lighthouse Tracker URL" width="550" height="394" />
 
-  <p class="wp-caption-text">
+  <p>
     Add Lighthouse Tracker URL
   </p>
 </div>
 
-<div id="attachment_150" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-150" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/apitokens-2/"><img class="size-large wp-image-150" title="apitokens" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitokens1-550x394.jpg" alt="Paste your API token into the box" width="550" height="394" /></a>
+<div>
+  <img class="img-thumbnail" title="apitokens" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitokens1-550x394.jpg" alt="Paste your API token into the box" width="550" height="394" />
 
-  <p class="wp-caption-text">
+  <p>
     Paste your API token into the box
   </p>
 </div>
 
-<div id="attachment_151" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-151" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/selectproject-2/"><img class="size-large wp-image-151" title="selectproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/selectproject1-550x506.jpg" alt="Select the project from the list" width="550" height="506" /></a>
+<div>
+  <img class="img-thumbnail" title="selectproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/selectproject1-550x506.jpg" alt="Select the project from the list" width="550" height="506" />
 
-  <p class="wp-caption-text">
+  <p>
     Select the project from the list
   </p>
 </div>
 
-<div id="attachment_152" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-152" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/activateconfirmation-2/"><img class="size-large wp-image-152" title="activateconfirmation" src="http://www.jblotus.com/wp-content/uploads/2010/12/activateconfirmation1-550x506.jpg" alt="Activate the Integration" width="550" height="506" /></a>
+<div>
+  <img class="img-thumbnail" title="activateconfirmation" src="http://www.jblotus.com/wp-content/uploads/2010/12/activateconfirmation1-550x506.jpg" alt="Activate the Integration" width="550" height="506" />
 
-  <p class="wp-caption-text">
+  <p>
     Activate the Integration
   </p>
 </div>
 
-[ ][13]Once inside your Beanstalk repository dashboard interface, click the "Integration" menu link. You will see a list of services on the left that you can hook into with Beanstalk. Choose "Lighthouse" and click the "Activate" button. All you have to do in the next few forms is paste in your Lighthouse URL, paste in your API, select your active project and you are ready to Activate the integration.
+Once inside your Beanstalk repository dashboard interface, click the "Integration" menu link. You will see a list of services on the left that you can hook into with Beanstalk. Choose "Lighthouse" and click the "Activate" button. All you have to do in the next few forms is paste in your Lighthouse URL, paste in your API, select your active project and you are ready to Activate the integration.
 
 Once we are hooked in via Beanstalk or GitHub, you can add things in your commit messages that will post directly to tickets you create in Lighthouse.
 
-<div id="attachment_153" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-153" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/commitmessage-2/"><img class="size-large wp-image-153" title="commitmessage" src="http://www.jblotus.com/wp-content/uploads/2010/12/commitmessage1-550x328.jpg" alt="Make some changes and commit your files" width="550" height="328" /></a>
+<div>
+  <img class="img-thumbnail" title="commitmessage" src="http://www.jblotus.com/wp-content/uploads/2010/12/commitmessage1-550x328.jpg" alt="Make some changes and commit your files" width="550" height="328" />
 
-  <p class="wp-caption-text">
+  <p>
     Make some changes and commit your files
   </p>
 </div>
 
 Now when you commit your files, you can add in special tags to tell Beanstalk to push your changesets to Lighthouse.
 
-<div id="attachment_154" style="width: 560px" class="wp-caption aligncenter">
-  "]<a rel="attachment wp-att-154" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/ticketnumber-2/"><img class="size-large wp-image-154" title="ticketnumber" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketnumber1-550x327.jpg" alt="Add the ticket number number in brackets ex [#1]" width="550" height="327" /></a>
+<div>
+  "]<img class="img-thumbnail" title="ticketnumber" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketnumber1-550x327.jpg" alt="Add the ticket number number in brackets ex [#1]" width="550" height="327" />
 
-  <p class="wp-caption-text">
+  <p>
     Add the ticket number number in brackets ex [#1
   </p>
 </div>
 
 To assign a commit to a specific ticket do this:
 
-<pre lang="bash">this is my commit message [#1] //#1 is the ticket number</pre> To close a ticket do this:
+```
+this is my commit message [#1] //#1 is the ticket number
+```
+To close a ticket do this:
 
-<pre lang="bash">this is my commit message [#1 state:resolved] //#1 is the ticket number</pre> All of the keywords go inside square brackets []. I usually don't close tickets directly from a commit, and I find that assigning a commit to a specific ticket is usually good enough. You can do some pretty crazy things with Beanstalk such as automatic deployment, just from a simple commit message.
+```
+this is my commit message [#1 state:resolved] //#1 is the ticket number
+```
+All of the keywords go inside square brackets []. I usually don't close tickets directly from a commit, and I find that assigning a commit to a specific ticket is usually good enough. You can do some pretty crazy things with Beanstalk such as automatic deployment, just from a simple commit message.
 
 [Here is a complete list of Lighthouse keywords][14].
 
-<div id="attachment_155" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-155" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/newchangeset-2/"><img class="size-large wp-image-155" title="newchangeset" src="http://www.jblotus.com/wp-content/uploads/2010/12/newchangeset1-550x216.jpg" alt="New Changesets show up in Lighthouse" width="550" height="216" /></a>
+<div>
+  <img class="img-thumbnail" title="newchangeset" src="http://www.jblotus.com/wp-content/uploads/2010/12/newchangeset1-550x216.jpg" alt="New Changesets show up in Lighthouse" width="550" height="216" />
 
-  <p class="wp-caption-text">
+  <p>
     New Changesets show up in Lighthouse
   </p>
 </div>
 
 Now if you look at the project overview in Lighthouse, you will see our newest changeset and the associated commit message.
 
-<div id="attachment_156" style="width: 560px" class="wp-caption aligncenter">
-  <a rel="attachment wp-att-156" href="http://www.jblotus.com/2010/12/12/issue-tracking-with-lighthouseapp/updatedticket-2/"><img class="size-large wp-image-156" title="updatedticket" src="http://www.jblotus.com/wp-content/uploads/2010/12/updatedticket1-550x216.jpg" alt="The changeset and update details as a commentchangeset " width="550" height="216" /></a>
+<div>
+  <img class="img-thumbnail" title="updatedticket" src="http://www.jblotus.com/wp-content/uploads/2010/12/updatedticket1-550x216.jpg" alt="The changeset and update details as a commentchangeset " width="550" height="216" />
 
-  <p class="wp-caption-text">
+  <p>
     The changeset and update details as a commentchangeset
   </p>
 </div>
@@ -440,8 +448,5 @@ Issue tracking should be part of the flow of every programmer for any serious pr
  [7]: http://lighthouseapp.com/signup
  [8]: http://inmatepenpals.lighthouseapp.com/
  [9]: http://help.lighthouseapp.com/faqs/getting-started/how-do-i-search-for-tickets
- [10]: http://www.jblotus.com/wp-content/uploads/2010/12/taggeddefect.jpg
- [11]: http://www.jblotus.com/wp-content/uploads/2010/12/savebin.jpg
  [12]: http://bigbangtechnology.com/blog/post/setting_up_communication_between_github_and_lighthouse_via_a_secure_token
- [13]: http://www.jblotus.com/wp-content/uploads/2010/12/activateconfirmation.jpg
  [14]: http://help.lighthouseapp.com/faqs/ticket-workflow/ticket-keyword-updates
