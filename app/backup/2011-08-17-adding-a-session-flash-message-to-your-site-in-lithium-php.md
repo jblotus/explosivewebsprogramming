@@ -197,11 +197,11 @@ if ($this-&gt;request-&gt;data) {
 
   if ($saved) {
     Session::write('message', 'Saved the widget');
-    return $this-&gt;redirect(array('controller' =&gt; 'widgets', 'action' =&gt; 'index'), $options);
+    return $this-&gt;redirect(array('controller' => 'widgets', 'action' => 'index'), $options);
 
   } else {
     Session::write('message', 'Failed to save the widget, do it right this time');
-    return $this-&gt;redirect(array('controller' =&gt; 'widgets', 'action' =&gt; 'add'), $options);
+    return $this-&gt;redirect(array('controller' => 'widgets', 'action' => 'add'), $options);
   }
 }
 </code></pre>

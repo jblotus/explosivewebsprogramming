@@ -25,8 +25,8 @@ Lithium Day 2. This time just a simple quick tip about adding different input ty
 
 <pre class="brush:html">&lt;?=$this-&gt;form-&gt;create($object); ?&gt;
   &lt;?=$this-&gt;form-&gt;field('title');?&gt;
-  &lt;?=$this-&gt;form-&gt;field('url', array('type' =&gt; 'text'));?&gt;
-  &lt;?=$this-&gt;form-&gt;field('Cancel', array('type' =&gt; 'button', 'label' =&gt; false)); ?&gt;
+  &lt;?=$this-&gt;form-&gt;field('url', array('type' => 'text'));?&gt;
+  &lt;?=$this-&gt;form-&gt;field('Cancel', array('type' => 'button', 'label' => false)); ?&gt;
   &lt;?=$this-&gt;form-&gt;submit('Submit'); ?&gt;
 &lt;?=$this-&gt;form-&gt;end(); ?&gt;</pre> The markup we get from this will tell us a few things:
 

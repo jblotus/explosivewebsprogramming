@@ -34,16 +34,16 @@ My new application written using the [Lithium PHP Framework][1] needed to make [
      */
     public function __construct(array $config = array()) {
         $defaults = array(
-            'persistent' =&gt; false,
-            'scheme'     =&gt; 'http',
-            'host'       =&gt; 'localhost',
-            'port'       =&gt; null,
-            'timeout'    =&gt; 30,
-            'auth'       =&gt; null,
-            'username'   =&gt; null,
-            'password'   =&gt; null,
-            'encoding'   =&gt; 'UTF-8',
-            'socket'     =&gt; 'Context'
+            'persistent' => false,
+            'scheme'     => 'http',
+            'host'       => 'localhost',
+            'port'       => null,
+            'timeout'    => 30,
+            'auth'       => null,
+            'username'   => null,
+            'password'   => null,
+            'encoding'   => 'UTF-8',
+            'socket'     => 'Context'
         );
         parent::__construct($config + $defaults);
     }</pre> A cursory glance at the file revealed the the connection options need to be passed in via an $options config array in the class constructor. This is a lot like
@@ -83,20 +83,20 @@ $songs = json_decode($data);
 var_dump(songs);
 
 //object(stdClass)[28]
-//  public 'resultCount' =&gt; int 1
-//  public 'results' =&gt;
+//  public 'resultCount' => int 1
+//  public 'results' =>
 //    array
-//      0 =&gt;
+//      0 =>
 //        object(stdClass)[29]
-//          public 'wrapperType' =&gt; string 'artist' (length=6)
-//          public 'artistType' =&gt; string 'Artist' (length=6)
-//          public 'artistName' =&gt; string 'Jack Johnson' (length=12)
-//          public 'artistLinkUrl' =&gt; string 'http://itunes.apple.com/us/artist/jack-johnson/id909253?uo=4' (length=60)
-//          public 'artistId' =&gt; int 909253
-//          public 'amgArtistId' =&gt; int 468749
-//          public 'amgVideoArtistId' =&gt; null
-//          public 'primaryGenreName' =&gt; string 'Rock' (length=4)
-//          public 'primaryGenreId' =&gt; int 21
+//          public 'wrapperType' => string 'artist' (length=6)
+//          public 'artistType' => string 'Artist' (length=6)
+//          public 'artistName' => string 'Jack Johnson' (length=12)
+//          public 'artistLinkUrl' => string 'http://itunes.apple.com/us/artist/jack-johnson/id909253?uo=4' (length=60)
+//          public 'artistId' => int 909253
+//          public 'amgArtistId' => int 468749
+//          public 'amgVideoArtistId' => null
+//          public 'primaryGenreName' => string 'Rock' (length=4)
+//          public 'primaryGenreId' => int 21
 }
 </code></pre>
 

@@ -281,9 +281,9 @@ Phactory::define('shoe_table', array());
 
 
 <pre><code>//should not pull up
-Phactory::create('shoe_table', array('id' =&gt; 345, 'color' =&gt; 'blue', 'brand_name' =&gt; 'Vans'));
-Phactory::create('shoe_table', array('id' =&gt; 456, 'color' =&gt; 'blue', 'brand_name' =&gt; 'Reebok'));
-Phactory::create('shoe_table', array('id' =&gt; 567, 'color' =&gt; 'blue', 'brand_name' =&gt; 'New Balance'));
+Phactory::create('shoe_table', array('id' => 345, 'color' => 'blue', 'brand_name' => 'Vans'));
+Phactory::create('shoe_table', array('id' => 456, 'color' => 'blue', 'brand_name' => 'Reebok'));
+Phactory::create('shoe_table', array('id' => 567, 'color' => 'blue', 'brand_name' => 'New Balance'));
 
 $actual = $this-&gt;sut-&gt;getShoesByBrandName('Nike');
 

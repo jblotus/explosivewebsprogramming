@@ -80,7 +80,7 @@ parent::render($options);
 
 
 <p>
-  In order to make the data appear in every view (or layout), we need to use the <code>Controller::set()</code> method.<code> Controller::set()</code> simply takes a <code>'key' =&gt; $value </code>array of variables to set. This should already be a familiar way to send data to the view, only now we are setting the data for every controller action called from a controller that extends <code>AppController</code>.
+  In order to make the data appear in every view (or layout), we need to use the <code>Controller::set()</code> method.<code> Controller::set()</code> simply takes a <code>'key' => $value </code>array of variables to set. This should already be a familiar way to send data to the view, only now we are setting the data for every controller action called from a controller that extends <code>AppController</code>.
 </p>
 
 

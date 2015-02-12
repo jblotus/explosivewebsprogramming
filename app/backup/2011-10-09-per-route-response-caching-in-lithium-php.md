@@ -26,8 +26,8 @@ Occasionally, you will want to cache entire responses from different areas of yo
 
 <pre class="brush:php">Router::connect('/podcasts/{:slug:[\w&#45;]+}', 'Episodes::index', function($request) {
   $request-&gt;cache = array(
-    'key' =&gt; md5($request-&gt;url),
-    'time' =&gt; '+10 minutes',
+    'key' => md5($request-&gt;url),
+    'time' => '+10 minutes',
   );
   return $request;
 });</pre> So in my application, I am trying to match a url that looks like:
