@@ -2,7 +2,6 @@
 title: Fighting Fear-Driven-Development w/ PHPUnit Slides
 author: jblotus
 layout: post
-
 dsq_thread_id:
   - 649169107
 categories:
@@ -32,6 +31,7 @@ These are they slides, feel free to grab them from slideshare. I will gladly ans
     View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/jblotus" target="_blank">James Fuller</a>
   </div>
 </div>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/12538302" height="355" width="425" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
  [1]: http://www.soflophp.org/
  [2]: http://www.phpunit.de/manual/current/en/index.html
