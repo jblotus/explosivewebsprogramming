@@ -147,7 +147,7 @@ For context, this talk was given at [JAX, which is a Java and Android conference
 
 You can probably accuse me of being a Douglas Crockford fan by now, and you would be right. What I appreciate most about him is how he presents his opinions. His arguments are always backed up by some reasoning, no matter how opinionated. Some people do not agree with Crockford, and to those people I offer this except from [Clean Code][35], a book by another on of my programming heroes, [Robert Martin][36]:
 
-<img class="wp-image-1063 alignnone" alt="cleancodecover" src="http://www.jblotus.com/wp-content/uploads/2013/01/cleancodecover.jpg" width="192" height="254" />
+<img class="wp-image-1063 alignnone" alt="cleancodecover" src="/images/cleancodecover.jpg" width="192" height="254" />
 
 > Students of these approaches immerse themselves in the teachings of the founder. They dedicate themselves to learn what that particular master teaches, often to the exclusion of any other master’s teaching. Later, as the students grow in their art, they may become the student of a different master so they can broaden their knowledge and practice. Some eventually go on to reﬁne their skills, discovering new techniques and founding their own schools. None of these different schools is absolutely right. Yet within a particular school we act as though the teachings and techniques are right. After all, there is a right way to practice Hakkoryu Jiu Jitsu, or Jeet Kune Do. But this rightness within a school does not invalidate the teachings of a different school -Robert Martin (Clean Code)
 

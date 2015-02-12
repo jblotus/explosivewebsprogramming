@@ -22,7 +22,7 @@ For part of a new project at work, I needed to be able to render a progress ba
 
 The idea behind jQuery easyBars is that you can transform an element (probably a div) into a progress bar. The attributes of the bar are designed to be easily configured with intelligent defaults.
 
-<a href="http://www.jblotus.com/wp-content/uploads/2011/08/jquery-easybars-mockup.jpg"><img class="img-thumbnail" title="jquery-easybars-mockup" src="http://www.jblotus.com/wp-content/uploads/2011/08/jquery-easybars-mockup-550x343.jpg" alt="jQuery easyBars plugin mockup" width="550" height="343" /></a>
+<a href="/images/jquery-easybars-mockup.jpg"><img class="img-thumbnail" title="jquery-easybars-mockup" src="/images/jquery-easybars-mockup-550x343.jpg" alt="jQuery easyBars plugin mockup" width="550" height="343" /></a>
 
 For example, the progress bar will take on the width, height of the target element, but can be easily overridden in the easyBars options. I also allow for HTML5 data attributes to be used to control the appearance of the bars.
 

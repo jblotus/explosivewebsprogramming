@@ -35,7 +35,7 @@ The first thing that you need to do is convince the client that they need an iss
 ## Step 1: Set Up a Issue Tracker
 
 <div>
-  <img class="img-thumbnail" title="signup" src="http://www.jblotus.com/wp-content/uploads/2010/12/signup-1024x705.jpg" alt="Signup for a Lighthouse Account" width="550" height="378" />
+  <img class="img-thumbnail" title="signup" src="/images/signup-1024x705.jpg" alt="Signup for a Lighthouse Account" width="550" height="378" />
 
   <p>
     Signup for a Lighthouse Account
@@ -45,7 +45,7 @@ The first thing that you need to do is convince the client that they need an iss
 First, [sign up for a free lighthouseapp account][7]. You have to choose your project url, which in this case will be [inmatepenpals.lighthouseapp.com][8].
 
 <div>
-  <img class="img-thumbnail" title="confirmation" src="http://www.jblotus.com/wp-content/uploads/2010/12/confirmation-1024x313.jpg" alt="Confirm your Lighthouse account" width="550" height="168" />
+  <img class="img-thumbnail" title="confirmation" src="/images/confirmation-1024x313.jpg" alt="Confirm your Lighthouse account" width="550" height="168" />
 
   <p>
     Confirm your Email address
@@ -53,7 +53,7 @@ First, [sign up for a free lighthouseapp account][7]. You have to choose your p
 </div>
 
 <div>
-  <img class="img-thumbnail" title="dashboard" src="http://www.jblotus.com/wp-content/uploads/2010/12/dashboard-1024x470.jpg" alt="Your empty Lighhouse dashboard" width="550" height="252" />
+  <img class="img-thumbnail" title="dashboard" src="/images/dashboard-1024x470.jpg" alt="Your empty Lighhouse dashboard" width="550" height="252" />
 
   <p>
     Your empty project dashboard
@@ -63,7 +63,7 @@ First, [sign up for a free lighthouseapp account][7]. You have to choose your p
 Once you have confirmed your email address you can click the link and be taken directly to your project dashboard, which is totally empty right now. Next, click "**Create a New Project**" to set up your first project.
 
 <div>
-  <img class="size-large wp-image-122" title="createnewproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/createnewproject2-550x415.jpg" alt="Create a new Lighthouse project" width="550" height="415" />
+  <img class="size-large wp-image-122" title="createnewproject" src="/images/createnewproject2-550x415.jpg" alt="Create a new Lighthouse project" width="550" height="415" />
 
   <p>
     Create a new Lighthouse project
@@ -73,7 +73,7 @@ Once you have confirmed your email address you can click the link and be taken d
 You have to fill out some details about your project, mainly the project name and description. The important thing on this page are the options for "**Public Project**", "**Private Project**", and "**Open Source Project**". For most client work, you are going to want to choose "**Private Project**" because you don't want to share your troubles with the world, especially considering that sensitive information may be stored on the issue tracker.
 
 <div>
-  <img class="size-large wp-image-123" title="Invite users to Project" src="http://www.jblotus.com/wp-content/uploads/2010/12/invite1-550x306.jpg" alt="Invite users to Project" width="550" height="306" />
+  <img class="size-large wp-image-123" title="Invite users to Project" src="/images/invite1-550x306.jpg" alt="Invite users to Project" width="550" height="306" />
 
   <p>
     Invite users to Project
@@ -87,7 +87,7 @@ Next you will want to invite your client to the tracker, or have them invite you
 Milestones are important because they allow you to set a date for certain bugs or features to be fixed or implemented by. For this project I will create two milestones, one for the expected due date of the project, and one for any future features or enhancements that are beyond the scope of the project deadline.  Every ticket represents an issue, and every issue belongs to a single milestone. This way you can easily prioritize the due dates of your tickets and track their progress.
 
 <div>
-  <img class="size-large wp-image-124" title="New Projects appear on the right hand side of the screen" src="http://www.jblotus.com/wp-content/uploads/2010/12/projects1-550x276.jpg" alt="New Projects appear on the right hand side of the screen" width="550" height="276" />
+  <img class="size-large wp-image-124" title="New Projects appear on the right hand side of the screen" src="/images/projects1-550x276.jpg" alt="New Projects appear on the right hand side of the screen" width="550" height="276" />
 
   <p>
     New Projects appear on the right hand side of the screenProjects
@@ -96,7 +96,7 @@ Milestones are important because they allow you to set a date for certain bugs o
 
 <div class="mceTemp mceIEcenter">
   <div>
-    <img class="size-large wp-image-125" title="milestones" src="http://www.jblotus.com/wp-content/uploads/2010/12/milestones1-550x276.jpg" alt="The milestones tab is located on the top menu" width="550" height="276" />
+    <img class="size-large wp-image-125" title="milestones" src="/images/milestones1-550x276.jpg" alt="The milestones tab is located on the top menu" width="550" height="276" />
 
     <p>
       The milestones tab is located on the top menu
@@ -109,7 +109,7 @@ Milestones are important because they allow you to set a date for certain bugs o
 </p>
 
 <div>
-  <img class="size-large wp-image-126" title="newmilestone" src="http://www.jblotus.com/wp-content/uploads/2010/12/newmilestone1-550x276.jpg" alt="Create a New Milestone" width="550" height="276" />
+  <img class="size-large wp-image-126" title="newmilestone" src="/images/newmilestone1-550x276.jpg" alt="Create a New Milestone" width="550" height="276" />
 
   <p>
     Create a New Milestone
@@ -119,7 +119,7 @@ Milestones are important because they allow you to set a date for certain bugs o
 From the "**Milestone**" screen you can view, add, edit or delete your project milestones.  To create a milestone, you simply click the "**Create Milestone**" menu link.
 
 <div>
-  <img class="img-thumbnail" title="alphatest" src="http://www.jblotus.com/wp-content/uploads/2010/12/alphatest1-550x477.jpg" alt="Set the milestone title, due date, and description" width="550" height="477" />
+  <img class="img-thumbnail" title="alphatest" src="/images/alphatest1-550x477.jpg" alt="Set the milestone title, due date, and description" width="550" height="477" />
 
   <p>
     Set the milestone title, due date, and description
@@ -129,7 +129,7 @@ From the "**Milestone**" screen you can view, add, edit or delete your project m
 We want to add **milestones **for our first due date, which I have set to Dec 30, 2010. The focus and goals for this milestone are to fix all of the major bugs. Once your save the milestone, I want to click "**New Milestone**" again to create a second milestone.
 
 <div>
-  <img class="img-thumbnail" title="noduedate" src="http://www.jblotus.com/wp-content/uploads/2010/12/noduedate1-550x390.jpg" alt="Set a Future milestone, with no due date" width="550" height="390" />
+  <img class="img-thumbnail" title="noduedate" src="/images/noduedate1-550x390.jpg" alt="Set a Future milestone, with no due date" width="550" height="390" />
 
   <p>
     Set a Future milestone, with no due date
@@ -150,7 +150,7 @@ The client has submitted a job description, which describes what the client want
 Wow, that wasn't the worst job post I ever saw, but it certainly needs to be broken down a bit further. We are going to start creating "**tickets**" for each issue.
 
 <div>
-  <img class="img-thumbnail" title="newticket" src="http://www.jblotus.com/wp-content/uploads/2010/12/newticket1-550x307.jpg" alt="The new ticket button is available almost anywhere in the project overview" width="550" height="307" />
+  <img class="img-thumbnail" title="newticket" src="/images/newticket1-550x307.jpg" alt="The new ticket button is available almost anywhere in the project overview" width="550" height="307" />
 
   <p>
     The new ticket button is available almost anywhere in the project overview
@@ -162,7 +162,7 @@ Make sure that you are somewhere in the "**Project Overview**" section of the tr
 I usually start out making the tickets rather quickly. I will simply copy and paste the problem in the clients own words to describe the ticket.
 
 <div>
-  <img class="img-thumbnail" title="titledescription" src="http://www.jblotus.com/wp-content/uploads/2010/12/titledescription1-550x428.jpg" alt="Enter the ticket title and description" width="550" height="428" />
+  <img class="img-thumbnail" title="titledescription" src="/images/titledescription1-550x428.jpg" alt="Enter the ticket title and description" width="550" height="428" />
 
   <p>
     Enter the ticket title and description
@@ -172,7 +172,7 @@ I usually start out making the tickets rather quickly. I will simply copy and pa
 Enter a descriptive title for the ticket. I try an use my best judgement to sum up in my own words the issue at-hand. For description I will usually paste the words of the client and any other info the client has given about the problem. In some cases I may also attach a screenshot of the problem if it is visually demonstrable.
 
 <div>
-  <img class="img-thumbnail" title="whofixmilestone" src="http://www.jblotus.com/wp-content/uploads/2010/12/whofixmilestone1-550x428.jpg" alt="Assign the ticket to a user and milestone" width="550" height="428" />
+  <img class="img-thumbnail" title="whofixmilestone" src="/images/whofixmilestone1-550x428.jpg" alt="Assign the ticket to a user and milestone" width="550" height="428" />
 
   <p>
     Assign the ticket to a user and milestone
@@ -184,7 +184,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </p>
 
 <div>
-  <img class="img-thumbnail" title="tags" src="http://www.jblotus.com/wp-content/uploads/2010/12/tags1-550x428.jpg" alt="Set your tags consistently" width="550" height="428" /><>
+  <img class="img-thumbnail" title="tags" src="/images/tags1-550x428.jpg" alt="Set your tags consistently" width="550" height="428" /><>
 
   <p>
     Set your tags consistently
@@ -196,7 +196,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </p>
 
 <div>
-  <img class="img-thumbnail" title="ticketview" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketview1-550x392.jpg" alt="The ticket view" width="550" height="392" />
+  <img class="img-thumbnail" title="ticketview" src="/images/ticketview1-550x392.jpg" alt="The ticket view" width="550" height="392" />
 
   <p>
     The ticket view
@@ -204,7 +204,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </div>
 
 <div>
-  <img class="img-thumbnail" title="tickets" src="http://www.jblotus.com/wp-content/uploads/2010/12/tickets1-550x309.jpg" alt="The tickets index" width="550" height="309" />
+  <img class="img-thumbnail" title="tickets" src="/images/tickets1-550x309.jpg" alt="The tickets index" width="550" height="309" />
 
   <p>
     The tickets index
@@ -226,7 +226,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </p>
 
 <div>
-  <img class="img-thumbnail" title="ticketsscreen" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketsscreen1-550x309.jpg" alt="Click the &quot;Tickets&quot; menu link" width="550" height="309" />
+  <img class="img-thumbnail" title="ticketsscreen" src="/images/ticketsscreen1-550x309.jpg" alt="Click the &quot;Tickets&quot; menu link" width="550" height="309" />
 
   <p>
     Click the "Tickets" menu link
@@ -238,7 +238,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 </p>
 
 <div>
-  <img class="img-thumbnail" title="findtickets" src="http://www.jblotus.com/wp-content/uploads/2010/12/findtickets1-550x309.jpg" alt="We have to enter our criteria under &quot;Find Tickets&quot;" width="550" height="309" />
+  <img class="img-thumbnail" title="findtickets" src="/images/findtickets1-550x309.jpg" alt="We have to enter our criteria under &quot;Find Tickets&quot;" width="550" height="309" />
 
   <p>
     We have to enter our criteria under "Find Tickets"
@@ -248,7 +248,7 @@ Enter a descriptive title for the ticket. I try an use my best judgement to sum 
 We have to set the search criteria for our ticket bins. In fact we can save any search as a ticket bin. [Click here for a list of all searchable attributes][9].
 
 <div>
-  <img class="img-thumbnail" title="taggeddefect" src="http://www.jblotus.com/wp-content/uploads/2010/12/taggeddefect1-550x190.jpg" alt="Add in tagged:defecttagged" width="550" height="190" />
+  <img class="img-thumbnail" title="taggeddefect" src="/images/taggeddefect1-550x190.jpg" alt="Add in tagged:defecttagged" width="550" height="190" />
 
   <p>
     Add in tagged:defecttagged
@@ -262,7 +262,7 @@ responsible:me state:open tagged:defect
 ```
 
 <div>
-  <img class="img-thumbnail" title="onlydefects" src="http://www.jblotus.com/wp-content/uploads/2010/12/onlydefects1-550x361.jpg" alt="The ticket search shows only tickets tagged with defect" width="550" height="361" />
+  <img class="img-thumbnail" title="onlydefects" src="/images/onlydefects1-550x361.jpg" alt="The ticket search shows only tickets tagged with defect" width="550" height="361" />
 
   <p>
     The ticket search shows only tickets tagged with defect
@@ -274,7 +274,7 @@ Now only tickets that I previously tagged as "**defect**" will appear in the lis
 Give the search bin a name "**Open Defects**". I also repeated these steps for our "**Open Enhancements**" ticket bin.
 
 <div>
-  <img class="img-thumbnail" title="newbins" src="http://www.jblotus.com/wp-content/uploads/2010/12/newbins1-550x443.jpg" alt="New bins will now appear on the right hand side of the screen" width="550" height="443" />
+  <img class="img-thumbnail" title="newbins" src="/images/newbins1-550x443.jpg" alt="New bins will now appear on the right hand side of the screen" width="550" height="443" />
 
   <p>
     New bins will now appear on the right hand side of the screen
@@ -289,7 +289,7 @@ The best part of all of this is the fact that you can integrate your commit mess
 
 <div class="mceTemp mceIEcenter">
   <div>
-    <img class="img-thumbnail" title="apitoken" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitoken1-550x443.jpg" alt="You create an API token for your username" width="550" height="443" />
+    <img class="img-thumbnail" title="apitoken" src="/images/apitoken1-550x443.jpg" alt="You create an API token for your username" width="550" height="443" />
 
     <p>
       You create an API token for your username
@@ -300,7 +300,7 @@ The best part of all of this is the fact that you can integrate your commit mess
 To create an "**API token**", you must click on your username, and you will see on the right hand side of the screen a select list. Choose the current account to create an API token for this specific tracker account, or select "**All Accounts**" to generate an API token that can be used on all tracker accounts associated with your the logged in user.
 
 <div>
-  <img class="img-thumbnail" title="currentproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/currentproject1-550x443.jpg" alt="Set API key permissions" width="550" height="443" />
+  <img class="img-thumbnail" title="currentproject" src="/images/currentproject1-550x443.jpg" alt="Set API key permissions" width="550" height="443" />
 
   <p>
     Set API key permissions
@@ -310,7 +310,7 @@ To create an "**API token**", you must click on your username, and you will see 
 For the purposes of our example, I chose to create an "**API Token**" for the current account, labeled Beanstalkapp since that is who I am giving the key to. I also chose to gave the key "**Full Access**" instead of "**Read only access**".
 
 <div>
-  <img class="img-thumbnail" title="apitoken" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitoken2-550x443.jpg" alt="Your new API token will appear on the right hand side" width="550" height="443" />
+  <img class="img-thumbnail" title="apitoken" src="/images/apitoken2-550x443.jpg" alt="Your new API token will appear on the right hand side" width="550" height="443" />
 
   <p>
     Your new API token will appear on the right hand side
@@ -320,7 +320,7 @@ For the purposes of our example, I chose to create an "**API Token**" for the cu
 Once in Beanstalk or GitHub, you will need to connect your repository to Lighthouse. Here is a[ complete screencast for integrating Lighthouse with GitHub][12].
 
 <div>
-  <img class="img-thumbnail" title="integration" src="http://www.jblotus.com/wp-content/uploads/2010/12/integration1-550x304.jpg" alt="Integration in Beanstalkapp" width="550" height="304" />
+  <img class="img-thumbnail" title="integration" src="/images/integration1-550x304.jpg" alt="Integration in Beanstalkapp" width="550" height="304" />
 
   <p>
     Integration in Beanstalkapp
@@ -328,7 +328,7 @@ Once in Beanstalk or GitHub, you will need to connect your repository to Lightho
 </div>
 
 <div>
-  <img class="img-thumbnail" title="activate" src="http://www.jblotus.com/wp-content/uploads/2010/12/activate1-550x304.jpg" alt="Activate Lighthouse Integration" width="550" height="304" />
+  <img class="img-thumbnail" title="activate" src="/images/activate1-550x304.jpg" alt="Activate Lighthouse Integration" width="550" height="304" />
 
   <p>
     Activate Lighthouse Integration
@@ -336,7 +336,7 @@ Once in Beanstalk or GitHub, you will need to connect your repository to Lightho
 </div>
 
 <div>
-  <img class="img-thumbnail" title="accountdetails" src="http://www.jblotus.com/wp-content/uploads/2010/12/accountdetails1-550x394.jpg" alt="Add Lighthouse Tracker URL" width="550" height="394" />
+  <img class="img-thumbnail" title="accountdetails" src="/images/accountdetails1-550x394.jpg" alt="Add Lighthouse Tracker URL" width="550" height="394" />
 
   <p>
     Add Lighthouse Tracker URL
@@ -344,7 +344,7 @@ Once in Beanstalk or GitHub, you will need to connect your repository to Lightho
 </div>
 
 <div>
-  <img class="img-thumbnail" title="apitokens" src="http://www.jblotus.com/wp-content/uploads/2010/12/apitokens1-550x394.jpg" alt="Paste your API token into the box" width="550" height="394" />
+  <img class="img-thumbnail" title="apitokens" src="/images/apitokens1-550x394.jpg" alt="Paste your API token into the box" width="550" height="394" />
 
   <p>
     Paste your API token into the box
@@ -352,7 +352,7 @@ Once in Beanstalk or GitHub, you will need to connect your repository to Lightho
 </div>
 
 <div>
-  <img class="img-thumbnail" title="selectproject" src="http://www.jblotus.com/wp-content/uploads/2010/12/selectproject1-550x506.jpg" alt="Select the project from the list" width="550" height="506" />
+  <img class="img-thumbnail" title="selectproject" src="/images/selectproject1-550x506.jpg" alt="Select the project from the list" width="550" height="506" />
 
   <p>
     Select the project from the list
@@ -360,7 +360,7 @@ Once in Beanstalk or GitHub, you will need to connect your repository to Lightho
 </div>
 
 <div>
-  <img class="img-thumbnail" title="activateconfirmation" src="http://www.jblotus.com/wp-content/uploads/2010/12/activateconfirmation1-550x506.jpg" alt="Activate the Integration" width="550" height="506" />
+  <img class="img-thumbnail" title="activateconfirmation" src="/images/activateconfirmation1-550x506.jpg" alt="Activate the Integration" width="550" height="506" />
 
   <p>
     Activate the Integration
@@ -372,7 +372,7 @@ Once inside your Beanstalk repository dashboard interface, click the "Integratio
 Once we are hooked in via Beanstalk or GitHub, you can add things in your commit messages that will post directly to tickets you create in Lighthouse.
 
 <div>
-  <img class="img-thumbnail" title="commitmessage" src="http://www.jblotus.com/wp-content/uploads/2010/12/commitmessage1-550x328.jpg" alt="Make some changes and commit your files" width="550" height="328" />
+  <img class="img-thumbnail" title="commitmessage" src="/images/commitmessage1-550x328.jpg" alt="Make some changes and commit your files" width="550" height="328" />
 
   <p>
     Make some changes and commit your files
@@ -382,7 +382,7 @@ Once we are hooked in via Beanstalk or GitHub, you can add things in your commit
 Now when you commit your files, you can add in special tags to tell Beanstalk to push your changesets to Lighthouse.
 
 <div>
-  "]<img class="img-thumbnail" title="ticketnumber" src="http://www.jblotus.com/wp-content/uploads/2010/12/ticketnumber1-550x327.jpg" alt="Add the ticket number number in brackets ex [#1]" width="550" height="327" />
+  "]<img class="img-thumbnail" title="ticketnumber" src="/images/ticketnumber1-550x327.jpg" alt="Add the ticket number number in brackets ex [#1]" width="550" height="327" />
 
   <p>
     Add the ticket number number in brackets ex [#1
@@ -404,7 +404,7 @@ All of the keywords go inside square brackets []. I usually don't close tickets 
 [Here is a complete list of Lighthouse keywords][14].
 
 <div>
-  <img class="img-thumbnail" title="newchangeset" src="http://www.jblotus.com/wp-content/uploads/2010/12/newchangeset1-550x216.jpg" alt="New Changesets show up in Lighthouse" width="550" height="216" />
+  <img class="img-thumbnail" title="newchangeset" src="/images/newchangeset1-550x216.jpg" alt="New Changesets show up in Lighthouse" width="550" height="216" />
 
   <p>
     New Changesets show up in Lighthouse
@@ -414,7 +414,7 @@ All of the keywords go inside square brackets []. I usually don't close tickets 
 Now if you look at the project overview in Lighthouse, you will see our newest changeset and the associated commit message.
 
 <div>
-  <img class="img-thumbnail" title="updatedticket" src="http://www.jblotus.com/wp-content/uploads/2010/12/updatedticket1-550x216.jpg" alt="The changeset and update details as a commentchangeset " width="550" height="216" />
+  <img class="img-thumbnail" title="updatedticket" src="/images/updatedticket1-550x216.jpg" alt="The changeset and update details as a commentchangeset " width="550" height="216" />
 
   <p>
     The changeset and update details as a commentchangeset

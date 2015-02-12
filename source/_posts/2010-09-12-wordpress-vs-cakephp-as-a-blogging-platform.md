@@ -29,7 +29,7 @@ Wow, Nick. Quite insightful and I have to agree on many of his points. But for 
 Great point. I guess that's why I am using wordpress to post this article.
 
 > From andre:
-> If you just want to spread your ideas as fast as possible go get wordpress <img src="http://www.jblotus.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" /> If you want to get some extra knowledge do it by yourself!
+> If you just want to spread your ideas as fast as possible go get wordpress. If you want to get some extra knowledge do it by yourself!
 
 To sum it up, I am probably going to start out in WordPress, but if I have time I will create a new blog in CakePHP proper. [euromark][4] also has a great idea for a blog/sandbox where you can try the code snippets based on the blog tip. I might get involved in that and if things work out you will hear more about it soon!
 

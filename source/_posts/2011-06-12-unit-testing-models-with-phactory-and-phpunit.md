@@ -26,7 +26,7 @@ tags:
   - phpunit database testing
   - testing models
 ---
-[<img class="img-thumbnail" title="PHP Database Unit Testing with Phactory" src="http://www.jblotus.com/wp-content/uploads/2011/06/phactory-transparent.png" alt="PHP Database Unit Testing with Phactory" width="212" height="76" />][1]
+[<img class="img-thumbnail" title="PHP Database Unit Testing with Phactory" src="/images/phactory-transparent.png" alt="PHP Database Unit Testing with Phactory" width="212" height="76" />][1]
 
 [PHPUnit][2], although exceptional in so many aspects, is somewhat lacking when it comes to database testing. Testing models in with PHPUnit usually requires you to set up cumbersome XML files for fixtures and your are stuck with them for the entire testcase. I am going to show you how to unit test your models quickly and easily with an awesome PHP database testing tool called [Phactory][1]. <!--more-->
 
