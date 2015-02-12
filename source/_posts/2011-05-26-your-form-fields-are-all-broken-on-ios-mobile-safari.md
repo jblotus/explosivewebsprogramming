@@ -2,7 +2,6 @@
 title: Your form fields are all broken on iOS / Mobile Safari
 author: jblotus
 layout: post
-
 dsq_thread_id:
   - 313932300
 categories:
@@ -23,12 +22,11 @@ As stated in the [Safari Web Content Guide for Designing Forms][2]:
 
 To turn off auto correct and autocapitalize:
 
-<pre class="brush:plain"><input type="text" name="field1" autocorrect="off" autocapitalize="off" />
-</pre>
+```
+<input type="text" name="field1" autocorrect="off" autocapitalize="off" />
+```
 
 Please put this on your case-sensitive form fields asap. It doesn't break anything (except maybe W3C validation, which doesn't matter atm with HTML5).
-
-NRY9V5EK22P9
 
  [1]: http://www.spellingcity.com
  [2]: http://developer.apple.com/library/safari/#documentation/appleapplications/reference/safariwebcontent/DesigningForms/DesigningForms.html
