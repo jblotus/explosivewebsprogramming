@@ -4,24 +4,24 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "afca1b1ac4449b3e05a71a56d363735d",
+    "hash": "388a7a0bfd5b2acde242752dd78492ff",
     "packages": [
         {
             "name": "components/bootstrap",
-            "version": "dev-master",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/bootstrap.git",
-                "reference": "6eae8dbb3ed16b3392694f7e39566d8adadd07d2"
+                "reference": "bffd83f39eb2679850482410b9bdd39a8cc456e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/bootstrap/zipball/6eae8dbb3ed16b3392694f7e39566d8adadd07d2",
-                "reference": "6eae8dbb3ed16b3392694f7e39566d8adadd07d2",
+                "url": "https://api.github.com/repos/components/bootstrap/zipball/bffd83f39eb2679850482410b9bdd39a8cc456e5",
+                "reference": "bffd83f39eb2679850482410b9bdd39a8cc456e5",
                 "shasum": ""
             },
             "require": {
-                "components/jquery": "~1.9.1 | ~1.10 | ~2.0"
+                "components/jquery": ">=1.9.1"
             },
             "suggest": {
                 "components/bootstrap-default": "Provide a theme for Bootstrap as components/bootstrap only provides the CSS as file assets"
@@ -72,7 +72,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2015-02-06 16:29:54"
+            "time": "2015-01-22 12:14:01"
         },
         {
             "name": "components/highlightjs",
@@ -286,9 +286,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "components/bootstrap": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "platform": [],
     "platform-dev": []
