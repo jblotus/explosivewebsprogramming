@@ -5,3 +5,16 @@ body {
 .twitter-timeline-container {
   min-height: 600px; /* prevent pop-in */
 }
+
+.tags {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.tags li:first-of-type {
+  font-weight: bold;
+}
+
+.tags .glyphicon-tags {
+  margin: 0.4em;
+}
