@@ -19,8 +19,8 @@ fi
 # If you're comfortable with that, uncomment the line below:
 # rm -rf output_prod/*
 
-#/home/vagrant/bin/sculpin generate --env=prod  --url=http://www.jblotus.com|| ( echo "Could not generate the site" && exit )
-/home/vagrant/bin/sculpin generate --env=prod  --url=http://explosivewebprogramming.s3-website-us-east-1.amazonaws.com|| ( echo "Could not generate the site" && exit )
+/home/vagrant/bin/sculpin generate --env=prod  --url=http://www.jblotus.com|| ( echo "Could not generate the site" && exit )
+#/home/vagrant/bin/sculpin generate --env=prod  --url=http://explosivewebprogramming.s3-website-us-east-1.amazonaws.com|| ( echo "Could not generate the site" && exit )
 
 S3CMD_PATH=`which s3cmd`
 if [ $? -ne 0 -o -z "$S3CMD_PATH" ]
